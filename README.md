@@ -88,6 +88,49 @@ These endpoints are invented sample names. They are not real APIs.
 - [terraforming](docs/terraforming.md) — Fictional planet climate stage labels. Base path `/v1/terraforming`
 - [spellbooks](docs/spellbooks.md) — Fictional spell index with invented names only. Base path `/v1/spellbooks`
 
+## More fictional services
+
+- [sky-islands](docs/sky-islands.md) — Fictional floating island registry and dock permits. Base path `/v1/sky-islands`
+- [cloud-cities](docs/cloud-cities.md) — Fictional cloud-city districts and lift schedules. Base path `/v1/cloud-cities`
+- [undersea-trains](docs/undersea-trains.md) — Fictional abyssal rail lines and station names. Base path `/v1/undersea-trains`
+- [clockwork](docs/clockwork.md) — Fictional gear catalogs and winding intervals. Base path `/v1/clockwork`
+- [goblin-market](docs/goblin-market.md) — Fictional stall listings and invented currencies. Base path `/v1/goblin-market`
+- [fairy-rings](docs/fairy-rings.md) — Fictional ring coordinates and visiting hours. Base path `/v1/fairy-rings`
+- [djinn-lamps](docs/djinn-lamps.md) — Fictional lamp inventory and wish-ticket stubs. Base path `/v1/djinn-lamps`
+- [crystal-caves](docs/crystal-caves.md) — Fictional cavern maps and glow indexes. Base path `/v1/crystal-caves`
+- [sand-ships](docs/sand-ships.md) — Fictional desert vessel logs. Base path `/v1/sand-ships`
+- [paper-planes](docs/paper-planes.md) — Fictional folded-craft flight cards. Base path `/v1/paper-planes`
+- [library-of-babel](docs/library-of-babel.md) — Fictional shelf addresses for invented books. Base path `/v1/library-of-babel`
+- [mirror-worlds](docs/mirror-worlds.md) — Fictional reflection-realm directories. Base path `/v1/mirror-worlds`
+- [shadow-markets](docs/shadow-markets.md) — Fictional night-bazaar booth names. Base path `/v1/shadow-markets`
+- [comet-mail](docs/comet-mail.md) — Fictional message capsules on made-up comets. Base path `/v1/comet-mail`
+- [asteroid-motels](docs/asteroid-motels.md) — Fictional roadside lodging on fictional rocks. Base path `/v1/asteroid-motels`
+- [nebula-tea](docs/nebula-tea.md) — Fictional tea blends named after invented nebulae. Base path `/v1/nebula-tea`
+- [robot-butlers](docs/robot-butlers.md) — Fictional household automaton nameplates. Base path `/v1/robot-butlers`
+- [mech-hangars](docs/mech-hangars.md) — Fictional walker bay assignments. Base path `/v1/mech-hangars`
+- [plasma-forges](docs/plasma-forges.md) — Fictional forge queue tickets. Base path `/v1/plasma-forges`
+- [quantum-lockets](docs/quantum-lockets.md) — Fictional locket pairing codes. Base path `/v1/quantum-lockets`
+- [echo-chambers](docs/echo-chambers.md) — Fictional acoustic room cards. Base path `/v1/echo-chambers`
+- [lighthouse-ghosts](docs/lighthouse-ghosts.md) — Fictional keeper shift boards. Base path `/v1/lighthouse-ghosts`
+- [map-shops](docs/map-shops.md) — Fictional chart sellers and blank-map SKUs. Base path `/v1/map-shops`
+- [balloon-posts](docs/balloon-posts.md) — Fictional airmail balloon routes. Base path `/v1/balloon-posts`
+- [ice-palaces](docs/ice-palaces.md) — Fictional wing names and thaw alarms. Base path `/v1/ice-palaces`
+- [volcano-forges](docs/volcano-forges.md) — Fictional caldera workshop slips. Base path `/v1/volcano-forges`
+- [star-charts](docs/star-charts.md) — Fictional constellation stickers. Base path `/v1/star-charts`
+- [moon-rabbits](docs/moon-rabbits.md) — Fictional lunar hare census cards. Base path `/v1/moon-rabbits`
+- [sunken-libraries](docs/sunken-libraries.md) — Fictional drowned-stack call numbers. Base path `/v1/sunken-libraries`
+- [floating-markets](docs/floating-markets.md) — Fictional barge vendor lists. Base path `/v1/floating-markets`
+- [gear-dragons](docs/gear-dragons.md) — Fictional mechanical wyrm serials. Base path `/v1/gear-dragons`
+- [ink-spirits](docs/ink-spirits.md) — Fictional manuscript familiars. Base path `/v1/ink-spirits`
+- [brass-birds](docs/brass-birds.md) — Fictional ornamental automaton flocks. Base path `/v1/brass-birds`
+- [silk-roads-sky](docs/silk-roads-sky.md) — Fictional aerial caravan manifests. Base path `/v1/silk-roads-sky`
+- [obsidian-gates](docs/obsidian-gates.md) — Fictional gatehouse visitor slips. Base path `/v1/obsidian-gates`
+- [pearl-divers](docs/pearl-divers.md) — Fictional dive-bell shift cards. Base path `/v1/pearl-divers`
+- [thunder-drums](docs/thunder-drums.md) — Fictional festival drum lineups. Base path `/v1/thunder-drums`
+- [frost-gardens](docs/frost-gardens.md) — Fictional glasshouse bed labels. Base path `/v1/frost-gardens`
+- [ember-foxes](docs/ember-foxes.md) — Fictional creature spotting cards. Base path `/v1/ember-foxes`
+- [void-post](docs/void-post.md) — Fictional empty-space mailbox numbers. Base path `/v1/void-post`
+
 ## Common pattern
 
 ```

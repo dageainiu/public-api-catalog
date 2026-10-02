@@ -13460,6 +13460,7806 @@
           }
         }
       }
+    },
+    "/v1/sky-islands/search": {
+      "get": {
+        "operationId": "sky_islands_search",
+        "summary": "Fictional sky-islands search",
+        "tags": [
+          "sky-islands",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sky-islands/lookup": {
+      "get": {
+        "operationId": "sky_islands_lookup",
+        "summary": "Fictional sky-islands lookup",
+        "tags": [
+          "sky-islands",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sky-islands/list": {
+      "get": {
+        "operationId": "sky_islands_list",
+        "summary": "Fictional sky-islands list",
+        "tags": [
+          "sky-islands",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sky-islands/sky-islands": {
+      "get": {
+        "operationId": "sky_islands_sky_islands",
+        "summary": "Fictional sky-islands sky-islands",
+        "tags": [
+          "sky-islands",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sky-islands/health": {
+      "get": {
+        "operationId": "sky_islands_health",
+        "summary": "Fictional sky-islands health",
+        "tags": [
+          "sky-islands",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cloud-cities/search": {
+      "get": {
+        "operationId": "cloud_cities_search",
+        "summary": "Fictional cloud-cities search",
+        "tags": [
+          "cloud-cities",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cloud-cities/lookup": {
+      "get": {
+        "operationId": "cloud_cities_lookup",
+        "summary": "Fictional cloud-cities lookup",
+        "tags": [
+          "cloud-cities",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cloud-cities/list": {
+      "get": {
+        "operationId": "cloud_cities_list",
+        "summary": "Fictional cloud-cities list",
+        "tags": [
+          "cloud-cities",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cloud-cities/cloud-cities": {
+      "get": {
+        "operationId": "cloud_cities_cloud_cities",
+        "summary": "Fictional cloud-cities cloud-cities",
+        "tags": [
+          "cloud-cities",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cloud-cities/health": {
+      "get": {
+        "operationId": "cloud_cities_health",
+        "summary": "Fictional cloud-cities health",
+        "tags": [
+          "cloud-cities",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/undersea-trains/search": {
+      "get": {
+        "operationId": "undersea_trains_search",
+        "summary": "Fictional undersea-trains search",
+        "tags": [
+          "undersea-trains",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/undersea-trains/lookup": {
+      "get": {
+        "operationId": "undersea_trains_lookup",
+        "summary": "Fictional undersea-trains lookup",
+        "tags": [
+          "undersea-trains",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/undersea-trains/list": {
+      "get": {
+        "operationId": "undersea_trains_list",
+        "summary": "Fictional undersea-trains list",
+        "tags": [
+          "undersea-trains",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/undersea-trains/undersea-trains": {
+      "get": {
+        "operationId": "undersea_trains_undersea_trains",
+        "summary": "Fictional undersea-trains undersea-trains",
+        "tags": [
+          "undersea-trains",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/undersea-trains/health": {
+      "get": {
+        "operationId": "undersea_trains_health",
+        "summary": "Fictional undersea-trains health",
+        "tags": [
+          "undersea-trains",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/clockwork/search": {
+      "get": {
+        "operationId": "clockwork_search",
+        "summary": "Fictional clockwork search",
+        "tags": [
+          "clockwork",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/clockwork/lookup": {
+      "get": {
+        "operationId": "clockwork_lookup",
+        "summary": "Fictional clockwork lookup",
+        "tags": [
+          "clockwork",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/clockwork/list": {
+      "get": {
+        "operationId": "clockwork_list",
+        "summary": "Fictional clockwork list",
+        "tags": [
+          "clockwork",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/clockwork/clockwork": {
+      "get": {
+        "operationId": "clockwork_clockwork",
+        "summary": "Fictional clockwork clockwork",
+        "tags": [
+          "clockwork",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/clockwork/health": {
+      "get": {
+        "operationId": "clockwork_health",
+        "summary": "Fictional clockwork health",
+        "tags": [
+          "clockwork",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/goblin-market/search": {
+      "get": {
+        "operationId": "goblin_market_search",
+        "summary": "Fictional goblin-market search",
+        "tags": [
+          "goblin-market",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/goblin-market/lookup": {
+      "get": {
+        "operationId": "goblin_market_lookup",
+        "summary": "Fictional goblin-market lookup",
+        "tags": [
+          "goblin-market",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/goblin-market/list": {
+      "get": {
+        "operationId": "goblin_market_list",
+        "summary": "Fictional goblin-market list",
+        "tags": [
+          "goblin-market",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/goblin-market/goblin-market": {
+      "get": {
+        "operationId": "goblin_market_goblin_market",
+        "summary": "Fictional goblin-market goblin-market",
+        "tags": [
+          "goblin-market",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/goblin-market/health": {
+      "get": {
+        "operationId": "goblin_market_health",
+        "summary": "Fictional goblin-market health",
+        "tags": [
+          "goblin-market",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fairy-rings/search": {
+      "get": {
+        "operationId": "fairy_rings_search",
+        "summary": "Fictional fairy-rings search",
+        "tags": [
+          "fairy-rings",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fairy-rings/lookup": {
+      "get": {
+        "operationId": "fairy_rings_lookup",
+        "summary": "Fictional fairy-rings lookup",
+        "tags": [
+          "fairy-rings",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fairy-rings/list": {
+      "get": {
+        "operationId": "fairy_rings_list",
+        "summary": "Fictional fairy-rings list",
+        "tags": [
+          "fairy-rings",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fairy-rings/fairy-rings": {
+      "get": {
+        "operationId": "fairy_rings_fairy_rings",
+        "summary": "Fictional fairy-rings fairy-rings",
+        "tags": [
+          "fairy-rings",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fairy-rings/health": {
+      "get": {
+        "operationId": "fairy_rings_health",
+        "summary": "Fictional fairy-rings health",
+        "tags": [
+          "fairy-rings",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/djinn-lamps/search": {
+      "get": {
+        "operationId": "djinn_lamps_search",
+        "summary": "Fictional djinn-lamps search",
+        "tags": [
+          "djinn-lamps",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/djinn-lamps/lookup": {
+      "get": {
+        "operationId": "djinn_lamps_lookup",
+        "summary": "Fictional djinn-lamps lookup",
+        "tags": [
+          "djinn-lamps",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/djinn-lamps/list": {
+      "get": {
+        "operationId": "djinn_lamps_list",
+        "summary": "Fictional djinn-lamps list",
+        "tags": [
+          "djinn-lamps",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/djinn-lamps/djinn-lamps": {
+      "get": {
+        "operationId": "djinn_lamps_djinn_lamps",
+        "summary": "Fictional djinn-lamps djinn-lamps",
+        "tags": [
+          "djinn-lamps",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/djinn-lamps/health": {
+      "get": {
+        "operationId": "djinn_lamps_health",
+        "summary": "Fictional djinn-lamps health",
+        "tags": [
+          "djinn-lamps",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crystal-caves/search": {
+      "get": {
+        "operationId": "crystal_caves_search",
+        "summary": "Fictional crystal-caves search",
+        "tags": [
+          "crystal-caves",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crystal-caves/lookup": {
+      "get": {
+        "operationId": "crystal_caves_lookup",
+        "summary": "Fictional crystal-caves lookup",
+        "tags": [
+          "crystal-caves",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crystal-caves/list": {
+      "get": {
+        "operationId": "crystal_caves_list",
+        "summary": "Fictional crystal-caves list",
+        "tags": [
+          "crystal-caves",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crystal-caves/crystal-caves": {
+      "get": {
+        "operationId": "crystal_caves_crystal_caves",
+        "summary": "Fictional crystal-caves crystal-caves",
+        "tags": [
+          "crystal-caves",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crystal-caves/health": {
+      "get": {
+        "operationId": "crystal_caves_health",
+        "summary": "Fictional crystal-caves health",
+        "tags": [
+          "crystal-caves",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sand-ships/search": {
+      "get": {
+        "operationId": "sand_ships_search",
+        "summary": "Fictional sand-ships search",
+        "tags": [
+          "sand-ships",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sand-ships/lookup": {
+      "get": {
+        "operationId": "sand_ships_lookup",
+        "summary": "Fictional sand-ships lookup",
+        "tags": [
+          "sand-ships",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sand-ships/list": {
+      "get": {
+        "operationId": "sand_ships_list",
+        "summary": "Fictional sand-ships list",
+        "tags": [
+          "sand-ships",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sand-ships/sand-ships": {
+      "get": {
+        "operationId": "sand_ships_sand_ships",
+        "summary": "Fictional sand-ships sand-ships",
+        "tags": [
+          "sand-ships",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sand-ships/health": {
+      "get": {
+        "operationId": "sand_ships_health",
+        "summary": "Fictional sand-ships health",
+        "tags": [
+          "sand-ships",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/paper-planes/search": {
+      "get": {
+        "operationId": "paper_planes_search",
+        "summary": "Fictional paper-planes search",
+        "tags": [
+          "paper-planes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/paper-planes/lookup": {
+      "get": {
+        "operationId": "paper_planes_lookup",
+        "summary": "Fictional paper-planes lookup",
+        "tags": [
+          "paper-planes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/paper-planes/list": {
+      "get": {
+        "operationId": "paper_planes_list",
+        "summary": "Fictional paper-planes list",
+        "tags": [
+          "paper-planes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/paper-planes/paper-planes": {
+      "get": {
+        "operationId": "paper_planes_paper_planes",
+        "summary": "Fictional paper-planes paper-planes",
+        "tags": [
+          "paper-planes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/paper-planes/health": {
+      "get": {
+        "operationId": "paper_planes_health",
+        "summary": "Fictional paper-planes health",
+        "tags": [
+          "paper-planes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/library-of-babel/search": {
+      "get": {
+        "operationId": "library_of_babel_search",
+        "summary": "Fictional library-of-babel search",
+        "tags": [
+          "library-of-babel",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/library-of-babel/lookup": {
+      "get": {
+        "operationId": "library_of_babel_lookup",
+        "summary": "Fictional library-of-babel lookup",
+        "tags": [
+          "library-of-babel",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/library-of-babel/list": {
+      "get": {
+        "operationId": "library_of_babel_list",
+        "summary": "Fictional library-of-babel list",
+        "tags": [
+          "library-of-babel",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/library-of-babel/library-of-babel": {
+      "get": {
+        "operationId": "library_of_babel_library_of_babel",
+        "summary": "Fictional library-of-babel library-of-babel",
+        "tags": [
+          "library-of-babel",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/library-of-babel/health": {
+      "get": {
+        "operationId": "library_of_babel_health",
+        "summary": "Fictional library-of-babel health",
+        "tags": [
+          "library-of-babel",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mirror-worlds/search": {
+      "get": {
+        "operationId": "mirror_worlds_search",
+        "summary": "Fictional mirror-worlds search",
+        "tags": [
+          "mirror-worlds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mirror-worlds/lookup": {
+      "get": {
+        "operationId": "mirror_worlds_lookup",
+        "summary": "Fictional mirror-worlds lookup",
+        "tags": [
+          "mirror-worlds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mirror-worlds/list": {
+      "get": {
+        "operationId": "mirror_worlds_list",
+        "summary": "Fictional mirror-worlds list",
+        "tags": [
+          "mirror-worlds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mirror-worlds/mirror-worlds": {
+      "get": {
+        "operationId": "mirror_worlds_mirror_worlds",
+        "summary": "Fictional mirror-worlds mirror-worlds",
+        "tags": [
+          "mirror-worlds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mirror-worlds/health": {
+      "get": {
+        "operationId": "mirror_worlds_health",
+        "summary": "Fictional mirror-worlds health",
+        "tags": [
+          "mirror-worlds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/shadow-markets/search": {
+      "get": {
+        "operationId": "shadow_markets_search",
+        "summary": "Fictional shadow-markets search",
+        "tags": [
+          "shadow-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/shadow-markets/lookup": {
+      "get": {
+        "operationId": "shadow_markets_lookup",
+        "summary": "Fictional shadow-markets lookup",
+        "tags": [
+          "shadow-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/shadow-markets/list": {
+      "get": {
+        "operationId": "shadow_markets_list",
+        "summary": "Fictional shadow-markets list",
+        "tags": [
+          "shadow-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/shadow-markets/shadow-markets": {
+      "get": {
+        "operationId": "shadow_markets_shadow_markets",
+        "summary": "Fictional shadow-markets shadow-markets",
+        "tags": [
+          "shadow-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/shadow-markets/health": {
+      "get": {
+        "operationId": "shadow_markets_health",
+        "summary": "Fictional shadow-markets health",
+        "tags": [
+          "shadow-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/comet-mail/search": {
+      "get": {
+        "operationId": "comet_mail_search",
+        "summary": "Fictional comet-mail search",
+        "tags": [
+          "comet-mail",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/comet-mail/lookup": {
+      "get": {
+        "operationId": "comet_mail_lookup",
+        "summary": "Fictional comet-mail lookup",
+        "tags": [
+          "comet-mail",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/comet-mail/list": {
+      "get": {
+        "operationId": "comet_mail_list",
+        "summary": "Fictional comet-mail list",
+        "tags": [
+          "comet-mail",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/comet-mail/comet-mail": {
+      "get": {
+        "operationId": "comet_mail_comet_mail",
+        "summary": "Fictional comet-mail comet-mail",
+        "tags": [
+          "comet-mail",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/comet-mail/health": {
+      "get": {
+        "operationId": "comet_mail_health",
+        "summary": "Fictional comet-mail health",
+        "tags": [
+          "comet-mail",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/asteroid-motels/search": {
+      "get": {
+        "operationId": "asteroid_motels_search",
+        "summary": "Fictional asteroid-motels search",
+        "tags": [
+          "asteroid-motels",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/asteroid-motels/lookup": {
+      "get": {
+        "operationId": "asteroid_motels_lookup",
+        "summary": "Fictional asteroid-motels lookup",
+        "tags": [
+          "asteroid-motels",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/asteroid-motels/list": {
+      "get": {
+        "operationId": "asteroid_motels_list",
+        "summary": "Fictional asteroid-motels list",
+        "tags": [
+          "asteroid-motels",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/asteroid-motels/asteroid-motels": {
+      "get": {
+        "operationId": "asteroid_motels_asteroid_motels",
+        "summary": "Fictional asteroid-motels asteroid-motels",
+        "tags": [
+          "asteroid-motels",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/asteroid-motels/health": {
+      "get": {
+        "operationId": "asteroid_motels_health",
+        "summary": "Fictional asteroid-motels health",
+        "tags": [
+          "asteroid-motels",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nebula-tea/search": {
+      "get": {
+        "operationId": "nebula_tea_search",
+        "summary": "Fictional nebula-tea search",
+        "tags": [
+          "nebula-tea",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nebula-tea/lookup": {
+      "get": {
+        "operationId": "nebula_tea_lookup",
+        "summary": "Fictional nebula-tea lookup",
+        "tags": [
+          "nebula-tea",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nebula-tea/list": {
+      "get": {
+        "operationId": "nebula_tea_list",
+        "summary": "Fictional nebula-tea list",
+        "tags": [
+          "nebula-tea",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nebula-tea/nebula-tea": {
+      "get": {
+        "operationId": "nebula_tea_nebula_tea",
+        "summary": "Fictional nebula-tea nebula-tea",
+        "tags": [
+          "nebula-tea",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nebula-tea/health": {
+      "get": {
+        "operationId": "nebula_tea_health",
+        "summary": "Fictional nebula-tea health",
+        "tags": [
+          "nebula-tea",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/robot-butlers/search": {
+      "get": {
+        "operationId": "robot_butlers_search",
+        "summary": "Fictional robot-butlers search",
+        "tags": [
+          "robot-butlers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/robot-butlers/lookup": {
+      "get": {
+        "operationId": "robot_butlers_lookup",
+        "summary": "Fictional robot-butlers lookup",
+        "tags": [
+          "robot-butlers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/robot-butlers/list": {
+      "get": {
+        "operationId": "robot_butlers_list",
+        "summary": "Fictional robot-butlers list",
+        "tags": [
+          "robot-butlers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/robot-butlers/robot-butlers": {
+      "get": {
+        "operationId": "robot_butlers_robot_butlers",
+        "summary": "Fictional robot-butlers robot-butlers",
+        "tags": [
+          "robot-butlers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/robot-butlers/health": {
+      "get": {
+        "operationId": "robot_butlers_health",
+        "summary": "Fictional robot-butlers health",
+        "tags": [
+          "robot-butlers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mech-hangars/search": {
+      "get": {
+        "operationId": "mech_hangars_search",
+        "summary": "Fictional mech-hangars search",
+        "tags": [
+          "mech-hangars",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mech-hangars/lookup": {
+      "get": {
+        "operationId": "mech_hangars_lookup",
+        "summary": "Fictional mech-hangars lookup",
+        "tags": [
+          "mech-hangars",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mech-hangars/list": {
+      "get": {
+        "operationId": "mech_hangars_list",
+        "summary": "Fictional mech-hangars list",
+        "tags": [
+          "mech-hangars",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mech-hangars/mech-hangars": {
+      "get": {
+        "operationId": "mech_hangars_mech_hangars",
+        "summary": "Fictional mech-hangars mech-hangars",
+        "tags": [
+          "mech-hangars",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/mech-hangars/health": {
+      "get": {
+        "operationId": "mech_hangars_health",
+        "summary": "Fictional mech-hangars health",
+        "tags": [
+          "mech-hangars",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/plasma-forges/search": {
+      "get": {
+        "operationId": "plasma_forges_search",
+        "summary": "Fictional plasma-forges search",
+        "tags": [
+          "plasma-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/plasma-forges/lookup": {
+      "get": {
+        "operationId": "plasma_forges_lookup",
+        "summary": "Fictional plasma-forges lookup",
+        "tags": [
+          "plasma-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/plasma-forges/list": {
+      "get": {
+        "operationId": "plasma_forges_list",
+        "summary": "Fictional plasma-forges list",
+        "tags": [
+          "plasma-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/plasma-forges/plasma-forges": {
+      "get": {
+        "operationId": "plasma_forges_plasma_forges",
+        "summary": "Fictional plasma-forges plasma-forges",
+        "tags": [
+          "plasma-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/plasma-forges/health": {
+      "get": {
+        "operationId": "plasma_forges_health",
+        "summary": "Fictional plasma-forges health",
+        "tags": [
+          "plasma-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quantum-lockets/search": {
+      "get": {
+        "operationId": "quantum_lockets_search",
+        "summary": "Fictional quantum-lockets search",
+        "tags": [
+          "quantum-lockets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quantum-lockets/lookup": {
+      "get": {
+        "operationId": "quantum_lockets_lookup",
+        "summary": "Fictional quantum-lockets lookup",
+        "tags": [
+          "quantum-lockets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quantum-lockets/list": {
+      "get": {
+        "operationId": "quantum_lockets_list",
+        "summary": "Fictional quantum-lockets list",
+        "tags": [
+          "quantum-lockets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quantum-lockets/quantum-lockets": {
+      "get": {
+        "operationId": "quantum_lockets_quantum_lockets",
+        "summary": "Fictional quantum-lockets quantum-lockets",
+        "tags": [
+          "quantum-lockets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quantum-lockets/health": {
+      "get": {
+        "operationId": "quantum_lockets_health",
+        "summary": "Fictional quantum-lockets health",
+        "tags": [
+          "quantum-lockets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/echo-chambers/search": {
+      "get": {
+        "operationId": "echo_chambers_search",
+        "summary": "Fictional echo-chambers search",
+        "tags": [
+          "echo-chambers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/echo-chambers/lookup": {
+      "get": {
+        "operationId": "echo_chambers_lookup",
+        "summary": "Fictional echo-chambers lookup",
+        "tags": [
+          "echo-chambers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/echo-chambers/list": {
+      "get": {
+        "operationId": "echo_chambers_list",
+        "summary": "Fictional echo-chambers list",
+        "tags": [
+          "echo-chambers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/echo-chambers/echo-chambers": {
+      "get": {
+        "operationId": "echo_chambers_echo_chambers",
+        "summary": "Fictional echo-chambers echo-chambers",
+        "tags": [
+          "echo-chambers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/echo-chambers/health": {
+      "get": {
+        "operationId": "echo_chambers_health",
+        "summary": "Fictional echo-chambers health",
+        "tags": [
+          "echo-chambers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/lighthouse-ghosts/search": {
+      "get": {
+        "operationId": "lighthouse_ghosts_search",
+        "summary": "Fictional lighthouse-ghosts search",
+        "tags": [
+          "lighthouse-ghosts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/lighthouse-ghosts/lookup": {
+      "get": {
+        "operationId": "lighthouse_ghosts_lookup",
+        "summary": "Fictional lighthouse-ghosts lookup",
+        "tags": [
+          "lighthouse-ghosts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/lighthouse-ghosts/list": {
+      "get": {
+        "operationId": "lighthouse_ghosts_list",
+        "summary": "Fictional lighthouse-ghosts list",
+        "tags": [
+          "lighthouse-ghosts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/lighthouse-ghosts/lighthouse-ghosts": {
+      "get": {
+        "operationId": "lighthouse_ghosts_lighthouse_ghosts",
+        "summary": "Fictional lighthouse-ghosts lighthouse-ghosts",
+        "tags": [
+          "lighthouse-ghosts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/lighthouse-ghosts/health": {
+      "get": {
+        "operationId": "lighthouse_ghosts_health",
+        "summary": "Fictional lighthouse-ghosts health",
+        "tags": [
+          "lighthouse-ghosts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/map-shops/search": {
+      "get": {
+        "operationId": "map_shops_search",
+        "summary": "Fictional map-shops search",
+        "tags": [
+          "map-shops",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/map-shops/lookup": {
+      "get": {
+        "operationId": "map_shops_lookup",
+        "summary": "Fictional map-shops lookup",
+        "tags": [
+          "map-shops",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/map-shops/list": {
+      "get": {
+        "operationId": "map_shops_list",
+        "summary": "Fictional map-shops list",
+        "tags": [
+          "map-shops",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/map-shops/map-shops": {
+      "get": {
+        "operationId": "map_shops_map_shops",
+        "summary": "Fictional map-shops map-shops",
+        "tags": [
+          "map-shops",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/map-shops/health": {
+      "get": {
+        "operationId": "map_shops_health",
+        "summary": "Fictional map-shops health",
+        "tags": [
+          "map-shops",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/balloon-posts/search": {
+      "get": {
+        "operationId": "balloon_posts_search",
+        "summary": "Fictional balloon-posts search",
+        "tags": [
+          "balloon-posts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/balloon-posts/lookup": {
+      "get": {
+        "operationId": "balloon_posts_lookup",
+        "summary": "Fictional balloon-posts lookup",
+        "tags": [
+          "balloon-posts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/balloon-posts/list": {
+      "get": {
+        "operationId": "balloon_posts_list",
+        "summary": "Fictional balloon-posts list",
+        "tags": [
+          "balloon-posts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/balloon-posts/balloon-posts": {
+      "get": {
+        "operationId": "balloon_posts_balloon_posts",
+        "summary": "Fictional balloon-posts balloon-posts",
+        "tags": [
+          "balloon-posts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/balloon-posts/health": {
+      "get": {
+        "operationId": "balloon_posts_health",
+        "summary": "Fictional balloon-posts health",
+        "tags": [
+          "balloon-posts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ice-palaces/search": {
+      "get": {
+        "operationId": "ice_palaces_search",
+        "summary": "Fictional ice-palaces search",
+        "tags": [
+          "ice-palaces",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ice-palaces/lookup": {
+      "get": {
+        "operationId": "ice_palaces_lookup",
+        "summary": "Fictional ice-palaces lookup",
+        "tags": [
+          "ice-palaces",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ice-palaces/list": {
+      "get": {
+        "operationId": "ice_palaces_list",
+        "summary": "Fictional ice-palaces list",
+        "tags": [
+          "ice-palaces",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ice-palaces/ice-palaces": {
+      "get": {
+        "operationId": "ice_palaces_ice_palaces",
+        "summary": "Fictional ice-palaces ice-palaces",
+        "tags": [
+          "ice-palaces",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ice-palaces/health": {
+      "get": {
+        "operationId": "ice_palaces_health",
+        "summary": "Fictional ice-palaces health",
+        "tags": [
+          "ice-palaces",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/volcano-forges/search": {
+      "get": {
+        "operationId": "volcano_forges_search",
+        "summary": "Fictional volcano-forges search",
+        "tags": [
+          "volcano-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/volcano-forges/lookup": {
+      "get": {
+        "operationId": "volcano_forges_lookup",
+        "summary": "Fictional volcano-forges lookup",
+        "tags": [
+          "volcano-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/volcano-forges/list": {
+      "get": {
+        "operationId": "volcano_forges_list",
+        "summary": "Fictional volcano-forges list",
+        "tags": [
+          "volcano-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/volcano-forges/volcano-forges": {
+      "get": {
+        "operationId": "volcano_forges_volcano_forges",
+        "summary": "Fictional volcano-forges volcano-forges",
+        "tags": [
+          "volcano-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/volcano-forges/health": {
+      "get": {
+        "operationId": "volcano_forges_health",
+        "summary": "Fictional volcano-forges health",
+        "tags": [
+          "volcano-forges",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/star-charts/search": {
+      "get": {
+        "operationId": "star_charts_search",
+        "summary": "Fictional star-charts search",
+        "tags": [
+          "star-charts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/star-charts/lookup": {
+      "get": {
+        "operationId": "star_charts_lookup",
+        "summary": "Fictional star-charts lookup",
+        "tags": [
+          "star-charts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/star-charts/list": {
+      "get": {
+        "operationId": "star_charts_list",
+        "summary": "Fictional star-charts list",
+        "tags": [
+          "star-charts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/star-charts/star-charts": {
+      "get": {
+        "operationId": "star_charts_star_charts",
+        "summary": "Fictional star-charts star-charts",
+        "tags": [
+          "star-charts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/star-charts/health": {
+      "get": {
+        "operationId": "star_charts_health",
+        "summary": "Fictional star-charts health",
+        "tags": [
+          "star-charts",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/moon-rabbits/search": {
+      "get": {
+        "operationId": "moon_rabbits_search",
+        "summary": "Fictional moon-rabbits search",
+        "tags": [
+          "moon-rabbits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/moon-rabbits/lookup": {
+      "get": {
+        "operationId": "moon_rabbits_lookup",
+        "summary": "Fictional moon-rabbits lookup",
+        "tags": [
+          "moon-rabbits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/moon-rabbits/list": {
+      "get": {
+        "operationId": "moon_rabbits_list",
+        "summary": "Fictional moon-rabbits list",
+        "tags": [
+          "moon-rabbits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/moon-rabbits/moon-rabbits": {
+      "get": {
+        "operationId": "moon_rabbits_moon_rabbits",
+        "summary": "Fictional moon-rabbits moon-rabbits",
+        "tags": [
+          "moon-rabbits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/moon-rabbits/health": {
+      "get": {
+        "operationId": "moon_rabbits_health",
+        "summary": "Fictional moon-rabbits health",
+        "tags": [
+          "moon-rabbits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sunken-libraries/search": {
+      "get": {
+        "operationId": "sunken_libraries_search",
+        "summary": "Fictional sunken-libraries search",
+        "tags": [
+          "sunken-libraries",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sunken-libraries/lookup": {
+      "get": {
+        "operationId": "sunken_libraries_lookup",
+        "summary": "Fictional sunken-libraries lookup",
+        "tags": [
+          "sunken-libraries",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sunken-libraries/list": {
+      "get": {
+        "operationId": "sunken_libraries_list",
+        "summary": "Fictional sunken-libraries list",
+        "tags": [
+          "sunken-libraries",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sunken-libraries/sunken-libraries": {
+      "get": {
+        "operationId": "sunken_libraries_sunken_libraries",
+        "summary": "Fictional sunken-libraries sunken-libraries",
+        "tags": [
+          "sunken-libraries",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sunken-libraries/health": {
+      "get": {
+        "operationId": "sunken_libraries_health",
+        "summary": "Fictional sunken-libraries health",
+        "tags": [
+          "sunken-libraries",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/floating-markets/search": {
+      "get": {
+        "operationId": "floating_markets_search",
+        "summary": "Fictional floating-markets search",
+        "tags": [
+          "floating-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/floating-markets/lookup": {
+      "get": {
+        "operationId": "floating_markets_lookup",
+        "summary": "Fictional floating-markets lookup",
+        "tags": [
+          "floating-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/floating-markets/list": {
+      "get": {
+        "operationId": "floating_markets_list",
+        "summary": "Fictional floating-markets list",
+        "tags": [
+          "floating-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/floating-markets/floating-markets": {
+      "get": {
+        "operationId": "floating_markets_floating_markets",
+        "summary": "Fictional floating-markets floating-markets",
+        "tags": [
+          "floating-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/floating-markets/health": {
+      "get": {
+        "operationId": "floating_markets_health",
+        "summary": "Fictional floating-markets health",
+        "tags": [
+          "floating-markets",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/gear-dragons/search": {
+      "get": {
+        "operationId": "gear_dragons_search",
+        "summary": "Fictional gear-dragons search",
+        "tags": [
+          "gear-dragons",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/gear-dragons/lookup": {
+      "get": {
+        "operationId": "gear_dragons_lookup",
+        "summary": "Fictional gear-dragons lookup",
+        "tags": [
+          "gear-dragons",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/gear-dragons/list": {
+      "get": {
+        "operationId": "gear_dragons_list",
+        "summary": "Fictional gear-dragons list",
+        "tags": [
+          "gear-dragons",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/gear-dragons/gear-dragons": {
+      "get": {
+        "operationId": "gear_dragons_gear_dragons",
+        "summary": "Fictional gear-dragons gear-dragons",
+        "tags": [
+          "gear-dragons",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/gear-dragons/health": {
+      "get": {
+        "operationId": "gear_dragons_health",
+        "summary": "Fictional gear-dragons health",
+        "tags": [
+          "gear-dragons",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ink-spirits/search": {
+      "get": {
+        "operationId": "ink_spirits_search",
+        "summary": "Fictional ink-spirits search",
+        "tags": [
+          "ink-spirits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ink-spirits/lookup": {
+      "get": {
+        "operationId": "ink_spirits_lookup",
+        "summary": "Fictional ink-spirits lookup",
+        "tags": [
+          "ink-spirits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ink-spirits/list": {
+      "get": {
+        "operationId": "ink_spirits_list",
+        "summary": "Fictional ink-spirits list",
+        "tags": [
+          "ink-spirits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ink-spirits/ink-spirits": {
+      "get": {
+        "operationId": "ink_spirits_ink_spirits",
+        "summary": "Fictional ink-spirits ink-spirits",
+        "tags": [
+          "ink-spirits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ink-spirits/health": {
+      "get": {
+        "operationId": "ink_spirits_health",
+        "summary": "Fictional ink-spirits health",
+        "tags": [
+          "ink-spirits",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/brass-birds/search": {
+      "get": {
+        "operationId": "brass_birds_search",
+        "summary": "Fictional brass-birds search",
+        "tags": [
+          "brass-birds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/brass-birds/lookup": {
+      "get": {
+        "operationId": "brass_birds_lookup",
+        "summary": "Fictional brass-birds lookup",
+        "tags": [
+          "brass-birds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/brass-birds/list": {
+      "get": {
+        "operationId": "brass_birds_list",
+        "summary": "Fictional brass-birds list",
+        "tags": [
+          "brass-birds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/brass-birds/brass-birds": {
+      "get": {
+        "operationId": "brass_birds_brass_birds",
+        "summary": "Fictional brass-birds brass-birds",
+        "tags": [
+          "brass-birds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/brass-birds/health": {
+      "get": {
+        "operationId": "brass_birds_health",
+        "summary": "Fictional brass-birds health",
+        "tags": [
+          "brass-birds",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/silk-roads-sky/search": {
+      "get": {
+        "operationId": "silk_roads_sky_search",
+        "summary": "Fictional silk-roads-sky search",
+        "tags": [
+          "silk-roads-sky",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/silk-roads-sky/lookup": {
+      "get": {
+        "operationId": "silk_roads_sky_lookup",
+        "summary": "Fictional silk-roads-sky lookup",
+        "tags": [
+          "silk-roads-sky",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/silk-roads-sky/list": {
+      "get": {
+        "operationId": "silk_roads_sky_list",
+        "summary": "Fictional silk-roads-sky list",
+        "tags": [
+          "silk-roads-sky",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/silk-roads-sky/silk-roads-sky": {
+      "get": {
+        "operationId": "silk_roads_sky_silk_roads_sky",
+        "summary": "Fictional silk-roads-sky silk-roads-sky",
+        "tags": [
+          "silk-roads-sky",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/silk-roads-sky/health": {
+      "get": {
+        "operationId": "silk_roads_sky_health",
+        "summary": "Fictional silk-roads-sky health",
+        "tags": [
+          "silk-roads-sky",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/obsidian-gates/search": {
+      "get": {
+        "operationId": "obsidian_gates_search",
+        "summary": "Fictional obsidian-gates search",
+        "tags": [
+          "obsidian-gates",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/obsidian-gates/lookup": {
+      "get": {
+        "operationId": "obsidian_gates_lookup",
+        "summary": "Fictional obsidian-gates lookup",
+        "tags": [
+          "obsidian-gates",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/obsidian-gates/list": {
+      "get": {
+        "operationId": "obsidian_gates_list",
+        "summary": "Fictional obsidian-gates list",
+        "tags": [
+          "obsidian-gates",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/obsidian-gates/obsidian-gates": {
+      "get": {
+        "operationId": "obsidian_gates_obsidian_gates",
+        "summary": "Fictional obsidian-gates obsidian-gates",
+        "tags": [
+          "obsidian-gates",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/obsidian-gates/health": {
+      "get": {
+        "operationId": "obsidian_gates_health",
+        "summary": "Fictional obsidian-gates health",
+        "tags": [
+          "obsidian-gates",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/pearl-divers/search": {
+      "get": {
+        "operationId": "pearl_divers_search",
+        "summary": "Fictional pearl-divers search",
+        "tags": [
+          "pearl-divers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/pearl-divers/lookup": {
+      "get": {
+        "operationId": "pearl_divers_lookup",
+        "summary": "Fictional pearl-divers lookup",
+        "tags": [
+          "pearl-divers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/pearl-divers/list": {
+      "get": {
+        "operationId": "pearl_divers_list",
+        "summary": "Fictional pearl-divers list",
+        "tags": [
+          "pearl-divers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/pearl-divers/pearl-divers": {
+      "get": {
+        "operationId": "pearl_divers_pearl_divers",
+        "summary": "Fictional pearl-divers pearl-divers",
+        "tags": [
+          "pearl-divers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/pearl-divers/health": {
+      "get": {
+        "operationId": "pearl_divers_health",
+        "summary": "Fictional pearl-divers health",
+        "tags": [
+          "pearl-divers",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/thunder-drums/search": {
+      "get": {
+        "operationId": "thunder_drums_search",
+        "summary": "Fictional thunder-drums search",
+        "tags": [
+          "thunder-drums",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/thunder-drums/lookup": {
+      "get": {
+        "operationId": "thunder_drums_lookup",
+        "summary": "Fictional thunder-drums lookup",
+        "tags": [
+          "thunder-drums",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/thunder-drums/list": {
+      "get": {
+        "operationId": "thunder_drums_list",
+        "summary": "Fictional thunder-drums list",
+        "tags": [
+          "thunder-drums",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/thunder-drums/thunder-drums": {
+      "get": {
+        "operationId": "thunder_drums_thunder_drums",
+        "summary": "Fictional thunder-drums thunder-drums",
+        "tags": [
+          "thunder-drums",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/thunder-drums/health": {
+      "get": {
+        "operationId": "thunder_drums_health",
+        "summary": "Fictional thunder-drums health",
+        "tags": [
+          "thunder-drums",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/frost-gardens/search": {
+      "get": {
+        "operationId": "frost_gardens_search",
+        "summary": "Fictional frost-gardens search",
+        "tags": [
+          "frost-gardens",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/frost-gardens/lookup": {
+      "get": {
+        "operationId": "frost_gardens_lookup",
+        "summary": "Fictional frost-gardens lookup",
+        "tags": [
+          "frost-gardens",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/frost-gardens/list": {
+      "get": {
+        "operationId": "frost_gardens_list",
+        "summary": "Fictional frost-gardens list",
+        "tags": [
+          "frost-gardens",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/frost-gardens/frost-gardens": {
+      "get": {
+        "operationId": "frost_gardens_frost_gardens",
+        "summary": "Fictional frost-gardens frost-gardens",
+        "tags": [
+          "frost-gardens",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/frost-gardens/health": {
+      "get": {
+        "operationId": "frost_gardens_health",
+        "summary": "Fictional frost-gardens health",
+        "tags": [
+          "frost-gardens",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ember-foxes/search": {
+      "get": {
+        "operationId": "ember_foxes_search",
+        "summary": "Fictional ember-foxes search",
+        "tags": [
+          "ember-foxes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ember-foxes/lookup": {
+      "get": {
+        "operationId": "ember_foxes_lookup",
+        "summary": "Fictional ember-foxes lookup",
+        "tags": [
+          "ember-foxes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ember-foxes/list": {
+      "get": {
+        "operationId": "ember_foxes_list",
+        "summary": "Fictional ember-foxes list",
+        "tags": [
+          "ember-foxes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ember-foxes/ember-foxes": {
+      "get": {
+        "operationId": "ember_foxes_ember_foxes",
+        "summary": "Fictional ember-foxes ember-foxes",
+        "tags": [
+          "ember-foxes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ember-foxes/health": {
+      "get": {
+        "operationId": "ember_foxes_health",
+        "summary": "Fictional ember-foxes health",
+        "tags": [
+          "ember-foxes",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/void-post/search": {
+      "get": {
+        "operationId": "void_post_search",
+        "summary": "Fictional void-post search",
+        "tags": [
+          "void-post",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/void-post/lookup": {
+      "get": {
+        "operationId": "void_post_lookup",
+        "summary": "Fictional void-post lookup",
+        "tags": [
+          "void-post",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/void-post/list": {
+      "get": {
+        "operationId": "void_post_list",
+        "summary": "Fictional void-post list",
+        "tags": [
+          "void-post",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/void-post/void-post": {
+      "get": {
+        "operationId": "void_post_void_post",
+        "summary": "Fictional void-post void-post",
+        "tags": [
+          "void-post",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/void-post/health": {
+      "get": {
+        "operationId": "void_post_health",
+        "summary": "Fictional void-post health",
+        "tags": [
+          "void-post",
+          "fictional"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fictional JSON catalog document"
+          }
+        }
+      }
     }
   }
 }
