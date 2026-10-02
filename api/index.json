@@ -4202,6 +4202,1606 @@
       "fictional": true,
       "summary": "Fictional empty-space mailbox numbers",
       "doc": "docs/void-post.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/lantern-fish/search",
+      "service": "lantern-fish",
+      "fictional": true,
+      "summary": "Fictional deep-lantern fish sighting cards",
+      "doc": "docs/lantern-fish.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/lantern-fish/lookup",
+      "service": "lantern-fish",
+      "fictional": true,
+      "summary": "Fictional deep-lantern fish sighting cards",
+      "doc": "docs/lantern-fish.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/lantern-fish/list",
+      "service": "lantern-fish",
+      "fictional": true,
+      "summary": "Fictional deep-lantern fish sighting cards",
+      "doc": "docs/lantern-fish.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/lantern-fish/lantern-fish",
+      "service": "lantern-fish",
+      "fictional": true,
+      "summary": "Fictional deep-lantern fish sighting cards",
+      "doc": "docs/lantern-fish.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/lantern-fish/health",
+      "service": "lantern-fish",
+      "fictional": true,
+      "summary": "Fictional deep-lantern fish sighting cards",
+      "doc": "docs/lantern-fish.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloud-shepherds/search",
+      "service": "cloud-shepherds",
+      "fictional": true,
+      "summary": "Fictional flock routes across invented skies",
+      "doc": "docs/cloud-shepherds.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloud-shepherds/lookup",
+      "service": "cloud-shepherds",
+      "fictional": true,
+      "summary": "Fictional flock routes across invented skies",
+      "doc": "docs/cloud-shepherds.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloud-shepherds/list",
+      "service": "cloud-shepherds",
+      "fictional": true,
+      "summary": "Fictional flock routes across invented skies",
+      "doc": "docs/cloud-shepherds.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloud-shepherds/cloud-shepherds",
+      "service": "cloud-shepherds",
+      "fictional": true,
+      "summary": "Fictional flock routes across invented skies",
+      "doc": "docs/cloud-shepherds.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloud-shepherds/health",
+      "service": "cloud-shepherds",
+      "fictional": true,
+      "summary": "Fictional flock routes across invented skies",
+      "doc": "docs/cloud-shepherds.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/salt-wizards/search",
+      "service": "salt-wizards",
+      "fictional": true,
+      "summary": "Fictional brine-guild membership slips",
+      "doc": "docs/salt-wizards.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/salt-wizards/lookup",
+      "service": "salt-wizards",
+      "fictional": true,
+      "summary": "Fictional brine-guild membership slips",
+      "doc": "docs/salt-wizards.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/salt-wizards/list",
+      "service": "salt-wizards",
+      "fictional": true,
+      "summary": "Fictional brine-guild membership slips",
+      "doc": "docs/salt-wizards.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/salt-wizards/salt-wizards",
+      "service": "salt-wizards",
+      "fictional": true,
+      "summary": "Fictional brine-guild membership slips",
+      "doc": "docs/salt-wizards.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/salt-wizards/health",
+      "service": "salt-wizards",
+      "fictional": true,
+      "summary": "Fictional brine-guild membership slips",
+      "doc": "docs/salt-wizards.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tea-oracles/search",
+      "service": "tea-oracles",
+      "fictional": true,
+      "summary": "Fictional leaf-reading ticket stubs",
+      "doc": "docs/tea-oracles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tea-oracles/lookup",
+      "service": "tea-oracles",
+      "fictional": true,
+      "summary": "Fictional leaf-reading ticket stubs",
+      "doc": "docs/tea-oracles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tea-oracles/list",
+      "service": "tea-oracles",
+      "fictional": true,
+      "summary": "Fictional leaf-reading ticket stubs",
+      "doc": "docs/tea-oracles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tea-oracles/tea-oracles",
+      "service": "tea-oracles",
+      "fictional": true,
+      "summary": "Fictional leaf-reading ticket stubs",
+      "doc": "docs/tea-oracles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tea-oracles/health",
+      "service": "tea-oracles",
+      "fictional": true,
+      "summary": "Fictional leaf-reading ticket stubs",
+      "doc": "docs/tea-oracles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bridge-trolls/search",
+      "service": "bridge-trolls",
+      "fictional": true,
+      "summary": "Fictional toll-booth shift boards",
+      "doc": "docs/bridge-trolls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bridge-trolls/lookup",
+      "service": "bridge-trolls",
+      "fictional": true,
+      "summary": "Fictional toll-booth shift boards",
+      "doc": "docs/bridge-trolls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bridge-trolls/list",
+      "service": "bridge-trolls",
+      "fictional": true,
+      "summary": "Fictional toll-booth shift boards",
+      "doc": "docs/bridge-trolls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bridge-trolls/bridge-trolls",
+      "service": "bridge-trolls",
+      "fictional": true,
+      "summary": "Fictional toll-booth shift boards",
+      "doc": "docs/bridge-trolls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bridge-trolls/health",
+      "service": "bridge-trolls",
+      "fictional": true,
+      "summary": "Fictional toll-booth shift boards",
+      "doc": "docs/bridge-trolls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moon-bakeries/search",
+      "service": "moon-bakeries",
+      "fictional": true,
+      "summary": "Fictional lunar pastry batch labels",
+      "doc": "docs/moon-bakeries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moon-bakeries/lookup",
+      "service": "moon-bakeries",
+      "fictional": true,
+      "summary": "Fictional lunar pastry batch labels",
+      "doc": "docs/moon-bakeries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moon-bakeries/list",
+      "service": "moon-bakeries",
+      "fictional": true,
+      "summary": "Fictional lunar pastry batch labels",
+      "doc": "docs/moon-bakeries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moon-bakeries/moon-bakeries",
+      "service": "moon-bakeries",
+      "fictional": true,
+      "summary": "Fictional lunar pastry batch labels",
+      "doc": "docs/moon-bakeries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moon-bakeries/health",
+      "service": "moon-bakeries",
+      "fictional": true,
+      "summary": "Fictional lunar pastry batch labels",
+      "doc": "docs/moon-bakeries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starlight-ink/search",
+      "service": "starlight-ink",
+      "fictional": true,
+      "summary": "Fictional ink bottle lot numbers",
+      "doc": "docs/starlight-ink.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starlight-ink/lookup",
+      "service": "starlight-ink",
+      "fictional": true,
+      "summary": "Fictional ink bottle lot numbers",
+      "doc": "docs/starlight-ink.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starlight-ink/list",
+      "service": "starlight-ink",
+      "fictional": true,
+      "summary": "Fictional ink bottle lot numbers",
+      "doc": "docs/starlight-ink.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starlight-ink/starlight-ink",
+      "service": "starlight-ink",
+      "fictional": true,
+      "summary": "Fictional ink bottle lot numbers",
+      "doc": "docs/starlight-ink.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starlight-ink/health",
+      "service": "starlight-ink",
+      "fictional": true,
+      "summary": "Fictional ink bottle lot numbers",
+      "doc": "docs/starlight-ink.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wind-harps/search",
+      "service": "wind-harps",
+      "fictional": true,
+      "summary": "Fictional harp tuning cards",
+      "doc": "docs/wind-harps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wind-harps/lookup",
+      "service": "wind-harps",
+      "fictional": true,
+      "summary": "Fictional harp tuning cards",
+      "doc": "docs/wind-harps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wind-harps/list",
+      "service": "wind-harps",
+      "fictional": true,
+      "summary": "Fictional harp tuning cards",
+      "doc": "docs/wind-harps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wind-harps/wind-harps",
+      "service": "wind-harps",
+      "fictional": true,
+      "summary": "Fictional harp tuning cards",
+      "doc": "docs/wind-harps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wind-harps/health",
+      "service": "wind-harps",
+      "fictional": true,
+      "summary": "Fictional harp tuning cards",
+      "doc": "docs/wind-harps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/river-spirits/search",
+      "service": "river-spirits",
+      "fictional": true,
+      "summary": "Fictional ford crossing permits",
+      "doc": "docs/river-spirits.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/river-spirits/lookup",
+      "service": "river-spirits",
+      "fictional": true,
+      "summary": "Fictional ford crossing permits",
+      "doc": "docs/river-spirits.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/river-spirits/list",
+      "service": "river-spirits",
+      "fictional": true,
+      "summary": "Fictional ford crossing permits",
+      "doc": "docs/river-spirits.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/river-spirits/river-spirits",
+      "service": "river-spirits",
+      "fictional": true,
+      "summary": "Fictional ford crossing permits",
+      "doc": "docs/river-spirits.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/river-spirits/health",
+      "service": "river-spirits",
+      "fictional": true,
+      "summary": "Fictional ford crossing permits",
+      "doc": "docs/river-spirits.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/glass-bees/search",
+      "service": "glass-bees",
+      "fictional": true,
+      "summary": "Fictional hive window inventories",
+      "doc": "docs/glass-bees.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/glass-bees/lookup",
+      "service": "glass-bees",
+      "fictional": true,
+      "summary": "Fictional hive window inventories",
+      "doc": "docs/glass-bees.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/glass-bees/list",
+      "service": "glass-bees",
+      "fictional": true,
+      "summary": "Fictional hive window inventories",
+      "doc": "docs/glass-bees.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/glass-bees/glass-bees",
+      "service": "glass-bees",
+      "fictional": true,
+      "summary": "Fictional hive window inventories",
+      "doc": "docs/glass-bees.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/glass-bees/health",
+      "service": "glass-bees",
+      "fictional": true,
+      "summary": "Fictional hive window inventories",
+      "doc": "docs/glass-bees.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/copper-foxes/search",
+      "service": "copper-foxes",
+      "fictional": true,
+      "summary": "Fictional den registry for story foxes",
+      "doc": "docs/copper-foxes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/copper-foxes/lookup",
+      "service": "copper-foxes",
+      "fictional": true,
+      "summary": "Fictional den registry for story foxes",
+      "doc": "docs/copper-foxes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/copper-foxes/list",
+      "service": "copper-foxes",
+      "fictional": true,
+      "summary": "Fictional den registry for story foxes",
+      "doc": "docs/copper-foxes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/copper-foxes/copper-foxes",
+      "service": "copper-foxes",
+      "fictional": true,
+      "summary": "Fictional den registry for story foxes",
+      "doc": "docs/copper-foxes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/copper-foxes/health",
+      "service": "copper-foxes",
+      "fictional": true,
+      "summary": "Fictional den registry for story foxes",
+      "doc": "docs/copper-foxes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/snow-giants/search",
+      "service": "snow-giants",
+      "fictional": true,
+      "summary": "Fictional footprint measurement slips",
+      "doc": "docs/snow-giants.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/snow-giants/lookup",
+      "service": "snow-giants",
+      "fictional": true,
+      "summary": "Fictional footprint measurement slips",
+      "doc": "docs/snow-giants.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/snow-giants/list",
+      "service": "snow-giants",
+      "fictional": true,
+      "summary": "Fictional footprint measurement slips",
+      "doc": "docs/snow-giants.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/snow-giants/snow-giants",
+      "service": "snow-giants",
+      "fictional": true,
+      "summary": "Fictional footprint measurement slips",
+      "doc": "docs/snow-giants.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/snow-giants/health",
+      "service": "snow-giants",
+      "fictional": true,
+      "summary": "Fictional footprint measurement slips",
+      "doc": "docs/snow-giants.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/amber-flies/search",
+      "service": "amber-flies",
+      "fictional": true,
+      "summary": "Fictional trapped-moment catalog",
+      "doc": "docs/amber-flies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/amber-flies/lookup",
+      "service": "amber-flies",
+      "fictional": true,
+      "summary": "Fictional trapped-moment catalog",
+      "doc": "docs/amber-flies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/amber-flies/list",
+      "service": "amber-flies",
+      "fictional": true,
+      "summary": "Fictional trapped-moment catalog",
+      "doc": "docs/amber-flies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/amber-flies/amber-flies",
+      "service": "amber-flies",
+      "fictional": true,
+      "summary": "Fictional trapped-moment catalog",
+      "doc": "docs/amber-flies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/amber-flies/health",
+      "service": "amber-flies",
+      "fictional": true,
+      "summary": "Fictional trapped-moment catalog",
+      "doc": "docs/amber-flies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/velvet-bats/search",
+      "service": "velvet-bats",
+      "fictional": true,
+      "summary": "Fictional roost assignment cards",
+      "doc": "docs/velvet-bats.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/velvet-bats/lookup",
+      "service": "velvet-bats",
+      "fictional": true,
+      "summary": "Fictional roost assignment cards",
+      "doc": "docs/velvet-bats.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/velvet-bats/list",
+      "service": "velvet-bats",
+      "fictional": true,
+      "summary": "Fictional roost assignment cards",
+      "doc": "docs/velvet-bats.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/velvet-bats/velvet-bats",
+      "service": "velvet-bats",
+      "fictional": true,
+      "summary": "Fictional roost assignment cards",
+      "doc": "docs/velvet-bats.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/velvet-bats/health",
+      "service": "velvet-bats",
+      "fictional": true,
+      "summary": "Fictional roost assignment cards",
+      "doc": "docs/velvet-bats.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/iron-lilies/search",
+      "service": "iron-lilies",
+      "fictional": true,
+      "summary": "Fictional garden plot tags",
+      "doc": "docs/iron-lilies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/iron-lilies/lookup",
+      "service": "iron-lilies",
+      "fictional": true,
+      "summary": "Fictional garden plot tags",
+      "doc": "docs/iron-lilies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/iron-lilies/list",
+      "service": "iron-lilies",
+      "fictional": true,
+      "summary": "Fictional garden plot tags",
+      "doc": "docs/iron-lilies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/iron-lilies/iron-lilies",
+      "service": "iron-lilies",
+      "fictional": true,
+      "summary": "Fictional garden plot tags",
+      "doc": "docs/iron-lilies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/iron-lilies/health",
+      "service": "iron-lilies",
+      "fictional": true,
+      "summary": "Fictional garden plot tags",
+      "doc": "docs/iron-lilies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/mist-ferries/search",
+      "service": "mist-ferries",
+      "fictional": true,
+      "summary": "Fictional fog-route timetables",
+      "doc": "docs/mist-ferries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/mist-ferries/lookup",
+      "service": "mist-ferries",
+      "fictional": true,
+      "summary": "Fictional fog-route timetables",
+      "doc": "docs/mist-ferries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/mist-ferries/list",
+      "service": "mist-ferries",
+      "fictional": true,
+      "summary": "Fictional fog-route timetables",
+      "doc": "docs/mist-ferries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/mist-ferries/mist-ferries",
+      "service": "mist-ferries",
+      "fictional": true,
+      "summary": "Fictional fog-route timetables",
+      "doc": "docs/mist-ferries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/mist-ferries/health",
+      "service": "mist-ferries",
+      "fictional": true,
+      "summary": "Fictional fog-route timetables",
+      "doc": "docs/mist-ferries.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/coral-choirs/search",
+      "service": "coral-choirs",
+      "fictional": true,
+      "summary": "Fictional reef rehearsal schedules",
+      "doc": "docs/coral-choirs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/coral-choirs/lookup",
+      "service": "coral-choirs",
+      "fictional": true,
+      "summary": "Fictional reef rehearsal schedules",
+      "doc": "docs/coral-choirs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/coral-choirs/list",
+      "service": "coral-choirs",
+      "fictional": true,
+      "summary": "Fictional reef rehearsal schedules",
+      "doc": "docs/coral-choirs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/coral-choirs/coral-choirs",
+      "service": "coral-choirs",
+      "fictional": true,
+      "summary": "Fictional reef rehearsal schedules",
+      "doc": "docs/coral-choirs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/coral-choirs/health",
+      "service": "coral-choirs",
+      "fictional": true,
+      "summary": "Fictional reef rehearsal schedules",
+      "doc": "docs/coral-choirs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quartz-owls/search",
+      "service": "quartz-owls",
+      "fictional": true,
+      "summary": "Fictional night-watch roost lists",
+      "doc": "docs/quartz-owls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quartz-owls/lookup",
+      "service": "quartz-owls",
+      "fictional": true,
+      "summary": "Fictional night-watch roost lists",
+      "doc": "docs/quartz-owls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quartz-owls/list",
+      "service": "quartz-owls",
+      "fictional": true,
+      "summary": "Fictional night-watch roost lists",
+      "doc": "docs/quartz-owls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quartz-owls/quartz-owls",
+      "service": "quartz-owls",
+      "fictional": true,
+      "summary": "Fictional night-watch roost lists",
+      "doc": "docs/quartz-owls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quartz-owls/health",
+      "service": "quartz-owls",
+      "fictional": true,
+      "summary": "Fictional night-watch roost lists",
+      "doc": "docs/quartz-owls.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/maple-drakes/search",
+      "service": "maple-drakes",
+      "fictional": true,
+      "summary": "Fictional autumn wyrm census",
+      "doc": "docs/maple-drakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/maple-drakes/lookup",
+      "service": "maple-drakes",
+      "fictional": true,
+      "summary": "Fictional autumn wyrm census",
+      "doc": "docs/maple-drakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/maple-drakes/list",
+      "service": "maple-drakes",
+      "fictional": true,
+      "summary": "Fictional autumn wyrm census",
+      "doc": "docs/maple-drakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/maple-drakes/maple-drakes",
+      "service": "maple-drakes",
+      "fictional": true,
+      "summary": "Fictional autumn wyrm census",
+      "doc": "docs/maple-drakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/maple-drakes/health",
+      "service": "maple-drakes",
+      "fictional": true,
+      "summary": "Fictional autumn wyrm census",
+      "doc": "docs/maple-drakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pebble-golems/search",
+      "service": "pebble-golems",
+      "fictional": true,
+      "summary": "Fictional stack-height permits",
+      "doc": "docs/pebble-golems.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pebble-golems/lookup",
+      "service": "pebble-golems",
+      "fictional": true,
+      "summary": "Fictional stack-height permits",
+      "doc": "docs/pebble-golems.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pebble-golems/list",
+      "service": "pebble-golems",
+      "fictional": true,
+      "summary": "Fictional stack-height permits",
+      "doc": "docs/pebble-golems.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pebble-golems/pebble-golems",
+      "service": "pebble-golems",
+      "fictional": true,
+      "summary": "Fictional stack-height permits",
+      "doc": "docs/pebble-golems.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pebble-golems/health",
+      "service": "pebble-golems",
+      "fictional": true,
+      "summary": "Fictional stack-height permits",
+      "doc": "docs/pebble-golems.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/saffron-sails/search",
+      "service": "saffron-sails",
+      "fictional": true,
+      "summary": "Fictional spice-ship manifests",
+      "doc": "docs/saffron-sails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/saffron-sails/lookup",
+      "service": "saffron-sails",
+      "fictional": true,
+      "summary": "Fictional spice-ship manifests",
+      "doc": "docs/saffron-sails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/saffron-sails/list",
+      "service": "saffron-sails",
+      "fictional": true,
+      "summary": "Fictional spice-ship manifests",
+      "doc": "docs/saffron-sails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/saffron-sails/saffron-sails",
+      "service": "saffron-sails",
+      "fictional": true,
+      "summary": "Fictional spice-ship manifests",
+      "doc": "docs/saffron-sails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/saffron-sails/health",
+      "service": "saffron-sails",
+      "fictional": true,
+      "summary": "Fictional spice-ship manifests",
+      "doc": "docs/saffron-sails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/indigo-whales/search",
+      "service": "indigo-whales",
+      "fictional": true,
+      "summary": "Fictional song-catalog identifiers",
+      "doc": "docs/indigo-whales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/indigo-whales/lookup",
+      "service": "indigo-whales",
+      "fictional": true,
+      "summary": "Fictional song-catalog identifiers",
+      "doc": "docs/indigo-whales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/indigo-whales/list",
+      "service": "indigo-whales",
+      "fictional": true,
+      "summary": "Fictional song-catalog identifiers",
+      "doc": "docs/indigo-whales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/indigo-whales/indigo-whales",
+      "service": "indigo-whales",
+      "fictional": true,
+      "summary": "Fictional song-catalog identifiers",
+      "doc": "docs/indigo-whales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/indigo-whales/health",
+      "service": "indigo-whales",
+      "fictional": true,
+      "summary": "Fictional song-catalog identifiers",
+      "doc": "docs/indigo-whales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cedar-dryads/search",
+      "service": "cedar-dryads",
+      "fictional": true,
+      "summary": "Fictional grove tenancy cards",
+      "doc": "docs/cedar-dryads.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cedar-dryads/lookup",
+      "service": "cedar-dryads",
+      "fictional": true,
+      "summary": "Fictional grove tenancy cards",
+      "doc": "docs/cedar-dryads.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cedar-dryads/list",
+      "service": "cedar-dryads",
+      "fictional": true,
+      "summary": "Fictional grove tenancy cards",
+      "doc": "docs/cedar-dryads.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cedar-dryads/cedar-dryads",
+      "service": "cedar-dryads",
+      "fictional": true,
+      "summary": "Fictional grove tenancy cards",
+      "doc": "docs/cedar-dryads.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cedar-dryads/health",
+      "service": "cedar-dryads",
+      "fictional": true,
+      "summary": "Fictional grove tenancy cards",
+      "doc": "docs/cedar-dryads.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tin-nightingales/search",
+      "service": "tin-nightingales",
+      "fictional": true,
+      "summary": "Fictional music-box serials",
+      "doc": "docs/tin-nightingales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tin-nightingales/lookup",
+      "service": "tin-nightingales",
+      "fictional": true,
+      "summary": "Fictional music-box serials",
+      "doc": "docs/tin-nightingales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tin-nightingales/list",
+      "service": "tin-nightingales",
+      "fictional": true,
+      "summary": "Fictional music-box serials",
+      "doc": "docs/tin-nightingales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tin-nightingales/tin-nightingales",
+      "service": "tin-nightingales",
+      "fictional": true,
+      "summary": "Fictional music-box serials",
+      "doc": "docs/tin-nightingales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tin-nightingales/health",
+      "service": "tin-nightingales",
+      "fictional": true,
+      "summary": "Fictional music-box serials",
+      "doc": "docs/tin-nightingales.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/obsidian-moths/search",
+      "service": "obsidian-moths",
+      "fictional": true,
+      "summary": "Fictional lamp-orbit logs",
+      "doc": "docs/obsidian-moths.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/obsidian-moths/lookup",
+      "service": "obsidian-moths",
+      "fictional": true,
+      "summary": "Fictional lamp-orbit logs",
+      "doc": "docs/obsidian-moths.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/obsidian-moths/list",
+      "service": "obsidian-moths",
+      "fictional": true,
+      "summary": "Fictional lamp-orbit logs",
+      "doc": "docs/obsidian-moths.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/obsidian-moths/obsidian-moths",
+      "service": "obsidian-moths",
+      "fictional": true,
+      "summary": "Fictional lamp-orbit logs",
+      "doc": "docs/obsidian-moths.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/obsidian-moths/health",
+      "service": "obsidian-moths",
+      "fictional": true,
+      "summary": "Fictional lamp-orbit logs",
+      "doc": "docs/obsidian-moths.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pearl-moons/search",
+      "service": "pearl-moons",
+      "fictional": true,
+      "summary": "Fictional satellite nickname registry",
+      "doc": "docs/pearl-moons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pearl-moons/lookup",
+      "service": "pearl-moons",
+      "fictional": true,
+      "summary": "Fictional satellite nickname registry",
+      "doc": "docs/pearl-moons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pearl-moons/list",
+      "service": "pearl-moons",
+      "fictional": true,
+      "summary": "Fictional satellite nickname registry",
+      "doc": "docs/pearl-moons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pearl-moons/pearl-moons",
+      "service": "pearl-moons",
+      "fictional": true,
+      "summary": "Fictional satellite nickname registry",
+      "doc": "docs/pearl-moons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/pearl-moons/health",
+      "service": "pearl-moons",
+      "fictional": true,
+      "summary": "Fictional satellite nickname registry",
+      "doc": "docs/pearl-moons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/honey-comets/search",
+      "service": "honey-comets",
+      "fictional": true,
+      "summary": "Fictional pastry-comet delivery slips",
+      "doc": "docs/honey-comets.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/honey-comets/lookup",
+      "service": "honey-comets",
+      "fictional": true,
+      "summary": "Fictional pastry-comet delivery slips",
+      "doc": "docs/honey-comets.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/honey-comets/list",
+      "service": "honey-comets",
+      "fictional": true,
+      "summary": "Fictional pastry-comet delivery slips",
+      "doc": "docs/honey-comets.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/honey-comets/honey-comets",
+      "service": "honey-comets",
+      "fictional": true,
+      "summary": "Fictional pastry-comet delivery slips",
+      "doc": "docs/honey-comets.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/honey-comets/health",
+      "service": "honey-comets",
+      "fictional": true,
+      "summary": "Fictional pastry-comet delivery slips",
+      "doc": "docs/honey-comets.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/basalt-turtles/search",
+      "service": "basalt-turtles",
+      "fictional": true,
+      "summary": "Fictional island-shell mooring tags",
+      "doc": "docs/basalt-turtles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/basalt-turtles/lookup",
+      "service": "basalt-turtles",
+      "fictional": true,
+      "summary": "Fictional island-shell mooring tags",
+      "doc": "docs/basalt-turtles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/basalt-turtles/list",
+      "service": "basalt-turtles",
+      "fictional": true,
+      "summary": "Fictional island-shell mooring tags",
+      "doc": "docs/basalt-turtles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/basalt-turtles/basalt-turtles",
+      "service": "basalt-turtles",
+      "fictional": true,
+      "summary": "Fictional island-shell mooring tags",
+      "doc": "docs/basalt-turtles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/basalt-turtles/health",
+      "service": "basalt-turtles",
+      "fictional": true,
+      "summary": "Fictional island-shell mooring tags",
+      "doc": "docs/basalt-turtles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/silver-minnows/search",
+      "service": "silver-minnows",
+      "fictional": true,
+      "summary": "Fictional stream school counts",
+      "doc": "docs/silver-minnows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/silver-minnows/lookup",
+      "service": "silver-minnows",
+      "fictional": true,
+      "summary": "Fictional stream school counts",
+      "doc": "docs/silver-minnows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/silver-minnows/list",
+      "service": "silver-minnows",
+      "fictional": true,
+      "summary": "Fictional stream school counts",
+      "doc": "docs/silver-minnows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/silver-minnows/silver-minnows",
+      "service": "silver-minnows",
+      "fictional": true,
+      "summary": "Fictional stream school counts",
+      "doc": "docs/silver-minnows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/silver-minnows/health",
+      "service": "silver-minnows",
+      "fictional": true,
+      "summary": "Fictional stream school counts",
+      "doc": "docs/silver-minnows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crimson-kites/search",
+      "service": "crimson-kites",
+      "fictional": true,
+      "summary": "Fictional festival kite registrations",
+      "doc": "docs/crimson-kites.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crimson-kites/lookup",
+      "service": "crimson-kites",
+      "fictional": true,
+      "summary": "Fictional festival kite registrations",
+      "doc": "docs/crimson-kites.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crimson-kites/list",
+      "service": "crimson-kites",
+      "fictional": true,
+      "summary": "Fictional festival kite registrations",
+      "doc": "docs/crimson-kites.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crimson-kites/crimson-kites",
+      "service": "crimson-kites",
+      "fictional": true,
+      "summary": "Fictional festival kite registrations",
+      "doc": "docs/crimson-kites.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crimson-kites/health",
+      "service": "crimson-kites",
+      "fictional": true,
+      "summary": "Fictional festival kite registrations",
+      "doc": "docs/crimson-kites.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/opal-snails/search",
+      "service": "opal-snails",
+      "fictional": true,
+      "summary": "Fictional trail-map stickers",
+      "doc": "docs/opal-snails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/opal-snails/lookup",
+      "service": "opal-snails",
+      "fictional": true,
+      "summary": "Fictional trail-map stickers",
+      "doc": "docs/opal-snails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/opal-snails/list",
+      "service": "opal-snails",
+      "fictional": true,
+      "summary": "Fictional trail-map stickers",
+      "doc": "docs/opal-snails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/opal-snails/opal-snails",
+      "service": "opal-snails",
+      "fictional": true,
+      "summary": "Fictional trail-map stickers",
+      "doc": "docs/opal-snails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/opal-snails/health",
+      "service": "opal-snails",
+      "fictional": true,
+      "summary": "Fictional trail-map stickers",
+      "doc": "docs/opal-snails.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/azure-cranes/search",
+      "service": "azure-cranes",
+      "fictional": true,
+      "summary": "Fictional migration postcard index",
+      "doc": "docs/azure-cranes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/azure-cranes/lookup",
+      "service": "azure-cranes",
+      "fictional": true,
+      "summary": "Fictional migration postcard index",
+      "doc": "docs/azure-cranes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/azure-cranes/list",
+      "service": "azure-cranes",
+      "fictional": true,
+      "summary": "Fictional migration postcard index",
+      "doc": "docs/azure-cranes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/azure-cranes/azure-cranes",
+      "service": "azure-cranes",
+      "fictional": true,
+      "summary": "Fictional migration postcard index",
+      "doc": "docs/azure-cranes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/azure-cranes/health",
+      "service": "azure-cranes",
+      "fictional": true,
+      "summary": "Fictional migration postcard index",
+      "doc": "docs/azure-cranes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flint-sparrows/search",
+      "service": "flint-sparrows",
+      "fictional": true,
+      "summary": "Fictional spark-nest inventories",
+      "doc": "docs/flint-sparrows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flint-sparrows/lookup",
+      "service": "flint-sparrows",
+      "fictional": true,
+      "summary": "Fictional spark-nest inventories",
+      "doc": "docs/flint-sparrows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flint-sparrows/list",
+      "service": "flint-sparrows",
+      "fictional": true,
+      "summary": "Fictional spark-nest inventories",
+      "doc": "docs/flint-sparrows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flint-sparrows/flint-sparrows",
+      "service": "flint-sparrows",
+      "fictional": true,
+      "summary": "Fictional spark-nest inventories",
+      "doc": "docs/flint-sparrows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flint-sparrows/health",
+      "service": "flint-sparrows",
+      "fictional": true,
+      "summary": "Fictional spark-nest inventories",
+      "doc": "docs/flint-sparrows.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/linen-ghosts/search",
+      "service": "linen-ghosts",
+      "fictional": true,
+      "summary": "Fictional laundry-line haunting cards",
+      "doc": "docs/linen-ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/linen-ghosts/lookup",
+      "service": "linen-ghosts",
+      "fictional": true,
+      "summary": "Fictional laundry-line haunting cards",
+      "doc": "docs/linen-ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/linen-ghosts/list",
+      "service": "linen-ghosts",
+      "fictional": true,
+      "summary": "Fictional laundry-line haunting cards",
+      "doc": "docs/linen-ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/linen-ghosts/linen-ghosts",
+      "service": "linen-ghosts",
+      "fictional": true,
+      "summary": "Fictional laundry-line haunting cards",
+      "doc": "docs/linen-ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/linen-ghosts/health",
+      "service": "linen-ghosts",
+      "fictional": true,
+      "summary": "Fictional laundry-line haunting cards",
+      "doc": "docs/linen-ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/marble-seals/search",
+      "service": "marble-seals",
+      "fictional": true,
+      "summary": "Fictional harbor stamp books",
+      "doc": "docs/marble-seals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/marble-seals/lookup",
+      "service": "marble-seals",
+      "fictional": true,
+      "summary": "Fictional harbor stamp books",
+      "doc": "docs/marble-seals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/marble-seals/list",
+      "service": "marble-seals",
+      "fictional": true,
+      "summary": "Fictional harbor stamp books",
+      "doc": "docs/marble-seals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/marble-seals/marble-seals",
+      "service": "marble-seals",
+      "fictional": true,
+      "summary": "Fictional harbor stamp books",
+      "doc": "docs/marble-seals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/marble-seals/health",
+      "service": "marble-seals",
+      "fictional": true,
+      "summary": "Fictional harbor stamp books",
+      "doc": "docs/marble-seals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/willow-lamps/search",
+      "service": "willow-lamps",
+      "fictional": true,
+      "summary": "Fictional riverside lamp routes",
+      "doc": "docs/willow-lamps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/willow-lamps/lookup",
+      "service": "willow-lamps",
+      "fictional": true,
+      "summary": "Fictional riverside lamp routes",
+      "doc": "docs/willow-lamps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/willow-lamps/list",
+      "service": "willow-lamps",
+      "fictional": true,
+      "summary": "Fictional riverside lamp routes",
+      "doc": "docs/willow-lamps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/willow-lamps/willow-lamps",
+      "service": "willow-lamps",
+      "fictional": true,
+      "summary": "Fictional riverside lamp routes",
+      "doc": "docs/willow-lamps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/willow-lamps/health",
+      "service": "willow-lamps",
+      "fictional": true,
+      "summary": "Fictional riverside lamp routes",
+      "doc": "docs/willow-lamps.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bronze-beetles/search",
+      "service": "bronze-beetles",
+      "fictional": true,
+      "summary": "Fictional clock-beetle winding logs",
+      "doc": "docs/bronze-beetles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bronze-beetles/lookup",
+      "service": "bronze-beetles",
+      "fictional": true,
+      "summary": "Fictional clock-beetle winding logs",
+      "doc": "docs/bronze-beetles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bronze-beetles/list",
+      "service": "bronze-beetles",
+      "fictional": true,
+      "summary": "Fictional clock-beetle winding logs",
+      "doc": "docs/bronze-beetles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bronze-beetles/bronze-beetles",
+      "service": "bronze-beetles",
+      "fictional": true,
+      "summary": "Fictional clock-beetle winding logs",
+      "doc": "docs/bronze-beetles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/bronze-beetles/health",
+      "service": "bronze-beetles",
+      "fictional": true,
+      "summary": "Fictional clock-beetle winding logs",
+      "doc": "docs/bronze-beetles.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ivory-herons/search",
+      "service": "ivory-herons",
+      "fictional": true,
+      "summary": "Fictional marsh lookout shifts",
+      "doc": "docs/ivory-herons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ivory-herons/lookup",
+      "service": "ivory-herons",
+      "fictional": true,
+      "summary": "Fictional marsh lookout shifts",
+      "doc": "docs/ivory-herons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ivory-herons/list",
+      "service": "ivory-herons",
+      "fictional": true,
+      "summary": "Fictional marsh lookout shifts",
+      "doc": "docs/ivory-herons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ivory-herons/ivory-herons",
+      "service": "ivory-herons",
+      "fictional": true,
+      "summary": "Fictional marsh lookout shifts",
+      "doc": "docs/ivory-herons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ivory-herons/health",
+      "service": "ivory-herons",
+      "fictional": true,
+      "summary": "Fictional marsh lookout shifts",
+      "doc": "docs/ivory-herons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cinder-mice/search",
+      "service": "cinder-mice",
+      "fictional": true,
+      "summary": "Fictional hearth census cards",
+      "doc": "docs/cinder-mice.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cinder-mice/lookup",
+      "service": "cinder-mice",
+      "fictional": true,
+      "summary": "Fictional hearth census cards",
+      "doc": "docs/cinder-mice.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cinder-mice/list",
+      "service": "cinder-mice",
+      "fictional": true,
+      "summary": "Fictional hearth census cards",
+      "doc": "docs/cinder-mice.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cinder-mice/cinder-mice",
+      "service": "cinder-mice",
+      "fictional": true,
+      "summary": "Fictional hearth census cards",
+      "doc": "docs/cinder-mice.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cinder-mice/health",
+      "service": "cinder-mice",
+      "fictional": true,
+      "summary": "Fictional hearth census cards",
+      "doc": "docs/cinder-mice.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gale-carp/search",
+      "service": "gale-carp",
+      "fictional": true,
+      "summary": "Fictional wind-pond stocking slips",
+      "doc": "docs/gale-carp.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gale-carp/lookup",
+      "service": "gale-carp",
+      "fictional": true,
+      "summary": "Fictional wind-pond stocking slips",
+      "doc": "docs/gale-carp.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gale-carp/list",
+      "service": "gale-carp",
+      "fictional": true,
+      "summary": "Fictional wind-pond stocking slips",
+      "doc": "docs/gale-carp.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gale-carp/gale-carp",
+      "service": "gale-carp",
+      "fictional": true,
+      "summary": "Fictional wind-pond stocking slips",
+      "doc": "docs/gale-carp.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gale-carp/health",
+      "service": "gale-carp",
+      "fictional": true,
+      "summary": "Fictional wind-pond stocking slips",
+      "doc": "docs/gale-carp.md"
     }
   ]
 }

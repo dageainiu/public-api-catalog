@@ -131,6 +131,49 @@ These endpoints are invented sample names. They are not real APIs.
 - [ember-foxes](docs/ember-foxes.md) — Fictional creature spotting cards. Base path `/v1/ember-foxes`
 - [void-post](docs/void-post.md) — Fictional empty-space mailbox numbers. Base path `/v1/void-post`
 
+## Fictional bestiary services
+
+- [lantern-fish](docs/lantern-fish.md) — Fictional deep-lantern fish sighting cards. Base path `/v1/lantern-fish`
+- [cloud-shepherds](docs/cloud-shepherds.md) — Fictional flock routes across invented skies. Base path `/v1/cloud-shepherds`
+- [salt-wizards](docs/salt-wizards.md) — Fictional brine-guild membership slips. Base path `/v1/salt-wizards`
+- [tea-oracles](docs/tea-oracles.md) — Fictional leaf-reading ticket stubs. Base path `/v1/tea-oracles`
+- [bridge-trolls](docs/bridge-trolls.md) — Fictional toll-booth shift boards. Base path `/v1/bridge-trolls`
+- [moon-bakeries](docs/moon-bakeries.md) — Fictional lunar pastry batch labels. Base path `/v1/moon-bakeries`
+- [starlight-ink](docs/starlight-ink.md) — Fictional ink bottle lot numbers. Base path `/v1/starlight-ink`
+- [wind-harps](docs/wind-harps.md) — Fictional harp tuning cards. Base path `/v1/wind-harps`
+- [river-spirits](docs/river-spirits.md) — Fictional ford crossing permits. Base path `/v1/river-spirits`
+- [glass-bees](docs/glass-bees.md) — Fictional hive window inventories. Base path `/v1/glass-bees`
+- [copper-foxes](docs/copper-foxes.md) — Fictional den registry for story foxes. Base path `/v1/copper-foxes`
+- [snow-giants](docs/snow-giants.md) — Fictional footprint measurement slips. Base path `/v1/snow-giants`
+- [amber-flies](docs/amber-flies.md) — Fictional trapped-moment catalog. Base path `/v1/amber-flies`
+- [velvet-bats](docs/velvet-bats.md) — Fictional roost assignment cards. Base path `/v1/velvet-bats`
+- [iron-lilies](docs/iron-lilies.md) — Fictional garden plot tags. Base path `/v1/iron-lilies`
+- [mist-ferries](docs/mist-ferries.md) — Fictional fog-route timetables. Base path `/v1/mist-ferries`
+- [coral-choirs](docs/coral-choirs.md) — Fictional reef rehearsal schedules. Base path `/v1/coral-choirs`
+- [quartz-owls](docs/quartz-owls.md) — Fictional night-watch roost lists. Base path `/v1/quartz-owls`
+- [maple-drakes](docs/maple-drakes.md) — Fictional autumn wyrm census. Base path `/v1/maple-drakes`
+- [pebble-golems](docs/pebble-golems.md) — Fictional stack-height permits. Base path `/v1/pebble-golems`
+- [saffron-sails](docs/saffron-sails.md) — Fictional spice-ship manifests. Base path `/v1/saffron-sails`
+- [indigo-whales](docs/indigo-whales.md) — Fictional song-catalog identifiers. Base path `/v1/indigo-whales`
+- [cedar-dryads](docs/cedar-dryads.md) — Fictional grove tenancy cards. Base path `/v1/cedar-dryads`
+- [tin-nightingales](docs/tin-nightingales.md) — Fictional music-box serials. Base path `/v1/tin-nightingales`
+- [obsidian-moths](docs/obsidian-moths.md) — Fictional lamp-orbit logs. Base path `/v1/obsidian-moths`
+- [pearl-moons](docs/pearl-moons.md) — Fictional satellite nickname registry. Base path `/v1/pearl-moons`
+- [honey-comets](docs/honey-comets.md) — Fictional pastry-comet delivery slips. Base path `/v1/honey-comets`
+- [basalt-turtles](docs/basalt-turtles.md) — Fictional island-shell mooring tags. Base path `/v1/basalt-turtles`
+- [silver-minnows](docs/silver-minnows.md) — Fictional stream school counts. Base path `/v1/silver-minnows`
+- [crimson-kites](docs/crimson-kites.md) — Fictional festival kite registrations. Base path `/v1/crimson-kites`
+- [opal-snails](docs/opal-snails.md) — Fictional trail-map stickers. Base path `/v1/opal-snails`
+- [azure-cranes](docs/azure-cranes.md) — Fictional migration postcard index. Base path `/v1/azure-cranes`
+- [flint-sparrows](docs/flint-sparrows.md) — Fictional spark-nest inventories. Base path `/v1/flint-sparrows`
+- [linen-ghosts](docs/linen-ghosts.md) — Fictional laundry-line haunting cards. Base path `/v1/linen-ghosts`
+- [marble-seals](docs/marble-seals.md) — Fictional harbor stamp books. Base path `/v1/marble-seals`
+- [willow-lamps](docs/willow-lamps.md) — Fictional riverside lamp routes. Base path `/v1/willow-lamps`
+- [bronze-beetles](docs/bronze-beetles.md) — Fictional clock-beetle winding logs. Base path `/v1/bronze-beetles`
+- [ivory-herons](docs/ivory-herons.md) — Fictional marsh lookout shifts. Base path `/v1/ivory-herons`
+- [cinder-mice](docs/cinder-mice.md) — Fictional hearth census cards. Base path `/v1/cinder-mice`
+- [gale-carp](docs/gale-carp.md) — Fictional wind-pond stocking slips. Base path `/v1/gale-carp`
+
 ## Common pattern
 
 ```
