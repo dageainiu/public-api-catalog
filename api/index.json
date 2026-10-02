@@ -1,0 +1,1407 @@
+{
+  "name": "public-api-catalog",
+  "version": "1.0.0",
+  "description": "Crawlable REST endpoint catalog",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/weather/search",
+      "service": "weather",
+      "summary": "Weather observations, forecasts, and alerts",
+      "doc": "docs/weather.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather/lookup",
+      "service": "weather",
+      "summary": "Weather observations, forecasts, and alerts",
+      "doc": "docs/weather.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather/list",
+      "service": "weather",
+      "summary": "Weather observations, forecasts, and alerts",
+      "doc": "docs/weather.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather/weather",
+      "service": "weather",
+      "summary": "Weather observations, forecasts, and alerts",
+      "doc": "docs/weather.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather/health",
+      "service": "weather",
+      "summary": "Weather observations, forecasts, and alerts",
+      "doc": "docs/weather.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/geo/search",
+      "service": "geo",
+      "summary": "Geocoding, reverse geocoding, and place search",
+      "doc": "docs/geo.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/geo/lookup",
+      "service": "geo",
+      "summary": "Geocoding, reverse geocoding, and place search",
+      "doc": "docs/geo.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/geo/list",
+      "service": "geo",
+      "summary": "Geocoding, reverse geocoding, and place search",
+      "doc": "docs/geo.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/geo/geo",
+      "service": "geo",
+      "summary": "Geocoding, reverse geocoding, and place search",
+      "doc": "docs/geo.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/geo/health",
+      "service": "geo",
+      "summary": "Geocoding, reverse geocoding, and place search",
+      "doc": "docs/geo.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/fx/search",
+      "service": "fx",
+      "summary": "Foreign exchange rates and currency conversion",
+      "doc": "docs/fx.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/fx/lookup",
+      "service": "fx",
+      "summary": "Foreign exchange rates and currency conversion",
+      "doc": "docs/fx.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/fx/list",
+      "service": "fx",
+      "summary": "Foreign exchange rates and currency conversion",
+      "doc": "docs/fx.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/fx/fx",
+      "service": "fx",
+      "summary": "Foreign exchange rates and currency conversion",
+      "doc": "docs/fx.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/fx/health",
+      "service": "fx",
+      "summary": "Foreign exchange rates and currency conversion",
+      "doc": "docs/fx.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news/search",
+      "service": "news",
+      "summary": "Headlines, search, and source listings",
+      "doc": "docs/news.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news/lookup",
+      "service": "news",
+      "summary": "Headlines, search, and source listings",
+      "doc": "docs/news.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news/list",
+      "service": "news",
+      "summary": "Headlines, search, and source listings",
+      "doc": "docs/news.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news/news",
+      "service": "news",
+      "summary": "Headlines, search, and source listings",
+      "doc": "docs/news.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news/health",
+      "service": "news",
+      "summary": "Headlines, search, and source listings",
+      "doc": "docs/news.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/books/search",
+      "service": "books",
+      "summary": "Book metadata, ISBN lookup, and search",
+      "doc": "docs/books.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/books/lookup",
+      "service": "books",
+      "summary": "Book metadata, ISBN lookup, and search",
+      "doc": "docs/books.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/books/list",
+      "service": "books",
+      "summary": "Book metadata, ISBN lookup, and search",
+      "doc": "docs/books.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/books/books",
+      "service": "books",
+      "summary": "Book metadata, ISBN lookup, and search",
+      "doc": "docs/books.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/books/health",
+      "service": "books",
+      "summary": "Book metadata, ISBN lookup, and search",
+      "doc": "docs/books.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/movies/search",
+      "service": "movies",
+      "summary": "Film metadata, cast, and ratings",
+      "doc": "docs/movies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/movies/lookup",
+      "service": "movies",
+      "summary": "Film metadata, cast, and ratings",
+      "doc": "docs/movies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/movies/list",
+      "service": "movies",
+      "summary": "Film metadata, cast, and ratings",
+      "doc": "docs/movies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/movies/movies",
+      "service": "movies",
+      "summary": "Film metadata, cast, and ratings",
+      "doc": "docs/movies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/movies/health",
+      "service": "movies",
+      "summary": "Film metadata, cast, and ratings",
+      "doc": "docs/movies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/music/search",
+      "service": "music",
+      "summary": "Track, album, and artist metadata",
+      "doc": "docs/music.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/music/lookup",
+      "service": "music",
+      "summary": "Track, album, and artist metadata",
+      "doc": "docs/music.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/music/list",
+      "service": "music",
+      "summary": "Track, album, and artist metadata",
+      "doc": "docs/music.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/music/music",
+      "service": "music",
+      "summary": "Track, album, and artist metadata",
+      "doc": "docs/music.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/music/health",
+      "service": "music",
+      "summary": "Track, album, and artist metadata",
+      "doc": "docs/music.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/transit/search",
+      "service": "transit",
+      "summary": "Stops, routes, and arrival estimates",
+      "doc": "docs/transit.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/transit/lookup",
+      "service": "transit",
+      "summary": "Stops, routes, and arrival estimates",
+      "doc": "docs/transit.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/transit/list",
+      "service": "transit",
+      "summary": "Stops, routes, and arrival estimates",
+      "doc": "docs/transit.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/transit/transit",
+      "service": "transit",
+      "summary": "Stops, routes, and arrival estimates",
+      "doc": "docs/transit.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/transit/health",
+      "service": "transit",
+      "summary": "Stops, routes, and arrival estimates",
+      "doc": "docs/transit.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flights/search",
+      "service": "flights",
+      "summary": "Airport status and flight schedules",
+      "doc": "docs/flights.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flights/lookup",
+      "service": "flights",
+      "summary": "Airport status and flight schedules",
+      "doc": "docs/flights.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flights/list",
+      "service": "flights",
+      "summary": "Airport status and flight schedules",
+      "doc": "docs/flights.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flights/flights",
+      "service": "flights",
+      "summary": "Airport status and flight schedules",
+      "doc": "docs/flights.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/flights/health",
+      "service": "flights",
+      "summary": "Airport status and flight schedules",
+      "doc": "docs/flights.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/stocks/search",
+      "service": "stocks",
+      "summary": "Quotes, candles, and symbol search",
+      "doc": "docs/stocks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/stocks/lookup",
+      "service": "stocks",
+      "summary": "Quotes, candles, and symbol search",
+      "doc": "docs/stocks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/stocks/list",
+      "service": "stocks",
+      "summary": "Quotes, candles, and symbol search",
+      "doc": "docs/stocks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/stocks/stocks",
+      "service": "stocks",
+      "summary": "Quotes, candles, and symbol search",
+      "doc": "docs/stocks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/stocks/health",
+      "service": "stocks",
+      "summary": "Quotes, candles, and symbol search",
+      "doc": "docs/stocks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crypto/search",
+      "service": "crypto",
+      "summary": "Spot prices and market pairs",
+      "doc": "docs/crypto.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crypto/lookup",
+      "service": "crypto",
+      "summary": "Spot prices and market pairs",
+      "doc": "docs/crypto.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crypto/list",
+      "service": "crypto",
+      "summary": "Spot prices and market pairs",
+      "doc": "docs/crypto.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crypto/crypto",
+      "service": "crypto",
+      "summary": "Spot prices and market pairs",
+      "doc": "docs/crypto.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/crypto/health",
+      "service": "crypto",
+      "summary": "Spot prices and market pairs",
+      "doc": "docs/crypto.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/translate/search",
+      "service": "translate",
+      "summary": "Text translation and language detection",
+      "doc": "docs/translate.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/translate/lookup",
+      "service": "translate",
+      "summary": "Text translation and language detection",
+      "doc": "docs/translate.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/translate/list",
+      "service": "translate",
+      "summary": "Text translation and language detection",
+      "doc": "docs/translate.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/translate/translate",
+      "service": "translate",
+      "summary": "Text translation and language detection",
+      "doc": "docs/translate.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/translate/health",
+      "service": "translate",
+      "summary": "Text translation and language detection",
+      "doc": "docs/translate.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/images/search",
+      "service": "images",
+      "summary": "Image search and metadata",
+      "doc": "docs/images.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/images/lookup",
+      "service": "images",
+      "summary": "Image search and metadata",
+      "doc": "docs/images.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/images/list",
+      "service": "images",
+      "summary": "Image search and metadata",
+      "doc": "docs/images.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/images/images",
+      "service": "images",
+      "summary": "Image search and metadata",
+      "doc": "docs/images.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/images/health",
+      "service": "images",
+      "summary": "Image search and metadata",
+      "doc": "docs/images.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nutrition/search",
+      "service": "nutrition",
+      "summary": "Food search and nutrient lookup",
+      "doc": "docs/nutrition.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nutrition/lookup",
+      "service": "nutrition",
+      "summary": "Food search and nutrient lookup",
+      "doc": "docs/nutrition.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nutrition/list",
+      "service": "nutrition",
+      "summary": "Food search and nutrient lookup",
+      "doc": "docs/nutrition.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nutrition/nutrition",
+      "service": "nutrition",
+      "summary": "Food search and nutrient lookup",
+      "doc": "docs/nutrition.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nutrition/health",
+      "service": "nutrition",
+      "summary": "Food search and nutrient lookup",
+      "doc": "docs/nutrition.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/recipes/search",
+      "service": "recipes",
+      "summary": "Recipe search and ingredient lists",
+      "doc": "docs/recipes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/recipes/lookup",
+      "service": "recipes",
+      "summary": "Recipe search and ingredient lists",
+      "doc": "docs/recipes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/recipes/list",
+      "service": "recipes",
+      "summary": "Recipe search and ingredient lists",
+      "doc": "docs/recipes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/recipes/recipes",
+      "service": "recipes",
+      "summary": "Recipe search and ingredient lists",
+      "doc": "docs/recipes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/recipes/health",
+      "service": "recipes",
+      "summary": "Recipe search and ingredient lists",
+      "doc": "docs/recipes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/search",
+      "service": "events",
+      "summary": "Public events and venue listings",
+      "doc": "docs/events.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/lookup",
+      "service": "events",
+      "summary": "Public events and venue listings",
+      "doc": "docs/events.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/list",
+      "service": "events",
+      "summary": "Public events and venue listings",
+      "doc": "docs/events.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/events",
+      "service": "events",
+      "summary": "Public events and venue listings",
+      "doc": "docs/events.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/health",
+      "service": "events",
+      "summary": "Public events and venue listings",
+      "doc": "docs/events.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jobs/search",
+      "service": "jobs",
+      "summary": "Job posting search",
+      "doc": "docs/jobs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jobs/lookup",
+      "service": "jobs",
+      "summary": "Job posting search",
+      "doc": "docs/jobs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jobs/list",
+      "service": "jobs",
+      "summary": "Job posting search",
+      "doc": "docs/jobs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jobs/jobs",
+      "service": "jobs",
+      "summary": "Job posting search",
+      "doc": "docs/jobs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jobs/health",
+      "service": "jobs",
+      "summary": "Job posting search",
+      "doc": "docs/jobs.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/holidays/search",
+      "service": "holidays",
+      "summary": "Public holiday calendars",
+      "doc": "docs/holidays.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/holidays/lookup",
+      "service": "holidays",
+      "summary": "Public holiday calendars",
+      "doc": "docs/holidays.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/holidays/list",
+      "service": "holidays",
+      "summary": "Public holiday calendars",
+      "doc": "docs/holidays.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/holidays/holidays",
+      "service": "holidays",
+      "summary": "Public holiday calendars",
+      "doc": "docs/holidays.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/holidays/health",
+      "service": "holidays",
+      "summary": "Public holiday calendars",
+      "doc": "docs/holidays.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time/search",
+      "service": "time",
+      "summary": "Timezone and current time",
+      "doc": "docs/time.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time/lookup",
+      "service": "time",
+      "summary": "Timezone and current time",
+      "doc": "docs/time.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time/list",
+      "service": "time",
+      "summary": "Timezone and current time",
+      "doc": "docs/time.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time/time",
+      "service": "time",
+      "summary": "Timezone and current time",
+      "doc": "docs/time.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time/health",
+      "service": "time",
+      "summary": "Timezone and current time",
+      "doc": "docs/time.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ip/search",
+      "service": "ip",
+      "summary": "IP geolocation lookup",
+      "doc": "docs/ip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ip/lookup",
+      "service": "ip",
+      "summary": "IP geolocation lookup",
+      "doc": "docs/ip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ip/list",
+      "service": "ip",
+      "summary": "IP geolocation lookup",
+      "doc": "docs/ip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ip/ip",
+      "service": "ip",
+      "summary": "IP geolocation lookup",
+      "doc": "docs/ip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ip/health",
+      "service": "ip",
+      "summary": "IP geolocation lookup",
+      "doc": "docs/ip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dns/search",
+      "service": "dns",
+      "summary": "DNS record lookup",
+      "doc": "docs/dns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dns/lookup",
+      "service": "dns",
+      "summary": "DNS record lookup",
+      "doc": "docs/dns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dns/list",
+      "service": "dns",
+      "summary": "DNS record lookup",
+      "doc": "docs/dns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dns/dns",
+      "service": "dns",
+      "summary": "DNS record lookup",
+      "doc": "docs/dns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dns/health",
+      "service": "dns",
+      "summary": "DNS record lookup",
+      "doc": "docs/dns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/whois/search",
+      "service": "whois",
+      "summary": "Domain registration lookup",
+      "doc": "docs/whois.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/whois/lookup",
+      "service": "whois",
+      "summary": "Domain registration lookup",
+      "doc": "docs/whois.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/whois/list",
+      "service": "whois",
+      "summary": "Domain registration lookup",
+      "doc": "docs/whois.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/whois/whois",
+      "service": "whois",
+      "summary": "Domain registration lookup",
+      "doc": "docs/whois.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/whois/health",
+      "service": "whois",
+      "summary": "Domain registration lookup",
+      "doc": "docs/whois.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/packages/search",
+      "service": "packages",
+      "summary": "Package registry metadata",
+      "doc": "docs/packages.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/packages/lookup",
+      "service": "packages",
+      "summary": "Package registry metadata",
+      "doc": "docs/packages.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/packages/list",
+      "service": "packages",
+      "summary": "Package registry metadata",
+      "doc": "docs/packages.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/packages/packages",
+      "service": "packages",
+      "summary": "Package registry metadata",
+      "doc": "docs/packages.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/packages/health",
+      "service": "packages",
+      "summary": "Package registry metadata",
+      "doc": "docs/packages.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cve/search",
+      "service": "cve",
+      "summary": "Vulnerability advisory search",
+      "doc": "docs/cve.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cve/lookup",
+      "service": "cve",
+      "summary": "Vulnerability advisory search",
+      "doc": "docs/cve.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cve/list",
+      "service": "cve",
+      "summary": "Vulnerability advisory search",
+      "doc": "docs/cve.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cve/cve",
+      "service": "cve",
+      "summary": "Vulnerability advisory search",
+      "doc": "docs/cve.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cve/health",
+      "service": "cve",
+      "summary": "Vulnerability advisory search",
+      "doc": "docs/cve.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/status/search",
+      "service": "status",
+      "summary": "Service status pages",
+      "doc": "docs/status.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/status/lookup",
+      "service": "status",
+      "summary": "Service status pages",
+      "doc": "docs/status.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/status/list",
+      "service": "status",
+      "summary": "Service status pages",
+      "doc": "docs/status.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/status/status",
+      "service": "status",
+      "summary": "Service status pages",
+      "doc": "docs/status.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/status/health",
+      "service": "status",
+      "summary": "Service status pages",
+      "doc": "docs/status.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/air/search",
+      "service": "air",
+      "summary": "Air quality indexes",
+      "doc": "docs/air.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/air/lookup",
+      "service": "air",
+      "summary": "Air quality indexes",
+      "doc": "docs/air.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/air/list",
+      "service": "air",
+      "summary": "Air quality indexes",
+      "doc": "docs/air.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/air/air",
+      "service": "air",
+      "summary": "Air quality indexes",
+      "doc": "docs/air.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/air/health",
+      "service": "air",
+      "summary": "Air quality indexes",
+      "doc": "docs/air.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tides/search",
+      "service": "tides",
+      "summary": "Tide predictions",
+      "doc": "docs/tides.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tides/lookup",
+      "service": "tides",
+      "summary": "Tide predictions",
+      "doc": "docs/tides.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tides/list",
+      "service": "tides",
+      "summary": "Tide predictions",
+      "doc": "docs/tides.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tides/tides",
+      "service": "tides",
+      "summary": "Tide predictions",
+      "doc": "docs/tides.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/tides/health",
+      "service": "tides",
+      "summary": "Tide predictions",
+      "doc": "docs/tides.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/earthquakes/search",
+      "service": "earthquakes",
+      "summary": "Seismic event feed",
+      "doc": "docs/earthquakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/earthquakes/lookup",
+      "service": "earthquakes",
+      "summary": "Seismic event feed",
+      "doc": "docs/earthquakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/earthquakes/list",
+      "service": "earthquakes",
+      "summary": "Seismic event feed",
+      "doc": "docs/earthquakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/earthquakes/earthquakes",
+      "service": "earthquakes",
+      "summary": "Seismic event feed",
+      "doc": "docs/earthquakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/earthquakes/health",
+      "service": "earthquakes",
+      "summary": "Seismic event feed",
+      "doc": "docs/earthquakes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/space/search",
+      "service": "space",
+      "summary": "Satellite passes and launches",
+      "doc": "docs/space.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/space/lookup",
+      "service": "space",
+      "summary": "Satellite passes and launches",
+      "doc": "docs/space.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/space/list",
+      "service": "space",
+      "summary": "Satellite passes and launches",
+      "doc": "docs/space.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/space/space",
+      "service": "space",
+      "summary": "Satellite passes and launches",
+      "doc": "docs/space.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/space/health",
+      "service": "space",
+      "summary": "Satellite passes and launches",
+      "doc": "docs/space.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/sports/search",
+      "service": "sports",
+      "summary": "Scores and standings",
+      "doc": "docs/sports.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/sports/lookup",
+      "service": "sports",
+      "summary": "Scores and standings",
+      "doc": "docs/sports.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/sports/list",
+      "service": "sports",
+      "summary": "Scores and standings",
+      "doc": "docs/sports.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/sports/sports",
+      "service": "sports",
+      "summary": "Scores and standings",
+      "doc": "docs/sports.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/sports/health",
+      "service": "sports",
+      "summary": "Scores and standings",
+      "doc": "docs/sports.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dictionary/search",
+      "service": "dictionary",
+      "summary": "Definitions and synonyms",
+      "doc": "docs/dictionary.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dictionary/lookup",
+      "service": "dictionary",
+      "summary": "Definitions and synonyms",
+      "doc": "docs/dictionary.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dictionary/list",
+      "service": "dictionary",
+      "summary": "Definitions and synonyms",
+      "doc": "docs/dictionary.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dictionary/dictionary",
+      "service": "dictionary",
+      "summary": "Definitions and synonyms",
+      "doc": "docs/dictionary.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dictionary/health",
+      "service": "dictionary",
+      "summary": "Definitions and synonyms",
+      "doc": "docs/dictionary.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quotes/search",
+      "service": "quotes",
+      "summary": "Attributed quotations",
+      "doc": "docs/quotes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quotes/lookup",
+      "service": "quotes",
+      "summary": "Attributed quotations",
+      "doc": "docs/quotes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quotes/list",
+      "service": "quotes",
+      "summary": "Attributed quotations",
+      "doc": "docs/quotes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quotes/quotes",
+      "service": "quotes",
+      "summary": "Attributed quotations",
+      "doc": "docs/quotes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/quotes/health",
+      "service": "quotes",
+      "summary": "Attributed quotations",
+      "doc": "docs/quotes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jokes/search",
+      "service": "jokes",
+      "summary": "Short text jokes",
+      "doc": "docs/jokes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jokes/lookup",
+      "service": "jokes",
+      "summary": "Short text jokes",
+      "doc": "docs/jokes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jokes/list",
+      "service": "jokes",
+      "summary": "Short text jokes",
+      "doc": "docs/jokes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jokes/jokes",
+      "service": "jokes",
+      "summary": "Short text jokes",
+      "doc": "docs/jokes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/jokes/health",
+      "service": "jokes",
+      "summary": "Short text jokes",
+      "doc": "docs/jokes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/facts/search",
+      "service": "facts",
+      "summary": "Short factual statements",
+      "doc": "docs/facts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/facts/lookup",
+      "service": "facts",
+      "summary": "Short factual statements",
+      "doc": "docs/facts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/facts/list",
+      "service": "facts",
+      "summary": "Short factual statements",
+      "doc": "docs/facts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/facts/facts",
+      "service": "facts",
+      "summary": "Short factual statements",
+      "doc": "docs/facts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/facts/health",
+      "service": "facts",
+      "summary": "Short factual statements",
+      "doc": "docs/facts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/avatars/search",
+      "service": "avatars",
+      "summary": "Generated avatar metadata",
+      "doc": "docs/avatars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/avatars/lookup",
+      "service": "avatars",
+      "summary": "Generated avatar metadata",
+      "doc": "docs/avatars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/avatars/list",
+      "service": "avatars",
+      "summary": "Generated avatar metadata",
+      "doc": "docs/avatars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/avatars/avatars",
+      "service": "avatars",
+      "summary": "Generated avatar metadata",
+      "doc": "docs/avatars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/avatars/health",
+      "service": "avatars",
+      "summary": "Generated avatar metadata",
+      "doc": "docs/avatars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/qr/search",
+      "service": "qr",
+      "summary": "QR payload metadata",
+      "doc": "docs/qr.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/qr/lookup",
+      "service": "qr",
+      "summary": "QR payload metadata",
+      "doc": "docs/qr.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/qr/list",
+      "service": "qr",
+      "summary": "QR payload metadata",
+      "doc": "docs/qr.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/qr/qr",
+      "service": "qr",
+      "summary": "QR payload metadata",
+      "doc": "docs/qr.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/qr/health",
+      "service": "qr",
+      "summary": "QR payload metadata",
+      "doc": "docs/qr.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/barcode/search",
+      "service": "barcode",
+      "summary": "Barcode lookup",
+      "doc": "docs/barcode.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/barcode/lookup",
+      "service": "barcode",
+      "summary": "Barcode lookup",
+      "doc": "docs/barcode.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/barcode/list",
+      "service": "barcode",
+      "summary": "Barcode lookup",
+      "doc": "docs/barcode.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/barcode/barcode",
+      "service": "barcode",
+      "summary": "Barcode lookup",
+      "doc": "docs/barcode.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/barcode/health",
+      "service": "barcode",
+      "summary": "Barcode lookup",
+      "doc": "docs/barcode.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/zip/search",
+      "service": "zip",
+      "summary": "Postal code lookup",
+      "doc": "docs/zip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/zip/lookup",
+      "service": "zip",
+      "summary": "Postal code lookup",
+      "doc": "docs/zip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/zip/list",
+      "service": "zip",
+      "summary": "Postal code lookup",
+      "doc": "docs/zip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/zip/zip",
+      "service": "zip",
+      "summary": "Postal code lookup",
+      "doc": "docs/zip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/zip/health",
+      "service": "zip",
+      "summary": "Postal code lookup",
+      "doc": "docs/zip.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phone/search",
+      "service": "phone",
+      "summary": "Phone number metadata",
+      "doc": "docs/phone.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phone/lookup",
+      "service": "phone",
+      "summary": "Phone number metadata",
+      "doc": "docs/phone.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phone/list",
+      "service": "phone",
+      "summary": "Phone number metadata",
+      "doc": "docs/phone.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phone/phone",
+      "service": "phone",
+      "summary": "Phone number metadata",
+      "doc": "docs/phone.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phone/health",
+      "service": "phone",
+      "summary": "Phone number metadata",
+      "doc": "docs/phone.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/companies/search",
+      "service": "companies",
+      "summary": "Company profile lookup",
+      "doc": "docs/companies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/companies/lookup",
+      "service": "companies",
+      "summary": "Company profile lookup",
+      "doc": "docs/companies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/companies/list",
+      "service": "companies",
+      "summary": "Company profile lookup",
+      "doc": "docs/companies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/companies/companies",
+      "service": "companies",
+      "summary": "Company profile lookup",
+      "doc": "docs/companies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/companies/health",
+      "service": "companies",
+      "summary": "Company profile lookup",
+      "doc": "docs/companies.md"
+    }
+  ]
+}

@@ -1,0 +1,7615 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Public API Catalog",
+    "version": "1.0.0",
+    "description": "Documentation-only catalog of sample REST endpoints. Not a credentialed service."
+  },
+  "servers": [
+    {
+      "url": "https://api.example.invalid"
+    }
+  ],
+  "paths": {
+    "/v1/weather/search": {
+      "get": {
+        "operationId": "weather_search",
+        "summary": "weather search",
+        "tags": [
+          "weather"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/weather/lookup": {
+      "get": {
+        "operationId": "weather_lookup",
+        "summary": "weather lookup",
+        "tags": [
+          "weather"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/weather/list": {
+      "get": {
+        "operationId": "weather_list",
+        "summary": "weather list",
+        "tags": [
+          "weather"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/weather/weather": {
+      "get": {
+        "operationId": "weather_weather",
+        "summary": "weather weather",
+        "tags": [
+          "weather"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/weather/health": {
+      "get": {
+        "operationId": "weather_health",
+        "summary": "weather health",
+        "tags": [
+          "weather"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/geo/search": {
+      "get": {
+        "operationId": "geo_search",
+        "summary": "geo search",
+        "tags": [
+          "geo"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/geo/lookup": {
+      "get": {
+        "operationId": "geo_lookup",
+        "summary": "geo lookup",
+        "tags": [
+          "geo"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/geo/list": {
+      "get": {
+        "operationId": "geo_list",
+        "summary": "geo list",
+        "tags": [
+          "geo"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/geo/geo": {
+      "get": {
+        "operationId": "geo_geo",
+        "summary": "geo geo",
+        "tags": [
+          "geo"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/geo/health": {
+      "get": {
+        "operationId": "geo_health",
+        "summary": "geo health",
+        "tags": [
+          "geo"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fx/search": {
+      "get": {
+        "operationId": "fx_search",
+        "summary": "fx search",
+        "tags": [
+          "fx"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fx/lookup": {
+      "get": {
+        "operationId": "fx_lookup",
+        "summary": "fx lookup",
+        "tags": [
+          "fx"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fx/list": {
+      "get": {
+        "operationId": "fx_list",
+        "summary": "fx list",
+        "tags": [
+          "fx"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fx/fx": {
+      "get": {
+        "operationId": "fx_fx",
+        "summary": "fx fx",
+        "tags": [
+          "fx"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/fx/health": {
+      "get": {
+        "operationId": "fx_health",
+        "summary": "fx health",
+        "tags": [
+          "fx"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/news/search": {
+      "get": {
+        "operationId": "news_search",
+        "summary": "news search",
+        "tags": [
+          "news"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/news/lookup": {
+      "get": {
+        "operationId": "news_lookup",
+        "summary": "news lookup",
+        "tags": [
+          "news"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/news/list": {
+      "get": {
+        "operationId": "news_list",
+        "summary": "news list",
+        "tags": [
+          "news"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/news/news": {
+      "get": {
+        "operationId": "news_news",
+        "summary": "news news",
+        "tags": [
+          "news"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/news/health": {
+      "get": {
+        "operationId": "news_health",
+        "summary": "news health",
+        "tags": [
+          "news"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/books/search": {
+      "get": {
+        "operationId": "books_search",
+        "summary": "books search",
+        "tags": [
+          "books"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/books/lookup": {
+      "get": {
+        "operationId": "books_lookup",
+        "summary": "books lookup",
+        "tags": [
+          "books"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/books/list": {
+      "get": {
+        "operationId": "books_list",
+        "summary": "books list",
+        "tags": [
+          "books"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/books/books": {
+      "get": {
+        "operationId": "books_books",
+        "summary": "books books",
+        "tags": [
+          "books"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/books/health": {
+      "get": {
+        "operationId": "books_health",
+        "summary": "books health",
+        "tags": [
+          "books"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/movies/search": {
+      "get": {
+        "operationId": "movies_search",
+        "summary": "movies search",
+        "tags": [
+          "movies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/movies/lookup": {
+      "get": {
+        "operationId": "movies_lookup",
+        "summary": "movies lookup",
+        "tags": [
+          "movies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/movies/list": {
+      "get": {
+        "operationId": "movies_list",
+        "summary": "movies list",
+        "tags": [
+          "movies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/movies/movies": {
+      "get": {
+        "operationId": "movies_movies",
+        "summary": "movies movies",
+        "tags": [
+          "movies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/movies/health": {
+      "get": {
+        "operationId": "movies_health",
+        "summary": "movies health",
+        "tags": [
+          "movies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/music/search": {
+      "get": {
+        "operationId": "music_search",
+        "summary": "music search",
+        "tags": [
+          "music"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/music/lookup": {
+      "get": {
+        "operationId": "music_lookup",
+        "summary": "music lookup",
+        "tags": [
+          "music"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/music/list": {
+      "get": {
+        "operationId": "music_list",
+        "summary": "music list",
+        "tags": [
+          "music"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/music/music": {
+      "get": {
+        "operationId": "music_music",
+        "summary": "music music",
+        "tags": [
+          "music"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/music/health": {
+      "get": {
+        "operationId": "music_health",
+        "summary": "music health",
+        "tags": [
+          "music"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/transit/search": {
+      "get": {
+        "operationId": "transit_search",
+        "summary": "transit search",
+        "tags": [
+          "transit"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/transit/lookup": {
+      "get": {
+        "operationId": "transit_lookup",
+        "summary": "transit lookup",
+        "tags": [
+          "transit"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/transit/list": {
+      "get": {
+        "operationId": "transit_list",
+        "summary": "transit list",
+        "tags": [
+          "transit"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/transit/transit": {
+      "get": {
+        "operationId": "transit_transit",
+        "summary": "transit transit",
+        "tags": [
+          "transit"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/transit/health": {
+      "get": {
+        "operationId": "transit_health",
+        "summary": "transit health",
+        "tags": [
+          "transit"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/flights/search": {
+      "get": {
+        "operationId": "flights_search",
+        "summary": "flights search",
+        "tags": [
+          "flights"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/flights/lookup": {
+      "get": {
+        "operationId": "flights_lookup",
+        "summary": "flights lookup",
+        "tags": [
+          "flights"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/flights/list": {
+      "get": {
+        "operationId": "flights_list",
+        "summary": "flights list",
+        "tags": [
+          "flights"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/flights/flights": {
+      "get": {
+        "operationId": "flights_flights",
+        "summary": "flights flights",
+        "tags": [
+          "flights"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/flights/health": {
+      "get": {
+        "operationId": "flights_health",
+        "summary": "flights health",
+        "tags": [
+          "flights"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/stocks/search": {
+      "get": {
+        "operationId": "stocks_search",
+        "summary": "stocks search",
+        "tags": [
+          "stocks"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/stocks/lookup": {
+      "get": {
+        "operationId": "stocks_lookup",
+        "summary": "stocks lookup",
+        "tags": [
+          "stocks"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/stocks/list": {
+      "get": {
+        "operationId": "stocks_list",
+        "summary": "stocks list",
+        "tags": [
+          "stocks"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/stocks/stocks": {
+      "get": {
+        "operationId": "stocks_stocks",
+        "summary": "stocks stocks",
+        "tags": [
+          "stocks"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/stocks/health": {
+      "get": {
+        "operationId": "stocks_health",
+        "summary": "stocks health",
+        "tags": [
+          "stocks"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crypto/search": {
+      "get": {
+        "operationId": "crypto_search",
+        "summary": "crypto search",
+        "tags": [
+          "crypto"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crypto/lookup": {
+      "get": {
+        "operationId": "crypto_lookup",
+        "summary": "crypto lookup",
+        "tags": [
+          "crypto"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crypto/list": {
+      "get": {
+        "operationId": "crypto_list",
+        "summary": "crypto list",
+        "tags": [
+          "crypto"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crypto/crypto": {
+      "get": {
+        "operationId": "crypto_crypto",
+        "summary": "crypto crypto",
+        "tags": [
+          "crypto"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/crypto/health": {
+      "get": {
+        "operationId": "crypto_health",
+        "summary": "crypto health",
+        "tags": [
+          "crypto"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/translate/search": {
+      "get": {
+        "operationId": "translate_search",
+        "summary": "translate search",
+        "tags": [
+          "translate"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/translate/lookup": {
+      "get": {
+        "operationId": "translate_lookup",
+        "summary": "translate lookup",
+        "tags": [
+          "translate"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/translate/list": {
+      "get": {
+        "operationId": "translate_list",
+        "summary": "translate list",
+        "tags": [
+          "translate"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/translate/translate": {
+      "get": {
+        "operationId": "translate_translate",
+        "summary": "translate translate",
+        "tags": [
+          "translate"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/translate/health": {
+      "get": {
+        "operationId": "translate_health",
+        "summary": "translate health",
+        "tags": [
+          "translate"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/images/search": {
+      "get": {
+        "operationId": "images_search",
+        "summary": "images search",
+        "tags": [
+          "images"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/images/lookup": {
+      "get": {
+        "operationId": "images_lookup",
+        "summary": "images lookup",
+        "tags": [
+          "images"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/images/list": {
+      "get": {
+        "operationId": "images_list",
+        "summary": "images list",
+        "tags": [
+          "images"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/images/images": {
+      "get": {
+        "operationId": "images_images",
+        "summary": "images images",
+        "tags": [
+          "images"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/images/health": {
+      "get": {
+        "operationId": "images_health",
+        "summary": "images health",
+        "tags": [
+          "images"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nutrition/search": {
+      "get": {
+        "operationId": "nutrition_search",
+        "summary": "nutrition search",
+        "tags": [
+          "nutrition"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nutrition/lookup": {
+      "get": {
+        "operationId": "nutrition_lookup",
+        "summary": "nutrition lookup",
+        "tags": [
+          "nutrition"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nutrition/list": {
+      "get": {
+        "operationId": "nutrition_list",
+        "summary": "nutrition list",
+        "tags": [
+          "nutrition"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nutrition/nutrition": {
+      "get": {
+        "operationId": "nutrition_nutrition",
+        "summary": "nutrition nutrition",
+        "tags": [
+          "nutrition"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/nutrition/health": {
+      "get": {
+        "operationId": "nutrition_health",
+        "summary": "nutrition health",
+        "tags": [
+          "nutrition"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/recipes/search": {
+      "get": {
+        "operationId": "recipes_search",
+        "summary": "recipes search",
+        "tags": [
+          "recipes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/recipes/lookup": {
+      "get": {
+        "operationId": "recipes_lookup",
+        "summary": "recipes lookup",
+        "tags": [
+          "recipes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/recipes/list": {
+      "get": {
+        "operationId": "recipes_list",
+        "summary": "recipes list",
+        "tags": [
+          "recipes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/recipes/recipes": {
+      "get": {
+        "operationId": "recipes_recipes",
+        "summary": "recipes recipes",
+        "tags": [
+          "recipes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/recipes/health": {
+      "get": {
+        "operationId": "recipes_health",
+        "summary": "recipes health",
+        "tags": [
+          "recipes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/events/search": {
+      "get": {
+        "operationId": "events_search",
+        "summary": "events search",
+        "tags": [
+          "events"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/events/lookup": {
+      "get": {
+        "operationId": "events_lookup",
+        "summary": "events lookup",
+        "tags": [
+          "events"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/events/list": {
+      "get": {
+        "operationId": "events_list",
+        "summary": "events list",
+        "tags": [
+          "events"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/events/events": {
+      "get": {
+        "operationId": "events_events",
+        "summary": "events events",
+        "tags": [
+          "events"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/events/health": {
+      "get": {
+        "operationId": "events_health",
+        "summary": "events health",
+        "tags": [
+          "events"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jobs/search": {
+      "get": {
+        "operationId": "jobs_search",
+        "summary": "jobs search",
+        "tags": [
+          "jobs"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jobs/lookup": {
+      "get": {
+        "operationId": "jobs_lookup",
+        "summary": "jobs lookup",
+        "tags": [
+          "jobs"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jobs/list": {
+      "get": {
+        "operationId": "jobs_list",
+        "summary": "jobs list",
+        "tags": [
+          "jobs"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jobs/jobs": {
+      "get": {
+        "operationId": "jobs_jobs",
+        "summary": "jobs jobs",
+        "tags": [
+          "jobs"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jobs/health": {
+      "get": {
+        "operationId": "jobs_health",
+        "summary": "jobs health",
+        "tags": [
+          "jobs"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/holidays/search": {
+      "get": {
+        "operationId": "holidays_search",
+        "summary": "holidays search",
+        "tags": [
+          "holidays"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/holidays/lookup": {
+      "get": {
+        "operationId": "holidays_lookup",
+        "summary": "holidays lookup",
+        "tags": [
+          "holidays"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/holidays/list": {
+      "get": {
+        "operationId": "holidays_list",
+        "summary": "holidays list",
+        "tags": [
+          "holidays"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/holidays/holidays": {
+      "get": {
+        "operationId": "holidays_holidays",
+        "summary": "holidays holidays",
+        "tags": [
+          "holidays"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/holidays/health": {
+      "get": {
+        "operationId": "holidays_health",
+        "summary": "holidays health",
+        "tags": [
+          "holidays"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/time/search": {
+      "get": {
+        "operationId": "time_search",
+        "summary": "time search",
+        "tags": [
+          "time"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/time/lookup": {
+      "get": {
+        "operationId": "time_lookup",
+        "summary": "time lookup",
+        "tags": [
+          "time"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/time/list": {
+      "get": {
+        "operationId": "time_list",
+        "summary": "time list",
+        "tags": [
+          "time"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/time/time": {
+      "get": {
+        "operationId": "time_time",
+        "summary": "time time",
+        "tags": [
+          "time"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/time/health": {
+      "get": {
+        "operationId": "time_health",
+        "summary": "time health",
+        "tags": [
+          "time"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ip/search": {
+      "get": {
+        "operationId": "ip_search",
+        "summary": "ip search",
+        "tags": [
+          "ip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ip/lookup": {
+      "get": {
+        "operationId": "ip_lookup",
+        "summary": "ip lookup",
+        "tags": [
+          "ip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ip/list": {
+      "get": {
+        "operationId": "ip_list",
+        "summary": "ip list",
+        "tags": [
+          "ip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ip/ip": {
+      "get": {
+        "operationId": "ip_ip",
+        "summary": "ip ip",
+        "tags": [
+          "ip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/ip/health": {
+      "get": {
+        "operationId": "ip_health",
+        "summary": "ip health",
+        "tags": [
+          "ip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dns/search": {
+      "get": {
+        "operationId": "dns_search",
+        "summary": "dns search",
+        "tags": [
+          "dns"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dns/lookup": {
+      "get": {
+        "operationId": "dns_lookup",
+        "summary": "dns lookup",
+        "tags": [
+          "dns"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dns/list": {
+      "get": {
+        "operationId": "dns_list",
+        "summary": "dns list",
+        "tags": [
+          "dns"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dns/dns": {
+      "get": {
+        "operationId": "dns_dns",
+        "summary": "dns dns",
+        "tags": [
+          "dns"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dns/health": {
+      "get": {
+        "operationId": "dns_health",
+        "summary": "dns health",
+        "tags": [
+          "dns"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/whois/search": {
+      "get": {
+        "operationId": "whois_search",
+        "summary": "whois search",
+        "tags": [
+          "whois"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/whois/lookup": {
+      "get": {
+        "operationId": "whois_lookup",
+        "summary": "whois lookup",
+        "tags": [
+          "whois"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/whois/list": {
+      "get": {
+        "operationId": "whois_list",
+        "summary": "whois list",
+        "tags": [
+          "whois"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/whois/whois": {
+      "get": {
+        "operationId": "whois_whois",
+        "summary": "whois whois",
+        "tags": [
+          "whois"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/whois/health": {
+      "get": {
+        "operationId": "whois_health",
+        "summary": "whois health",
+        "tags": [
+          "whois"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/packages/search": {
+      "get": {
+        "operationId": "packages_search",
+        "summary": "packages search",
+        "tags": [
+          "packages"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/packages/lookup": {
+      "get": {
+        "operationId": "packages_lookup",
+        "summary": "packages lookup",
+        "tags": [
+          "packages"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/packages/list": {
+      "get": {
+        "operationId": "packages_list",
+        "summary": "packages list",
+        "tags": [
+          "packages"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/packages/packages": {
+      "get": {
+        "operationId": "packages_packages",
+        "summary": "packages packages",
+        "tags": [
+          "packages"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/packages/health": {
+      "get": {
+        "operationId": "packages_health",
+        "summary": "packages health",
+        "tags": [
+          "packages"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cve/search": {
+      "get": {
+        "operationId": "cve_search",
+        "summary": "cve search",
+        "tags": [
+          "cve"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cve/lookup": {
+      "get": {
+        "operationId": "cve_lookup",
+        "summary": "cve lookup",
+        "tags": [
+          "cve"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cve/list": {
+      "get": {
+        "operationId": "cve_list",
+        "summary": "cve list",
+        "tags": [
+          "cve"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cve/cve": {
+      "get": {
+        "operationId": "cve_cve",
+        "summary": "cve cve",
+        "tags": [
+          "cve"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/cve/health": {
+      "get": {
+        "operationId": "cve_health",
+        "summary": "cve health",
+        "tags": [
+          "cve"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/status/search": {
+      "get": {
+        "operationId": "status_search",
+        "summary": "status search",
+        "tags": [
+          "status"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/status/lookup": {
+      "get": {
+        "operationId": "status_lookup",
+        "summary": "status lookup",
+        "tags": [
+          "status"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/status/list": {
+      "get": {
+        "operationId": "status_list",
+        "summary": "status list",
+        "tags": [
+          "status"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/status/status": {
+      "get": {
+        "operationId": "status_status",
+        "summary": "status status",
+        "tags": [
+          "status"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/status/health": {
+      "get": {
+        "operationId": "status_health",
+        "summary": "status health",
+        "tags": [
+          "status"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/air/search": {
+      "get": {
+        "operationId": "air_search",
+        "summary": "air search",
+        "tags": [
+          "air"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/air/lookup": {
+      "get": {
+        "operationId": "air_lookup",
+        "summary": "air lookup",
+        "tags": [
+          "air"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/air/list": {
+      "get": {
+        "operationId": "air_list",
+        "summary": "air list",
+        "tags": [
+          "air"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/air/air": {
+      "get": {
+        "operationId": "air_air",
+        "summary": "air air",
+        "tags": [
+          "air"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/air/health": {
+      "get": {
+        "operationId": "air_health",
+        "summary": "air health",
+        "tags": [
+          "air"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/tides/search": {
+      "get": {
+        "operationId": "tides_search",
+        "summary": "tides search",
+        "tags": [
+          "tides"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/tides/lookup": {
+      "get": {
+        "operationId": "tides_lookup",
+        "summary": "tides lookup",
+        "tags": [
+          "tides"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/tides/list": {
+      "get": {
+        "operationId": "tides_list",
+        "summary": "tides list",
+        "tags": [
+          "tides"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/tides/tides": {
+      "get": {
+        "operationId": "tides_tides",
+        "summary": "tides tides",
+        "tags": [
+          "tides"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/tides/health": {
+      "get": {
+        "operationId": "tides_health",
+        "summary": "tides health",
+        "tags": [
+          "tides"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/earthquakes/search": {
+      "get": {
+        "operationId": "earthquakes_search",
+        "summary": "earthquakes search",
+        "tags": [
+          "earthquakes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/earthquakes/lookup": {
+      "get": {
+        "operationId": "earthquakes_lookup",
+        "summary": "earthquakes lookup",
+        "tags": [
+          "earthquakes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/earthquakes/list": {
+      "get": {
+        "operationId": "earthquakes_list",
+        "summary": "earthquakes list",
+        "tags": [
+          "earthquakes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/earthquakes/earthquakes": {
+      "get": {
+        "operationId": "earthquakes_earthquakes",
+        "summary": "earthquakes earthquakes",
+        "tags": [
+          "earthquakes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/earthquakes/health": {
+      "get": {
+        "operationId": "earthquakes_health",
+        "summary": "earthquakes health",
+        "tags": [
+          "earthquakes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/space/search": {
+      "get": {
+        "operationId": "space_search",
+        "summary": "space search",
+        "tags": [
+          "space"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/space/lookup": {
+      "get": {
+        "operationId": "space_lookup",
+        "summary": "space lookup",
+        "tags": [
+          "space"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/space/list": {
+      "get": {
+        "operationId": "space_list",
+        "summary": "space list",
+        "tags": [
+          "space"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/space/space": {
+      "get": {
+        "operationId": "space_space",
+        "summary": "space space",
+        "tags": [
+          "space"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/space/health": {
+      "get": {
+        "operationId": "space_health",
+        "summary": "space health",
+        "tags": [
+          "space"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sports/search": {
+      "get": {
+        "operationId": "sports_search",
+        "summary": "sports search",
+        "tags": [
+          "sports"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sports/lookup": {
+      "get": {
+        "operationId": "sports_lookup",
+        "summary": "sports lookup",
+        "tags": [
+          "sports"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sports/list": {
+      "get": {
+        "operationId": "sports_list",
+        "summary": "sports list",
+        "tags": [
+          "sports"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sports/sports": {
+      "get": {
+        "operationId": "sports_sports",
+        "summary": "sports sports",
+        "tags": [
+          "sports"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/sports/health": {
+      "get": {
+        "operationId": "sports_health",
+        "summary": "sports health",
+        "tags": [
+          "sports"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dictionary/search": {
+      "get": {
+        "operationId": "dictionary_search",
+        "summary": "dictionary search",
+        "tags": [
+          "dictionary"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dictionary/lookup": {
+      "get": {
+        "operationId": "dictionary_lookup",
+        "summary": "dictionary lookup",
+        "tags": [
+          "dictionary"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dictionary/list": {
+      "get": {
+        "operationId": "dictionary_list",
+        "summary": "dictionary list",
+        "tags": [
+          "dictionary"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dictionary/dictionary": {
+      "get": {
+        "operationId": "dictionary_dictionary",
+        "summary": "dictionary dictionary",
+        "tags": [
+          "dictionary"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/dictionary/health": {
+      "get": {
+        "operationId": "dictionary_health",
+        "summary": "dictionary health",
+        "tags": [
+          "dictionary"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quotes/search": {
+      "get": {
+        "operationId": "quotes_search",
+        "summary": "quotes search",
+        "tags": [
+          "quotes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quotes/lookup": {
+      "get": {
+        "operationId": "quotes_lookup",
+        "summary": "quotes lookup",
+        "tags": [
+          "quotes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quotes/list": {
+      "get": {
+        "operationId": "quotes_list",
+        "summary": "quotes list",
+        "tags": [
+          "quotes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quotes/quotes": {
+      "get": {
+        "operationId": "quotes_quotes",
+        "summary": "quotes quotes",
+        "tags": [
+          "quotes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/quotes/health": {
+      "get": {
+        "operationId": "quotes_health",
+        "summary": "quotes health",
+        "tags": [
+          "quotes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jokes/search": {
+      "get": {
+        "operationId": "jokes_search",
+        "summary": "jokes search",
+        "tags": [
+          "jokes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jokes/lookup": {
+      "get": {
+        "operationId": "jokes_lookup",
+        "summary": "jokes lookup",
+        "tags": [
+          "jokes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jokes/list": {
+      "get": {
+        "operationId": "jokes_list",
+        "summary": "jokes list",
+        "tags": [
+          "jokes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jokes/jokes": {
+      "get": {
+        "operationId": "jokes_jokes",
+        "summary": "jokes jokes",
+        "tags": [
+          "jokes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/jokes/health": {
+      "get": {
+        "operationId": "jokes_health",
+        "summary": "jokes health",
+        "tags": [
+          "jokes"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/facts/search": {
+      "get": {
+        "operationId": "facts_search",
+        "summary": "facts search",
+        "tags": [
+          "facts"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/facts/lookup": {
+      "get": {
+        "operationId": "facts_lookup",
+        "summary": "facts lookup",
+        "tags": [
+          "facts"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/facts/list": {
+      "get": {
+        "operationId": "facts_list",
+        "summary": "facts list",
+        "tags": [
+          "facts"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/facts/facts": {
+      "get": {
+        "operationId": "facts_facts",
+        "summary": "facts facts",
+        "tags": [
+          "facts"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/facts/health": {
+      "get": {
+        "operationId": "facts_health",
+        "summary": "facts health",
+        "tags": [
+          "facts"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/avatars/search": {
+      "get": {
+        "operationId": "avatars_search",
+        "summary": "avatars search",
+        "tags": [
+          "avatars"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/avatars/lookup": {
+      "get": {
+        "operationId": "avatars_lookup",
+        "summary": "avatars lookup",
+        "tags": [
+          "avatars"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/avatars/list": {
+      "get": {
+        "operationId": "avatars_list",
+        "summary": "avatars list",
+        "tags": [
+          "avatars"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/avatars/avatars": {
+      "get": {
+        "operationId": "avatars_avatars",
+        "summary": "avatars avatars",
+        "tags": [
+          "avatars"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/avatars/health": {
+      "get": {
+        "operationId": "avatars_health",
+        "summary": "avatars health",
+        "tags": [
+          "avatars"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/qr/search": {
+      "get": {
+        "operationId": "qr_search",
+        "summary": "qr search",
+        "tags": [
+          "qr"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/qr/lookup": {
+      "get": {
+        "operationId": "qr_lookup",
+        "summary": "qr lookup",
+        "tags": [
+          "qr"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/qr/list": {
+      "get": {
+        "operationId": "qr_list",
+        "summary": "qr list",
+        "tags": [
+          "qr"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/qr/qr": {
+      "get": {
+        "operationId": "qr_qr",
+        "summary": "qr qr",
+        "tags": [
+          "qr"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/qr/health": {
+      "get": {
+        "operationId": "qr_health",
+        "summary": "qr health",
+        "tags": [
+          "qr"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/barcode/search": {
+      "get": {
+        "operationId": "barcode_search",
+        "summary": "barcode search",
+        "tags": [
+          "barcode"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/barcode/lookup": {
+      "get": {
+        "operationId": "barcode_lookup",
+        "summary": "barcode lookup",
+        "tags": [
+          "barcode"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/barcode/list": {
+      "get": {
+        "operationId": "barcode_list",
+        "summary": "barcode list",
+        "tags": [
+          "barcode"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/barcode/barcode": {
+      "get": {
+        "operationId": "barcode_barcode",
+        "summary": "barcode barcode",
+        "tags": [
+          "barcode"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/barcode/health": {
+      "get": {
+        "operationId": "barcode_health",
+        "summary": "barcode health",
+        "tags": [
+          "barcode"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/zip/search": {
+      "get": {
+        "operationId": "zip_search",
+        "summary": "zip search",
+        "tags": [
+          "zip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/zip/lookup": {
+      "get": {
+        "operationId": "zip_lookup",
+        "summary": "zip lookup",
+        "tags": [
+          "zip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/zip/list": {
+      "get": {
+        "operationId": "zip_list",
+        "summary": "zip list",
+        "tags": [
+          "zip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/zip/zip": {
+      "get": {
+        "operationId": "zip_zip",
+        "summary": "zip zip",
+        "tags": [
+          "zip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/zip/health": {
+      "get": {
+        "operationId": "zip_health",
+        "summary": "zip health",
+        "tags": [
+          "zip"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/phone/search": {
+      "get": {
+        "operationId": "phone_search",
+        "summary": "phone search",
+        "tags": [
+          "phone"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/phone/lookup": {
+      "get": {
+        "operationId": "phone_lookup",
+        "summary": "phone lookup",
+        "tags": [
+          "phone"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/phone/list": {
+      "get": {
+        "operationId": "phone_list",
+        "summary": "phone list",
+        "tags": [
+          "phone"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/phone/phone": {
+      "get": {
+        "operationId": "phone_phone",
+        "summary": "phone phone",
+        "tags": [
+          "phone"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/phone/health": {
+      "get": {
+        "operationId": "phone_health",
+        "summary": "phone health",
+        "tags": [
+          "phone"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/companies/search": {
+      "get": {
+        "operationId": "companies_search",
+        "summary": "companies search",
+        "tags": [
+          "companies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/companies/lookup": {
+      "get": {
+        "operationId": "companies_lookup",
+        "summary": "companies lookup",
+        "tags": [
+          "companies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/companies/list": {
+      "get": {
+        "operationId": "companies_list",
+        "summary": "companies list",
+        "tags": [
+          "companies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/companies/companies": {
+      "get": {
+        "operationId": "companies_companies",
+        "summary": "companies companies",
+        "tags": [
+          "companies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    },
+    "/v1/companies/health": {
+      "get": {
+        "operationId": "companies_health",
+        "summary": "companies health",
+        "tags": [
+          "companies"
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "JSON catalog document"
+          }
+        }
+      }
+    }
+  }
+}

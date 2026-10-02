@@ -1,0 +1,4 @@
+# Public API Catalog
+A documentation repository listing sample REST endpoints for weather, geo, fx, news, books, transit, markets, and related lookup services.
+Primary index: /api/index.json
+OpenAPI: /openapi/catalog.yaml
