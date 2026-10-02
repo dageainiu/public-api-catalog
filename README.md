@@ -53,6 +53,41 @@ Crawlable index of documented REST endpoints. These pages describe request shape
 - [phone](docs/phone.md) — Phone number metadata. Base path `/v1/phone`
 - [companies](docs/companies.md) — Company profile lookup. Base path `/v1/companies`
 
+## Fictional services
+
+These endpoints are invented sample names. They are not real APIs.
+
+- [dragons](docs/dragons.md) — Fictional dragon registry: species, hoard size, and last sighting. Base path `/v1/dragons`
+- [time-travel](docs/time-travel.md) — Fictional timeline tickets and paradox warnings. Base path `/v1/time-travel`
+- [alchemy](docs/alchemy.md) — Fictional transmutation recipes and reagent inventories. Base path `/v1/alchemy`
+- [telepathy](docs/telepathy.md) — Fictional thought-channel session metadata. Base path `/v1/telepathy`
+- [portals](docs/portals.md) — Fictional portal coordinates and destination realms. Base path `/v1/portals`
+- [dream-log](docs/dream-log.md) — Fictional dream journal entries and symbols. Base path `/v1/dream-log`
+- [invisibility](docs/invisibility.md) — Fictional cloak charge levels and duration. Base path `/v1/invisibility`
+- [levitation](docs/levitation.md) — Fictional altitude permits and weight limits. Base path `/v1/levitation`
+- [oracle](docs/oracle.md) — Fictional prophecy lookups, clearly non-predictive sample text. Base path `/v1/oracle`
+- [moonbase](docs/moonbase.md) — Fictional lunar habitat occupancy and airlock status. Base path `/v1/moonbase`
+- [kraken](docs/kraken.md) — Fictional sea-monster sighting reports. Base path `/v1/kraken`
+- [starship](docs/starship.md) — Fictional vessel registry and jump-drive status. Base path `/v1/starship`
+- [hologram](docs/hologram.md) — Fictional hologram scene metadata. Base path `/v1/hologram`
+- [cloning](docs/cloning.md) — Fictional clone batch labels, not a biological protocol. Base path `/v1/cloning`
+- [weather-control](docs/weather-control.md) — Fictional weather-dial settings for story worlds. Base path `/v1/weather-control`
+- [gravity](docs/gravity.md) — Fictional local gravity multipliers. Base path `/v1/gravity`
+- [shapeshift](docs/shapeshift.md) — Fictional form catalog and cooldown timers. Base path `/v1/shapeshift`
+- [familiars](docs/familiars.md) — Fictional companion creature registry. Base path `/v1/familiars`
+- [phoenix](docs/phoenix.md) — Fictional rebirth cycle counters. Base path `/v1/phoenix`
+- [merfolk](docs/merfolk.md) — Fictional underwater city directories. Base path `/v1/merfolk`
+- [unicorns](docs/unicorns.md) — Fictional grove permits and horn-sparkle indexes. Base path `/v1/unicorns`
+- [ghosts](docs/ghosts.md) — Fictional haunting location cards. Base path `/v1/ghosts`
+- [potions](docs/potions.md) — Fictional bottle labels and story effects. Base path `/v1/potions`
+- [runes](docs/runes.md) — Fictional rune dictionary for invented alphabets. Base path `/v1/runes`
+- [wormholes](docs/wormholes.md) — Fictional tunnel maps between made-up systems. Base path `/v1/wormholes`
+- [androids](docs/androids.md) — Fictional android serial metadata. Base path `/v1/androids`
+- [nanobots](docs/nanobots.md) — Fictional swarm names and story task tags. Base path `/v1/nanobots`
+- [cryosleep](docs/cryosleep.md) — Fictional pod occupancy for fictional crews. Base path `/v1/cryosleep`
+- [terraforming](docs/terraforming.md) — Fictional planet climate stage labels. Base path `/v1/terraforming`
+- [spellbooks](docs/spellbooks.md) — Fictional spell index with invented names only. Base path `/v1/spellbooks`
+
 ## Common pattern
 
 ```

@@ -1402,6 +1402,1206 @@
       "service": "companies",
       "summary": "Company profile lookup",
       "doc": "docs/companies.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dragons/search",
+      "service": "dragons",
+      "fictional": true,
+      "summary": "Fictional dragon registry: species, hoard size, and last sighting",
+      "doc": "docs/dragons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dragons/lookup",
+      "service": "dragons",
+      "fictional": true,
+      "summary": "Fictional dragon registry: species, hoard size, and last sighting",
+      "doc": "docs/dragons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dragons/list",
+      "service": "dragons",
+      "fictional": true,
+      "summary": "Fictional dragon registry: species, hoard size, and last sighting",
+      "doc": "docs/dragons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dragons/dragons",
+      "service": "dragons",
+      "fictional": true,
+      "summary": "Fictional dragon registry: species, hoard size, and last sighting",
+      "doc": "docs/dragons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dragons/health",
+      "service": "dragons",
+      "fictional": true,
+      "summary": "Fictional dragon registry: species, hoard size, and last sighting",
+      "doc": "docs/dragons.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time-travel/search",
+      "service": "time-travel",
+      "fictional": true,
+      "summary": "Fictional timeline tickets and paradox warnings",
+      "doc": "docs/time-travel.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time-travel/lookup",
+      "service": "time-travel",
+      "fictional": true,
+      "summary": "Fictional timeline tickets and paradox warnings",
+      "doc": "docs/time-travel.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time-travel/list",
+      "service": "time-travel",
+      "fictional": true,
+      "summary": "Fictional timeline tickets and paradox warnings",
+      "doc": "docs/time-travel.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time-travel/time-travel",
+      "service": "time-travel",
+      "fictional": true,
+      "summary": "Fictional timeline tickets and paradox warnings",
+      "doc": "docs/time-travel.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/time-travel/health",
+      "service": "time-travel",
+      "fictional": true,
+      "summary": "Fictional timeline tickets and paradox warnings",
+      "doc": "docs/time-travel.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/alchemy/search",
+      "service": "alchemy",
+      "fictional": true,
+      "summary": "Fictional transmutation recipes and reagent inventories",
+      "doc": "docs/alchemy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/alchemy/lookup",
+      "service": "alchemy",
+      "fictional": true,
+      "summary": "Fictional transmutation recipes and reagent inventories",
+      "doc": "docs/alchemy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/alchemy/list",
+      "service": "alchemy",
+      "fictional": true,
+      "summary": "Fictional transmutation recipes and reagent inventories",
+      "doc": "docs/alchemy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/alchemy/alchemy",
+      "service": "alchemy",
+      "fictional": true,
+      "summary": "Fictional transmutation recipes and reagent inventories",
+      "doc": "docs/alchemy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/alchemy/health",
+      "service": "alchemy",
+      "fictional": true,
+      "summary": "Fictional transmutation recipes and reagent inventories",
+      "doc": "docs/alchemy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/telepathy/search",
+      "service": "telepathy",
+      "fictional": true,
+      "summary": "Fictional thought-channel session metadata",
+      "doc": "docs/telepathy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/telepathy/lookup",
+      "service": "telepathy",
+      "fictional": true,
+      "summary": "Fictional thought-channel session metadata",
+      "doc": "docs/telepathy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/telepathy/list",
+      "service": "telepathy",
+      "fictional": true,
+      "summary": "Fictional thought-channel session metadata",
+      "doc": "docs/telepathy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/telepathy/telepathy",
+      "service": "telepathy",
+      "fictional": true,
+      "summary": "Fictional thought-channel session metadata",
+      "doc": "docs/telepathy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/telepathy/health",
+      "service": "telepathy",
+      "fictional": true,
+      "summary": "Fictional thought-channel session metadata",
+      "doc": "docs/telepathy.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/portals/search",
+      "service": "portals",
+      "fictional": true,
+      "summary": "Fictional portal coordinates and destination realms",
+      "doc": "docs/portals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/portals/lookup",
+      "service": "portals",
+      "fictional": true,
+      "summary": "Fictional portal coordinates and destination realms",
+      "doc": "docs/portals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/portals/list",
+      "service": "portals",
+      "fictional": true,
+      "summary": "Fictional portal coordinates and destination realms",
+      "doc": "docs/portals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/portals/portals",
+      "service": "portals",
+      "fictional": true,
+      "summary": "Fictional portal coordinates and destination realms",
+      "doc": "docs/portals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/portals/health",
+      "service": "portals",
+      "fictional": true,
+      "summary": "Fictional portal coordinates and destination realms",
+      "doc": "docs/portals.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dream-log/search",
+      "service": "dream-log",
+      "fictional": true,
+      "summary": "Fictional dream journal entries and symbols",
+      "doc": "docs/dream-log.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dream-log/lookup",
+      "service": "dream-log",
+      "fictional": true,
+      "summary": "Fictional dream journal entries and symbols",
+      "doc": "docs/dream-log.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dream-log/list",
+      "service": "dream-log",
+      "fictional": true,
+      "summary": "Fictional dream journal entries and symbols",
+      "doc": "docs/dream-log.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dream-log/dream-log",
+      "service": "dream-log",
+      "fictional": true,
+      "summary": "Fictional dream journal entries and symbols",
+      "doc": "docs/dream-log.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/dream-log/health",
+      "service": "dream-log",
+      "fictional": true,
+      "summary": "Fictional dream journal entries and symbols",
+      "doc": "docs/dream-log.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/invisibility/search",
+      "service": "invisibility",
+      "fictional": true,
+      "summary": "Fictional cloak charge levels and duration",
+      "doc": "docs/invisibility.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/invisibility/lookup",
+      "service": "invisibility",
+      "fictional": true,
+      "summary": "Fictional cloak charge levels and duration",
+      "doc": "docs/invisibility.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/invisibility/list",
+      "service": "invisibility",
+      "fictional": true,
+      "summary": "Fictional cloak charge levels and duration",
+      "doc": "docs/invisibility.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/invisibility/invisibility",
+      "service": "invisibility",
+      "fictional": true,
+      "summary": "Fictional cloak charge levels and duration",
+      "doc": "docs/invisibility.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/invisibility/health",
+      "service": "invisibility",
+      "fictional": true,
+      "summary": "Fictional cloak charge levels and duration",
+      "doc": "docs/invisibility.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/levitation/search",
+      "service": "levitation",
+      "fictional": true,
+      "summary": "Fictional altitude permits and weight limits",
+      "doc": "docs/levitation.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/levitation/lookup",
+      "service": "levitation",
+      "fictional": true,
+      "summary": "Fictional altitude permits and weight limits",
+      "doc": "docs/levitation.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/levitation/list",
+      "service": "levitation",
+      "fictional": true,
+      "summary": "Fictional altitude permits and weight limits",
+      "doc": "docs/levitation.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/levitation/levitation",
+      "service": "levitation",
+      "fictional": true,
+      "summary": "Fictional altitude permits and weight limits",
+      "doc": "docs/levitation.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/levitation/health",
+      "service": "levitation",
+      "fictional": true,
+      "summary": "Fictional altitude permits and weight limits",
+      "doc": "docs/levitation.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/oracle/search",
+      "service": "oracle",
+      "fictional": true,
+      "summary": "Fictional prophecy lookups, clearly non-predictive sample text",
+      "doc": "docs/oracle.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/oracle/lookup",
+      "service": "oracle",
+      "fictional": true,
+      "summary": "Fictional prophecy lookups, clearly non-predictive sample text",
+      "doc": "docs/oracle.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/oracle/list",
+      "service": "oracle",
+      "fictional": true,
+      "summary": "Fictional prophecy lookups, clearly non-predictive sample text",
+      "doc": "docs/oracle.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/oracle/oracle",
+      "service": "oracle",
+      "fictional": true,
+      "summary": "Fictional prophecy lookups, clearly non-predictive sample text",
+      "doc": "docs/oracle.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/oracle/health",
+      "service": "oracle",
+      "fictional": true,
+      "summary": "Fictional prophecy lookups, clearly non-predictive sample text",
+      "doc": "docs/oracle.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moonbase/search",
+      "service": "moonbase",
+      "fictional": true,
+      "summary": "Fictional lunar habitat occupancy and airlock status",
+      "doc": "docs/moonbase.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moonbase/lookup",
+      "service": "moonbase",
+      "fictional": true,
+      "summary": "Fictional lunar habitat occupancy and airlock status",
+      "doc": "docs/moonbase.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moonbase/list",
+      "service": "moonbase",
+      "fictional": true,
+      "summary": "Fictional lunar habitat occupancy and airlock status",
+      "doc": "docs/moonbase.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moonbase/moonbase",
+      "service": "moonbase",
+      "fictional": true,
+      "summary": "Fictional lunar habitat occupancy and airlock status",
+      "doc": "docs/moonbase.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/moonbase/health",
+      "service": "moonbase",
+      "fictional": true,
+      "summary": "Fictional lunar habitat occupancy and airlock status",
+      "doc": "docs/moonbase.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/kraken/search",
+      "service": "kraken",
+      "fictional": true,
+      "summary": "Fictional sea-monster sighting reports",
+      "doc": "docs/kraken.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/kraken/lookup",
+      "service": "kraken",
+      "fictional": true,
+      "summary": "Fictional sea-monster sighting reports",
+      "doc": "docs/kraken.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/kraken/list",
+      "service": "kraken",
+      "fictional": true,
+      "summary": "Fictional sea-monster sighting reports",
+      "doc": "docs/kraken.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/kraken/kraken",
+      "service": "kraken",
+      "fictional": true,
+      "summary": "Fictional sea-monster sighting reports",
+      "doc": "docs/kraken.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/kraken/health",
+      "service": "kraken",
+      "fictional": true,
+      "summary": "Fictional sea-monster sighting reports",
+      "doc": "docs/kraken.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starship/search",
+      "service": "starship",
+      "fictional": true,
+      "summary": "Fictional vessel registry and jump-drive status",
+      "doc": "docs/starship.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starship/lookup",
+      "service": "starship",
+      "fictional": true,
+      "summary": "Fictional vessel registry and jump-drive status",
+      "doc": "docs/starship.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starship/list",
+      "service": "starship",
+      "fictional": true,
+      "summary": "Fictional vessel registry and jump-drive status",
+      "doc": "docs/starship.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starship/starship",
+      "service": "starship",
+      "fictional": true,
+      "summary": "Fictional vessel registry and jump-drive status",
+      "doc": "docs/starship.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/starship/health",
+      "service": "starship",
+      "fictional": true,
+      "summary": "Fictional vessel registry and jump-drive status",
+      "doc": "docs/starship.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/hologram/search",
+      "service": "hologram",
+      "fictional": true,
+      "summary": "Fictional hologram scene metadata",
+      "doc": "docs/hologram.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/hologram/lookup",
+      "service": "hologram",
+      "fictional": true,
+      "summary": "Fictional hologram scene metadata",
+      "doc": "docs/hologram.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/hologram/list",
+      "service": "hologram",
+      "fictional": true,
+      "summary": "Fictional hologram scene metadata",
+      "doc": "docs/hologram.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/hologram/hologram",
+      "service": "hologram",
+      "fictional": true,
+      "summary": "Fictional hologram scene metadata",
+      "doc": "docs/hologram.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/hologram/health",
+      "service": "hologram",
+      "fictional": true,
+      "summary": "Fictional hologram scene metadata",
+      "doc": "docs/hologram.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloning/search",
+      "service": "cloning",
+      "fictional": true,
+      "summary": "Fictional clone batch labels, not a biological protocol",
+      "doc": "docs/cloning.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloning/lookup",
+      "service": "cloning",
+      "fictional": true,
+      "summary": "Fictional clone batch labels, not a biological protocol",
+      "doc": "docs/cloning.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloning/list",
+      "service": "cloning",
+      "fictional": true,
+      "summary": "Fictional clone batch labels, not a biological protocol",
+      "doc": "docs/cloning.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloning/cloning",
+      "service": "cloning",
+      "fictional": true,
+      "summary": "Fictional clone batch labels, not a biological protocol",
+      "doc": "docs/cloning.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cloning/health",
+      "service": "cloning",
+      "fictional": true,
+      "summary": "Fictional clone batch labels, not a biological protocol",
+      "doc": "docs/cloning.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather-control/search",
+      "service": "weather-control",
+      "fictional": true,
+      "summary": "Fictional weather-dial settings for story worlds",
+      "doc": "docs/weather-control.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather-control/lookup",
+      "service": "weather-control",
+      "fictional": true,
+      "summary": "Fictional weather-dial settings for story worlds",
+      "doc": "docs/weather-control.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather-control/list",
+      "service": "weather-control",
+      "fictional": true,
+      "summary": "Fictional weather-dial settings for story worlds",
+      "doc": "docs/weather-control.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather-control/weather-control",
+      "service": "weather-control",
+      "fictional": true,
+      "summary": "Fictional weather-dial settings for story worlds",
+      "doc": "docs/weather-control.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/weather-control/health",
+      "service": "weather-control",
+      "fictional": true,
+      "summary": "Fictional weather-dial settings for story worlds",
+      "doc": "docs/weather-control.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gravity/search",
+      "service": "gravity",
+      "fictional": true,
+      "summary": "Fictional local gravity multipliers",
+      "doc": "docs/gravity.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gravity/lookup",
+      "service": "gravity",
+      "fictional": true,
+      "summary": "Fictional local gravity multipliers",
+      "doc": "docs/gravity.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gravity/list",
+      "service": "gravity",
+      "fictional": true,
+      "summary": "Fictional local gravity multipliers",
+      "doc": "docs/gravity.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gravity/gravity",
+      "service": "gravity",
+      "fictional": true,
+      "summary": "Fictional local gravity multipliers",
+      "doc": "docs/gravity.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/gravity/health",
+      "service": "gravity",
+      "fictional": true,
+      "summary": "Fictional local gravity multipliers",
+      "doc": "docs/gravity.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/shapeshift/search",
+      "service": "shapeshift",
+      "fictional": true,
+      "summary": "Fictional form catalog and cooldown timers",
+      "doc": "docs/shapeshift.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/shapeshift/lookup",
+      "service": "shapeshift",
+      "fictional": true,
+      "summary": "Fictional form catalog and cooldown timers",
+      "doc": "docs/shapeshift.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/shapeshift/list",
+      "service": "shapeshift",
+      "fictional": true,
+      "summary": "Fictional form catalog and cooldown timers",
+      "doc": "docs/shapeshift.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/shapeshift/shapeshift",
+      "service": "shapeshift",
+      "fictional": true,
+      "summary": "Fictional form catalog and cooldown timers",
+      "doc": "docs/shapeshift.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/shapeshift/health",
+      "service": "shapeshift",
+      "fictional": true,
+      "summary": "Fictional form catalog and cooldown timers",
+      "doc": "docs/shapeshift.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/familiars/search",
+      "service": "familiars",
+      "fictional": true,
+      "summary": "Fictional companion creature registry",
+      "doc": "docs/familiars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/familiars/lookup",
+      "service": "familiars",
+      "fictional": true,
+      "summary": "Fictional companion creature registry",
+      "doc": "docs/familiars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/familiars/list",
+      "service": "familiars",
+      "fictional": true,
+      "summary": "Fictional companion creature registry",
+      "doc": "docs/familiars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/familiars/familiars",
+      "service": "familiars",
+      "fictional": true,
+      "summary": "Fictional companion creature registry",
+      "doc": "docs/familiars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/familiars/health",
+      "service": "familiars",
+      "fictional": true,
+      "summary": "Fictional companion creature registry",
+      "doc": "docs/familiars.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phoenix/search",
+      "service": "phoenix",
+      "fictional": true,
+      "summary": "Fictional rebirth cycle counters",
+      "doc": "docs/phoenix.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phoenix/lookup",
+      "service": "phoenix",
+      "fictional": true,
+      "summary": "Fictional rebirth cycle counters",
+      "doc": "docs/phoenix.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phoenix/list",
+      "service": "phoenix",
+      "fictional": true,
+      "summary": "Fictional rebirth cycle counters",
+      "doc": "docs/phoenix.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phoenix/phoenix",
+      "service": "phoenix",
+      "fictional": true,
+      "summary": "Fictional rebirth cycle counters",
+      "doc": "docs/phoenix.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/phoenix/health",
+      "service": "phoenix",
+      "fictional": true,
+      "summary": "Fictional rebirth cycle counters",
+      "doc": "docs/phoenix.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/merfolk/search",
+      "service": "merfolk",
+      "fictional": true,
+      "summary": "Fictional underwater city directories",
+      "doc": "docs/merfolk.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/merfolk/lookup",
+      "service": "merfolk",
+      "fictional": true,
+      "summary": "Fictional underwater city directories",
+      "doc": "docs/merfolk.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/merfolk/list",
+      "service": "merfolk",
+      "fictional": true,
+      "summary": "Fictional underwater city directories",
+      "doc": "docs/merfolk.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/merfolk/merfolk",
+      "service": "merfolk",
+      "fictional": true,
+      "summary": "Fictional underwater city directories",
+      "doc": "docs/merfolk.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/merfolk/health",
+      "service": "merfolk",
+      "fictional": true,
+      "summary": "Fictional underwater city directories",
+      "doc": "docs/merfolk.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/unicorns/search",
+      "service": "unicorns",
+      "fictional": true,
+      "summary": "Fictional grove permits and horn-sparkle indexes",
+      "doc": "docs/unicorns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/unicorns/lookup",
+      "service": "unicorns",
+      "fictional": true,
+      "summary": "Fictional grove permits and horn-sparkle indexes",
+      "doc": "docs/unicorns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/unicorns/list",
+      "service": "unicorns",
+      "fictional": true,
+      "summary": "Fictional grove permits and horn-sparkle indexes",
+      "doc": "docs/unicorns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/unicorns/unicorns",
+      "service": "unicorns",
+      "fictional": true,
+      "summary": "Fictional grove permits and horn-sparkle indexes",
+      "doc": "docs/unicorns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/unicorns/health",
+      "service": "unicorns",
+      "fictional": true,
+      "summary": "Fictional grove permits and horn-sparkle indexes",
+      "doc": "docs/unicorns.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ghosts/search",
+      "service": "ghosts",
+      "fictional": true,
+      "summary": "Fictional haunting location cards",
+      "doc": "docs/ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ghosts/lookup",
+      "service": "ghosts",
+      "fictional": true,
+      "summary": "Fictional haunting location cards",
+      "doc": "docs/ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ghosts/list",
+      "service": "ghosts",
+      "fictional": true,
+      "summary": "Fictional haunting location cards",
+      "doc": "docs/ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ghosts/ghosts",
+      "service": "ghosts",
+      "fictional": true,
+      "summary": "Fictional haunting location cards",
+      "doc": "docs/ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ghosts/health",
+      "service": "ghosts",
+      "fictional": true,
+      "summary": "Fictional haunting location cards",
+      "doc": "docs/ghosts.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/potions/search",
+      "service": "potions",
+      "fictional": true,
+      "summary": "Fictional bottle labels and story effects",
+      "doc": "docs/potions.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/potions/lookup",
+      "service": "potions",
+      "fictional": true,
+      "summary": "Fictional bottle labels and story effects",
+      "doc": "docs/potions.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/potions/list",
+      "service": "potions",
+      "fictional": true,
+      "summary": "Fictional bottle labels and story effects",
+      "doc": "docs/potions.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/potions/potions",
+      "service": "potions",
+      "fictional": true,
+      "summary": "Fictional bottle labels and story effects",
+      "doc": "docs/potions.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/potions/health",
+      "service": "potions",
+      "fictional": true,
+      "summary": "Fictional bottle labels and story effects",
+      "doc": "docs/potions.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/runes/search",
+      "service": "runes",
+      "fictional": true,
+      "summary": "Fictional rune dictionary for invented alphabets",
+      "doc": "docs/runes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/runes/lookup",
+      "service": "runes",
+      "fictional": true,
+      "summary": "Fictional rune dictionary for invented alphabets",
+      "doc": "docs/runes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/runes/list",
+      "service": "runes",
+      "fictional": true,
+      "summary": "Fictional rune dictionary for invented alphabets",
+      "doc": "docs/runes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/runes/runes",
+      "service": "runes",
+      "fictional": true,
+      "summary": "Fictional rune dictionary for invented alphabets",
+      "doc": "docs/runes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/runes/health",
+      "service": "runes",
+      "fictional": true,
+      "summary": "Fictional rune dictionary for invented alphabets",
+      "doc": "docs/runes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wormholes/search",
+      "service": "wormholes",
+      "fictional": true,
+      "summary": "Fictional tunnel maps between made-up systems",
+      "doc": "docs/wormholes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wormholes/lookup",
+      "service": "wormholes",
+      "fictional": true,
+      "summary": "Fictional tunnel maps between made-up systems",
+      "doc": "docs/wormholes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wormholes/list",
+      "service": "wormholes",
+      "fictional": true,
+      "summary": "Fictional tunnel maps between made-up systems",
+      "doc": "docs/wormholes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wormholes/wormholes",
+      "service": "wormholes",
+      "fictional": true,
+      "summary": "Fictional tunnel maps between made-up systems",
+      "doc": "docs/wormholes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/wormholes/health",
+      "service": "wormholes",
+      "fictional": true,
+      "summary": "Fictional tunnel maps between made-up systems",
+      "doc": "docs/wormholes.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/androids/search",
+      "service": "androids",
+      "fictional": true,
+      "summary": "Fictional android serial metadata",
+      "doc": "docs/androids.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/androids/lookup",
+      "service": "androids",
+      "fictional": true,
+      "summary": "Fictional android serial metadata",
+      "doc": "docs/androids.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/androids/list",
+      "service": "androids",
+      "fictional": true,
+      "summary": "Fictional android serial metadata",
+      "doc": "docs/androids.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/androids/androids",
+      "service": "androids",
+      "fictional": true,
+      "summary": "Fictional android serial metadata",
+      "doc": "docs/androids.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/androids/health",
+      "service": "androids",
+      "fictional": true,
+      "summary": "Fictional android serial metadata",
+      "doc": "docs/androids.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nanobots/search",
+      "service": "nanobots",
+      "fictional": true,
+      "summary": "Fictional swarm names and story task tags",
+      "doc": "docs/nanobots.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nanobots/lookup",
+      "service": "nanobots",
+      "fictional": true,
+      "summary": "Fictional swarm names and story task tags",
+      "doc": "docs/nanobots.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nanobots/list",
+      "service": "nanobots",
+      "fictional": true,
+      "summary": "Fictional swarm names and story task tags",
+      "doc": "docs/nanobots.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nanobots/nanobots",
+      "service": "nanobots",
+      "fictional": true,
+      "summary": "Fictional swarm names and story task tags",
+      "doc": "docs/nanobots.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/nanobots/health",
+      "service": "nanobots",
+      "fictional": true,
+      "summary": "Fictional swarm names and story task tags",
+      "doc": "docs/nanobots.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cryosleep/search",
+      "service": "cryosleep",
+      "fictional": true,
+      "summary": "Fictional pod occupancy for fictional crews",
+      "doc": "docs/cryosleep.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cryosleep/lookup",
+      "service": "cryosleep",
+      "fictional": true,
+      "summary": "Fictional pod occupancy for fictional crews",
+      "doc": "docs/cryosleep.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cryosleep/list",
+      "service": "cryosleep",
+      "fictional": true,
+      "summary": "Fictional pod occupancy for fictional crews",
+      "doc": "docs/cryosleep.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cryosleep/cryosleep",
+      "service": "cryosleep",
+      "fictional": true,
+      "summary": "Fictional pod occupancy for fictional crews",
+      "doc": "docs/cryosleep.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/cryosleep/health",
+      "service": "cryosleep",
+      "fictional": true,
+      "summary": "Fictional pod occupancy for fictional crews",
+      "doc": "docs/cryosleep.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/terraforming/search",
+      "service": "terraforming",
+      "fictional": true,
+      "summary": "Fictional planet climate stage labels",
+      "doc": "docs/terraforming.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/terraforming/lookup",
+      "service": "terraforming",
+      "fictional": true,
+      "summary": "Fictional planet climate stage labels",
+      "doc": "docs/terraforming.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/terraforming/list",
+      "service": "terraforming",
+      "fictional": true,
+      "summary": "Fictional planet climate stage labels",
+      "doc": "docs/terraforming.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/terraforming/terraforming",
+      "service": "terraforming",
+      "fictional": true,
+      "summary": "Fictional planet climate stage labels",
+      "doc": "docs/terraforming.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/terraforming/health",
+      "service": "terraforming",
+      "fictional": true,
+      "summary": "Fictional planet climate stage labels",
+      "doc": "docs/terraforming.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/spellbooks/search",
+      "service": "spellbooks",
+      "fictional": true,
+      "summary": "Fictional spell index with invented names only",
+      "doc": "docs/spellbooks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/spellbooks/lookup",
+      "service": "spellbooks",
+      "fictional": true,
+      "summary": "Fictional spell index with invented names only",
+      "doc": "docs/spellbooks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/spellbooks/list",
+      "service": "spellbooks",
+      "fictional": true,
+      "summary": "Fictional spell index with invented names only",
+      "doc": "docs/spellbooks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/spellbooks/spellbooks",
+      "service": "spellbooks",
+      "fictional": true,
+      "summary": "Fictional spell index with invented names only",
+      "doc": "docs/spellbooks.md"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/spellbooks/health",
+      "service": "spellbooks",
+      "fictional": true,
+      "summary": "Fictional spell index with invented names only",
+      "doc": "docs/spellbooks.md"
     }
   ]
 }

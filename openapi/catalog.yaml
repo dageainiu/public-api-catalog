@@ -5207,3 +5207,4053 @@ paths:
       responses:
         200:
           description: "JSON catalog document"
+  /v1/dragons/search:
+    get:
+      operationId: "dragons_search"
+      summary: "Fictional dragons search"
+      tags:
+        - "dragons"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dragons/lookup:
+    get:
+      operationId: "dragons_lookup"
+      summary: "Fictional dragons lookup"
+      tags:
+        - "dragons"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dragons/list:
+    get:
+      operationId: "dragons_list"
+      summary: "Fictional dragons list"
+      tags:
+        - "dragons"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dragons/dragons:
+    get:
+      operationId: "dragons_dragons"
+      summary: "Fictional dragons dragons"
+      tags:
+        - "dragons"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dragons/health:
+    get:
+      operationId: "dragons_health"
+      summary: "Fictional dragons health"
+      tags:
+        - "dragons"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/time-travel/search:
+    get:
+      operationId: "time_travel_search"
+      summary: "Fictional time-travel search"
+      tags:
+        - "time-travel"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/time-travel/lookup:
+    get:
+      operationId: "time_travel_lookup"
+      summary: "Fictional time-travel lookup"
+      tags:
+        - "time-travel"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/time-travel/list:
+    get:
+      operationId: "time_travel_list"
+      summary: "Fictional time-travel list"
+      tags:
+        - "time-travel"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/time-travel/time-travel:
+    get:
+      operationId: "time_travel_time_travel"
+      summary: "Fictional time-travel time-travel"
+      tags:
+        - "time-travel"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/time-travel/health:
+    get:
+      operationId: "time_travel_health"
+      summary: "Fictional time-travel health"
+      tags:
+        - "time-travel"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/alchemy/search:
+    get:
+      operationId: "alchemy_search"
+      summary: "Fictional alchemy search"
+      tags:
+        - "alchemy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/alchemy/lookup:
+    get:
+      operationId: "alchemy_lookup"
+      summary: "Fictional alchemy lookup"
+      tags:
+        - "alchemy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/alchemy/list:
+    get:
+      operationId: "alchemy_list"
+      summary: "Fictional alchemy list"
+      tags:
+        - "alchemy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/alchemy/alchemy:
+    get:
+      operationId: "alchemy_alchemy"
+      summary: "Fictional alchemy alchemy"
+      tags:
+        - "alchemy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/alchemy/health:
+    get:
+      operationId: "alchemy_health"
+      summary: "Fictional alchemy health"
+      tags:
+        - "alchemy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/telepathy/search:
+    get:
+      operationId: "telepathy_search"
+      summary: "Fictional telepathy search"
+      tags:
+        - "telepathy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/telepathy/lookup:
+    get:
+      operationId: "telepathy_lookup"
+      summary: "Fictional telepathy lookup"
+      tags:
+        - "telepathy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/telepathy/list:
+    get:
+      operationId: "telepathy_list"
+      summary: "Fictional telepathy list"
+      tags:
+        - "telepathy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/telepathy/telepathy:
+    get:
+      operationId: "telepathy_telepathy"
+      summary: "Fictional telepathy telepathy"
+      tags:
+        - "telepathy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/telepathy/health:
+    get:
+      operationId: "telepathy_health"
+      summary: "Fictional telepathy health"
+      tags:
+        - "telepathy"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/portals/search:
+    get:
+      operationId: "portals_search"
+      summary: "Fictional portals search"
+      tags:
+        - "portals"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/portals/lookup:
+    get:
+      operationId: "portals_lookup"
+      summary: "Fictional portals lookup"
+      tags:
+        - "portals"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/portals/list:
+    get:
+      operationId: "portals_list"
+      summary: "Fictional portals list"
+      tags:
+        - "portals"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/portals/portals:
+    get:
+      operationId: "portals_portals"
+      summary: "Fictional portals portals"
+      tags:
+        - "portals"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/portals/health:
+    get:
+      operationId: "portals_health"
+      summary: "Fictional portals health"
+      tags:
+        - "portals"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dream-log/search:
+    get:
+      operationId: "dream_log_search"
+      summary: "Fictional dream-log search"
+      tags:
+        - "dream-log"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dream-log/lookup:
+    get:
+      operationId: "dream_log_lookup"
+      summary: "Fictional dream-log lookup"
+      tags:
+        - "dream-log"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dream-log/list:
+    get:
+      operationId: "dream_log_list"
+      summary: "Fictional dream-log list"
+      tags:
+        - "dream-log"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dream-log/dream-log:
+    get:
+      operationId: "dream_log_dream_log"
+      summary: "Fictional dream-log dream-log"
+      tags:
+        - "dream-log"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/dream-log/health:
+    get:
+      operationId: "dream_log_health"
+      summary: "Fictional dream-log health"
+      tags:
+        - "dream-log"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/invisibility/search:
+    get:
+      operationId: "invisibility_search"
+      summary: "Fictional invisibility search"
+      tags:
+        - "invisibility"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/invisibility/lookup:
+    get:
+      operationId: "invisibility_lookup"
+      summary: "Fictional invisibility lookup"
+      tags:
+        - "invisibility"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/invisibility/list:
+    get:
+      operationId: "invisibility_list"
+      summary: "Fictional invisibility list"
+      tags:
+        - "invisibility"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/invisibility/invisibility:
+    get:
+      operationId: "invisibility_invisibility"
+      summary: "Fictional invisibility invisibility"
+      tags:
+        - "invisibility"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/invisibility/health:
+    get:
+      operationId: "invisibility_health"
+      summary: "Fictional invisibility health"
+      tags:
+        - "invisibility"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/levitation/search:
+    get:
+      operationId: "levitation_search"
+      summary: "Fictional levitation search"
+      tags:
+        - "levitation"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/levitation/lookup:
+    get:
+      operationId: "levitation_lookup"
+      summary: "Fictional levitation lookup"
+      tags:
+        - "levitation"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/levitation/list:
+    get:
+      operationId: "levitation_list"
+      summary: "Fictional levitation list"
+      tags:
+        - "levitation"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/levitation/levitation:
+    get:
+      operationId: "levitation_levitation"
+      summary: "Fictional levitation levitation"
+      tags:
+        - "levitation"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/levitation/health:
+    get:
+      operationId: "levitation_health"
+      summary: "Fictional levitation health"
+      tags:
+        - "levitation"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/oracle/search:
+    get:
+      operationId: "oracle_search"
+      summary: "Fictional oracle search"
+      tags:
+        - "oracle"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/oracle/lookup:
+    get:
+      operationId: "oracle_lookup"
+      summary: "Fictional oracle lookup"
+      tags:
+        - "oracle"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/oracle/list:
+    get:
+      operationId: "oracle_list"
+      summary: "Fictional oracle list"
+      tags:
+        - "oracle"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/oracle/oracle:
+    get:
+      operationId: "oracle_oracle"
+      summary: "Fictional oracle oracle"
+      tags:
+        - "oracle"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/oracle/health:
+    get:
+      operationId: "oracle_health"
+      summary: "Fictional oracle health"
+      tags:
+        - "oracle"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/moonbase/search:
+    get:
+      operationId: "moonbase_search"
+      summary: "Fictional moonbase search"
+      tags:
+        - "moonbase"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/moonbase/lookup:
+    get:
+      operationId: "moonbase_lookup"
+      summary: "Fictional moonbase lookup"
+      tags:
+        - "moonbase"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/moonbase/list:
+    get:
+      operationId: "moonbase_list"
+      summary: "Fictional moonbase list"
+      tags:
+        - "moonbase"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/moonbase/moonbase:
+    get:
+      operationId: "moonbase_moonbase"
+      summary: "Fictional moonbase moonbase"
+      tags:
+        - "moonbase"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/moonbase/health:
+    get:
+      operationId: "moonbase_health"
+      summary: "Fictional moonbase health"
+      tags:
+        - "moonbase"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/kraken/search:
+    get:
+      operationId: "kraken_search"
+      summary: "Fictional kraken search"
+      tags:
+        - "kraken"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/kraken/lookup:
+    get:
+      operationId: "kraken_lookup"
+      summary: "Fictional kraken lookup"
+      tags:
+        - "kraken"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/kraken/list:
+    get:
+      operationId: "kraken_list"
+      summary: "Fictional kraken list"
+      tags:
+        - "kraken"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/kraken/kraken:
+    get:
+      operationId: "kraken_kraken"
+      summary: "Fictional kraken kraken"
+      tags:
+        - "kraken"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/kraken/health:
+    get:
+      operationId: "kraken_health"
+      summary: "Fictional kraken health"
+      tags:
+        - "kraken"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/starship/search:
+    get:
+      operationId: "starship_search"
+      summary: "Fictional starship search"
+      tags:
+        - "starship"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/starship/lookup:
+    get:
+      operationId: "starship_lookup"
+      summary: "Fictional starship lookup"
+      tags:
+        - "starship"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/starship/list:
+    get:
+      operationId: "starship_list"
+      summary: "Fictional starship list"
+      tags:
+        - "starship"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/starship/starship:
+    get:
+      operationId: "starship_starship"
+      summary: "Fictional starship starship"
+      tags:
+        - "starship"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/starship/health:
+    get:
+      operationId: "starship_health"
+      summary: "Fictional starship health"
+      tags:
+        - "starship"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/hologram/search:
+    get:
+      operationId: "hologram_search"
+      summary: "Fictional hologram search"
+      tags:
+        - "hologram"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/hologram/lookup:
+    get:
+      operationId: "hologram_lookup"
+      summary: "Fictional hologram lookup"
+      tags:
+        - "hologram"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/hologram/list:
+    get:
+      operationId: "hologram_list"
+      summary: "Fictional hologram list"
+      tags:
+        - "hologram"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/hologram/hologram:
+    get:
+      operationId: "hologram_hologram"
+      summary: "Fictional hologram hologram"
+      tags:
+        - "hologram"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/hologram/health:
+    get:
+      operationId: "hologram_health"
+      summary: "Fictional hologram health"
+      tags:
+        - "hologram"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cloning/search:
+    get:
+      operationId: "cloning_search"
+      summary: "Fictional cloning search"
+      tags:
+        - "cloning"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cloning/lookup:
+    get:
+      operationId: "cloning_lookup"
+      summary: "Fictional cloning lookup"
+      tags:
+        - "cloning"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cloning/list:
+    get:
+      operationId: "cloning_list"
+      summary: "Fictional cloning list"
+      tags:
+        - "cloning"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cloning/cloning:
+    get:
+      operationId: "cloning_cloning"
+      summary: "Fictional cloning cloning"
+      tags:
+        - "cloning"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cloning/health:
+    get:
+      operationId: "cloning_health"
+      summary: "Fictional cloning health"
+      tags:
+        - "cloning"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/weather-control/search:
+    get:
+      operationId: "weather_control_search"
+      summary: "Fictional weather-control search"
+      tags:
+        - "weather-control"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/weather-control/lookup:
+    get:
+      operationId: "weather_control_lookup"
+      summary: "Fictional weather-control lookup"
+      tags:
+        - "weather-control"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/weather-control/list:
+    get:
+      operationId: "weather_control_list"
+      summary: "Fictional weather-control list"
+      tags:
+        - "weather-control"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/weather-control/weather-control:
+    get:
+      operationId: "weather_control_weather_control"
+      summary: "Fictional weather-control weather-control"
+      tags:
+        - "weather-control"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/weather-control/health:
+    get:
+      operationId: "weather_control_health"
+      summary: "Fictional weather-control health"
+      tags:
+        - "weather-control"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/gravity/search:
+    get:
+      operationId: "gravity_search"
+      summary: "Fictional gravity search"
+      tags:
+        - "gravity"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/gravity/lookup:
+    get:
+      operationId: "gravity_lookup"
+      summary: "Fictional gravity lookup"
+      tags:
+        - "gravity"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/gravity/list:
+    get:
+      operationId: "gravity_list"
+      summary: "Fictional gravity list"
+      tags:
+        - "gravity"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/gravity/gravity:
+    get:
+      operationId: "gravity_gravity"
+      summary: "Fictional gravity gravity"
+      tags:
+        - "gravity"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/gravity/health:
+    get:
+      operationId: "gravity_health"
+      summary: "Fictional gravity health"
+      tags:
+        - "gravity"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/shapeshift/search:
+    get:
+      operationId: "shapeshift_search"
+      summary: "Fictional shapeshift search"
+      tags:
+        - "shapeshift"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/shapeshift/lookup:
+    get:
+      operationId: "shapeshift_lookup"
+      summary: "Fictional shapeshift lookup"
+      tags:
+        - "shapeshift"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/shapeshift/list:
+    get:
+      operationId: "shapeshift_list"
+      summary: "Fictional shapeshift list"
+      tags:
+        - "shapeshift"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/shapeshift/shapeshift:
+    get:
+      operationId: "shapeshift_shapeshift"
+      summary: "Fictional shapeshift shapeshift"
+      tags:
+        - "shapeshift"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/shapeshift/health:
+    get:
+      operationId: "shapeshift_health"
+      summary: "Fictional shapeshift health"
+      tags:
+        - "shapeshift"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/familiars/search:
+    get:
+      operationId: "familiars_search"
+      summary: "Fictional familiars search"
+      tags:
+        - "familiars"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/familiars/lookup:
+    get:
+      operationId: "familiars_lookup"
+      summary: "Fictional familiars lookup"
+      tags:
+        - "familiars"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/familiars/list:
+    get:
+      operationId: "familiars_list"
+      summary: "Fictional familiars list"
+      tags:
+        - "familiars"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/familiars/familiars:
+    get:
+      operationId: "familiars_familiars"
+      summary: "Fictional familiars familiars"
+      tags:
+        - "familiars"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/familiars/health:
+    get:
+      operationId: "familiars_health"
+      summary: "Fictional familiars health"
+      tags:
+        - "familiars"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/phoenix/search:
+    get:
+      operationId: "phoenix_search"
+      summary: "Fictional phoenix search"
+      tags:
+        - "phoenix"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/phoenix/lookup:
+    get:
+      operationId: "phoenix_lookup"
+      summary: "Fictional phoenix lookup"
+      tags:
+        - "phoenix"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/phoenix/list:
+    get:
+      operationId: "phoenix_list"
+      summary: "Fictional phoenix list"
+      tags:
+        - "phoenix"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/phoenix/phoenix:
+    get:
+      operationId: "phoenix_phoenix"
+      summary: "Fictional phoenix phoenix"
+      tags:
+        - "phoenix"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/phoenix/health:
+    get:
+      operationId: "phoenix_health"
+      summary: "Fictional phoenix health"
+      tags:
+        - "phoenix"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/merfolk/search:
+    get:
+      operationId: "merfolk_search"
+      summary: "Fictional merfolk search"
+      tags:
+        - "merfolk"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/merfolk/lookup:
+    get:
+      operationId: "merfolk_lookup"
+      summary: "Fictional merfolk lookup"
+      tags:
+        - "merfolk"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/merfolk/list:
+    get:
+      operationId: "merfolk_list"
+      summary: "Fictional merfolk list"
+      tags:
+        - "merfolk"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/merfolk/merfolk:
+    get:
+      operationId: "merfolk_merfolk"
+      summary: "Fictional merfolk merfolk"
+      tags:
+        - "merfolk"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/merfolk/health:
+    get:
+      operationId: "merfolk_health"
+      summary: "Fictional merfolk health"
+      tags:
+        - "merfolk"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/unicorns/search:
+    get:
+      operationId: "unicorns_search"
+      summary: "Fictional unicorns search"
+      tags:
+        - "unicorns"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/unicorns/lookup:
+    get:
+      operationId: "unicorns_lookup"
+      summary: "Fictional unicorns lookup"
+      tags:
+        - "unicorns"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/unicorns/list:
+    get:
+      operationId: "unicorns_list"
+      summary: "Fictional unicorns list"
+      tags:
+        - "unicorns"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/unicorns/unicorns:
+    get:
+      operationId: "unicorns_unicorns"
+      summary: "Fictional unicorns unicorns"
+      tags:
+        - "unicorns"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/unicorns/health:
+    get:
+      operationId: "unicorns_health"
+      summary: "Fictional unicorns health"
+      tags:
+        - "unicorns"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/ghosts/search:
+    get:
+      operationId: "ghosts_search"
+      summary: "Fictional ghosts search"
+      tags:
+        - "ghosts"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/ghosts/lookup:
+    get:
+      operationId: "ghosts_lookup"
+      summary: "Fictional ghosts lookup"
+      tags:
+        - "ghosts"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/ghosts/list:
+    get:
+      operationId: "ghosts_list"
+      summary: "Fictional ghosts list"
+      tags:
+        - "ghosts"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/ghosts/ghosts:
+    get:
+      operationId: "ghosts_ghosts"
+      summary: "Fictional ghosts ghosts"
+      tags:
+        - "ghosts"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/ghosts/health:
+    get:
+      operationId: "ghosts_health"
+      summary: "Fictional ghosts health"
+      tags:
+        - "ghosts"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/potions/search:
+    get:
+      operationId: "potions_search"
+      summary: "Fictional potions search"
+      tags:
+        - "potions"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/potions/lookup:
+    get:
+      operationId: "potions_lookup"
+      summary: "Fictional potions lookup"
+      tags:
+        - "potions"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/potions/list:
+    get:
+      operationId: "potions_list"
+      summary: "Fictional potions list"
+      tags:
+        - "potions"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/potions/potions:
+    get:
+      operationId: "potions_potions"
+      summary: "Fictional potions potions"
+      tags:
+        - "potions"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/potions/health:
+    get:
+      operationId: "potions_health"
+      summary: "Fictional potions health"
+      tags:
+        - "potions"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/runes/search:
+    get:
+      operationId: "runes_search"
+      summary: "Fictional runes search"
+      tags:
+        - "runes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/runes/lookup:
+    get:
+      operationId: "runes_lookup"
+      summary: "Fictional runes lookup"
+      tags:
+        - "runes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/runes/list:
+    get:
+      operationId: "runes_list"
+      summary: "Fictional runes list"
+      tags:
+        - "runes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/runes/runes:
+    get:
+      operationId: "runes_runes"
+      summary: "Fictional runes runes"
+      tags:
+        - "runes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/runes/health:
+    get:
+      operationId: "runes_health"
+      summary: "Fictional runes health"
+      tags:
+        - "runes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/wormholes/search:
+    get:
+      operationId: "wormholes_search"
+      summary: "Fictional wormholes search"
+      tags:
+        - "wormholes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/wormholes/lookup:
+    get:
+      operationId: "wormholes_lookup"
+      summary: "Fictional wormholes lookup"
+      tags:
+        - "wormholes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/wormholes/list:
+    get:
+      operationId: "wormholes_list"
+      summary: "Fictional wormholes list"
+      tags:
+        - "wormholes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/wormholes/wormholes:
+    get:
+      operationId: "wormholes_wormholes"
+      summary: "Fictional wormholes wormholes"
+      tags:
+        - "wormholes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/wormholes/health:
+    get:
+      operationId: "wormholes_health"
+      summary: "Fictional wormholes health"
+      tags:
+        - "wormholes"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/androids/search:
+    get:
+      operationId: "androids_search"
+      summary: "Fictional androids search"
+      tags:
+        - "androids"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/androids/lookup:
+    get:
+      operationId: "androids_lookup"
+      summary: "Fictional androids lookup"
+      tags:
+        - "androids"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/androids/list:
+    get:
+      operationId: "androids_list"
+      summary: "Fictional androids list"
+      tags:
+        - "androids"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/androids/androids:
+    get:
+      operationId: "androids_androids"
+      summary: "Fictional androids androids"
+      tags:
+        - "androids"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/androids/health:
+    get:
+      operationId: "androids_health"
+      summary: "Fictional androids health"
+      tags:
+        - "androids"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/nanobots/search:
+    get:
+      operationId: "nanobots_search"
+      summary: "Fictional nanobots search"
+      tags:
+        - "nanobots"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/nanobots/lookup:
+    get:
+      operationId: "nanobots_lookup"
+      summary: "Fictional nanobots lookup"
+      tags:
+        - "nanobots"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/nanobots/list:
+    get:
+      operationId: "nanobots_list"
+      summary: "Fictional nanobots list"
+      tags:
+        - "nanobots"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/nanobots/nanobots:
+    get:
+      operationId: "nanobots_nanobots"
+      summary: "Fictional nanobots nanobots"
+      tags:
+        - "nanobots"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/nanobots/health:
+    get:
+      operationId: "nanobots_health"
+      summary: "Fictional nanobots health"
+      tags:
+        - "nanobots"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cryosleep/search:
+    get:
+      operationId: "cryosleep_search"
+      summary: "Fictional cryosleep search"
+      tags:
+        - "cryosleep"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cryosleep/lookup:
+    get:
+      operationId: "cryosleep_lookup"
+      summary: "Fictional cryosleep lookup"
+      tags:
+        - "cryosleep"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cryosleep/list:
+    get:
+      operationId: "cryosleep_list"
+      summary: "Fictional cryosleep list"
+      tags:
+        - "cryosleep"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cryosleep/cryosleep:
+    get:
+      operationId: "cryosleep_cryosleep"
+      summary: "Fictional cryosleep cryosleep"
+      tags:
+        - "cryosleep"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/cryosleep/health:
+    get:
+      operationId: "cryosleep_health"
+      summary: "Fictional cryosleep health"
+      tags:
+        - "cryosleep"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/terraforming/search:
+    get:
+      operationId: "terraforming_search"
+      summary: "Fictional terraforming search"
+      tags:
+        - "terraforming"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/terraforming/lookup:
+    get:
+      operationId: "terraforming_lookup"
+      summary: "Fictional terraforming lookup"
+      tags:
+        - "terraforming"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/terraforming/list:
+    get:
+      operationId: "terraforming_list"
+      summary: "Fictional terraforming list"
+      tags:
+        - "terraforming"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/terraforming/terraforming:
+    get:
+      operationId: "terraforming_terraforming"
+      summary: "Fictional terraforming terraforming"
+      tags:
+        - "terraforming"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/terraforming/health:
+    get:
+      operationId: "terraforming_health"
+      summary: "Fictional terraforming health"
+      tags:
+        - "terraforming"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/spellbooks/search:
+    get:
+      operationId: "spellbooks_search"
+      summary: "Fictional spellbooks search"
+      tags:
+        - "spellbooks"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/spellbooks/lookup:
+    get:
+      operationId: "spellbooks_lookup"
+      summary: "Fictional spellbooks lookup"
+      tags:
+        - "spellbooks"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/spellbooks/list:
+    get:
+      operationId: "spellbooks_list"
+      summary: "Fictional spellbooks list"
+      tags:
+        - "spellbooks"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/spellbooks/spellbooks:
+    get:
+      operationId: "spellbooks_spellbooks"
+      summary: "Fictional spellbooks spellbooks"
+      tags:
+        - "spellbooks"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
+  /v1/spellbooks/health:
+    get:
+      operationId: "spellbooks_health"
+      summary: "Fictional spellbooks health"
+      tags:
+        - "spellbooks"
+        - "fictional"
+      parameters:
+        -
+          name: "q"
+          in: "query"
+          schema:
+            type: "string"
+        -
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            default: 20
+        -
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Fictional JSON catalog document"
