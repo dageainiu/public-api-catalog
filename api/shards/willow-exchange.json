@@ -1,0 +1,12 @@
+{
+  "service": "willow-exchange",
+  "fictional": true,
+  "summary": "Fictional riverside desk tickets",
+  "base": "/v1/willow-exchange",
+  "paths": [
+    "/v1/willow-exchange/search",
+    "/v1/willow-exchange/lookup",
+    "/v1/willow-exchange/list",
+    "/v1/willow-exchange/health"
+  ]
+}

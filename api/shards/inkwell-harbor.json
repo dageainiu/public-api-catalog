@@ -1,0 +1,12 @@
+{
+  "service": "inkwell-harbor",
+  "fictional": true,
+  "summary": "Fictional blot-dock arrival slips",
+  "base": "/v1/inkwell-harbor",
+  "paths": [
+    "/v1/inkwell-harbor/search",
+    "/v1/inkwell-harbor/lookup",
+    "/v1/inkwell-harbor/list",
+    "/v1/inkwell-harbor/health"
+  ]
+}

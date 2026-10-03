@@ -1,0 +1,12 @@
+{
+  "service": "harbor-kelpies",
+  "fictional": true,
+  "summary": "Fictional dock kelpie mooring slips",
+  "base": "/v1/harbor-kelpies",
+  "paths": [
+    "/v1/harbor-kelpies/search",
+    "/v1/harbor-kelpies/lookup",
+    "/v1/harbor-kelpies/list",
+    "/v1/harbor-kelpies/health"
+  ]
+}

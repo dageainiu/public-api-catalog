@@ -1,0 +1,12 @@
+{
+  "service": "salt-piano",
+  "fictional": true,
+  "summary": "Fictional brine-key tuning cards",
+  "base": "/v1/salt-piano",
+  "paths": [
+    "/v1/salt-piano/search",
+    "/v1/salt-piano/lookup",
+    "/v1/salt-piano/list",
+    "/v1/salt-piano/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "glass-postmaster",
+  "fictional": true,
+  "summary": "Fictional pane-mail sorting slips",
+  "base": "/v1/glass-postmaster",
+  "paths": [
+    "/v1/glass-postmaster/search",
+    "/v1/glass-postmaster/lookup",
+    "/v1/glass-postmaster/list",
+    "/v1/glass-postmaster/health"
+  ]
+}

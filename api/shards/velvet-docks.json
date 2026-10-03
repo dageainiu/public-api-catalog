@@ -1,0 +1,12 @@
+{
+  "service": "velvet-docks",
+  "fictional": true,
+  "summary": "Fictional night-pier berth slips",
+  "base": "/v1/velvet-docks",
+  "paths": [
+    "/v1/velvet-docks/search",
+    "/v1/velvet-docks/lookup",
+    "/v1/velvet-docks/list",
+    "/v1/velvet-docks/health"
+  ]
+}

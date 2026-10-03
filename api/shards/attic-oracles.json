@@ -1,0 +1,12 @@
+{
+  "service": "attic-oracles",
+  "fictional": true,
+  "summary": "Fictional trunk-label prophecy cards",
+  "base": "/v1/attic-oracles",
+  "paths": [
+    "/v1/attic-oracles/search",
+    "/v1/attic-oracles/lookup",
+    "/v1/attic-oracles/list",
+    "/v1/attic-oracles/health"
+  ]
+}

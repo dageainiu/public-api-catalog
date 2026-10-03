@@ -1,0 +1,12 @@
+{
+  "service": "lantern-archive",
+  "fictional": true,
+  "summary": "Fictional lamp-card call numbers",
+  "base": "/v1/lantern-archive",
+  "paths": [
+    "/v1/lantern-archive/search",
+    "/v1/lantern-archive/lookup",
+    "/v1/lantern-archive/list",
+    "/v1/lantern-archive/health"
+  ]
+}

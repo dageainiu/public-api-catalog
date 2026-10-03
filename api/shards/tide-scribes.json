@@ -1,0 +1,12 @@
+{
+  "service": "tide-scribes",
+  "fictional": true,
+  "summary": "Fictional salt-ledger page ids",
+  "base": "/v1/tide-scribes",
+  "paths": [
+    "/v1/tide-scribes/search",
+    "/v1/tide-scribes/lookup",
+    "/v1/tide-scribes/list",
+    "/v1/tide-scribes/health"
+  ]
+}

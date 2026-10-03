@@ -1,0 +1,12 @@
+{
+  "service": "moss-telegraph",
+  "fictional": true,
+  "summary": "Fictional spore-line station names",
+  "base": "/v1/moss-telegraph",
+  "paths": [
+    "/v1/moss-telegraph/search",
+    "/v1/moss-telegraph/lookup",
+    "/v1/moss-telegraph/list",
+    "/v1/moss-telegraph/health"
+  ]
+}

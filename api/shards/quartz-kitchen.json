@@ -1,0 +1,12 @@
+{
+  "service": "quartz-kitchen",
+  "fictional": true,
+  "summary": "Fictional crystal-pantry shelf ids",
+  "base": "/v1/quartz-kitchen",
+  "paths": [
+    "/v1/quartz-kitchen/search",
+    "/v1/quartz-kitchen/lookup",
+    "/v1/quartz-kitchen/list",
+    "/v1/quartz-kitchen/health"
+  ]
+}

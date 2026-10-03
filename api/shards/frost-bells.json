@@ -1,0 +1,12 @@
+{
+  "service": "frost-bells",
+  "fictional": true,
+  "summary": "Fictional ice-chapel bell schedules",
+  "base": "/v1/frost-bells",
+  "paths": [
+    "/v1/frost-bells/search",
+    "/v1/frost-bells/lookup",
+    "/v1/frost-bells/list",
+    "/v1/frost-bells/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "opal-ferry",
+  "fictional": true,
+  "summary": "Fictional shimmer-boat manifests",
+  "base": "/v1/opal-ferry",
+  "paths": [
+    "/v1/opal-ferry/search",
+    "/v1/opal-ferry/lookup",
+    "/v1/opal-ferry/list",
+    "/v1/opal-ferry/health"
+  ]
+}

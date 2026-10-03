@@ -1,0 +1,12 @@
+{
+  "service": "copper-rain",
+  "fictional": true,
+  "summary": "Fictional gutter-gauge readings",
+  "base": "/v1/copper-rain",
+  "paths": [
+    "/v1/copper-rain/search",
+    "/v1/copper-rain/lookup",
+    "/v1/copper-rain/list",
+    "/v1/copper-rain/health"
+  ]
+}

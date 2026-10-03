@@ -1,0 +1,12 @@
+{
+  "service": "azure-kiln",
+  "fictional": true,
+  "summary": "Fictional sky-clay firing tickets",
+  "base": "/v1/azure-kiln",
+  "paths": [
+    "/v1/azure-kiln/search",
+    "/v1/azure-kiln/lookup",
+    "/v1/azure-kiln/list",
+    "/v1/azure-kiln/health"
+  ]
+}

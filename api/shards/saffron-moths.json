@@ -1,0 +1,12 @@
+{
+  "service": "saffron-moths",
+  "fictional": true,
+  "summary": "Fictional dye-moth lot cards",
+  "base": "/v1/saffron-moths",
+  "paths": [
+    "/v1/saffron-moths/search",
+    "/v1/saffron-moths/lookup",
+    "/v1/saffron-moths/list",
+    "/v1/saffron-moths/health"
+  ]
+}

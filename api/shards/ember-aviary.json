@@ -1,0 +1,12 @@
+{
+  "service": "ember-aviary",
+  "fictional": true,
+  "summary": "Fictional coal-bird roost cards",
+  "base": "/v1/ember-aviary",
+  "paths": [
+    "/v1/ember-aviary/search",
+    "/v1/ember-aviary/lookup",
+    "/v1/ember-aviary/list",
+    "/v1/ember-aviary/health"
+  ]
+}

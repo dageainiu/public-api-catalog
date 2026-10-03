@@ -1,0 +1,12 @@
+{
+  "service": "moss-elevator",
+  "fictional": true,
+  "summary": "Fictional green-shaft floor names",
+  "base": "/v1/moss-elevator",
+  "paths": [
+    "/v1/moss-elevator/search",
+    "/v1/moss-elevator/lookup",
+    "/v1/moss-elevator/list",
+    "/v1/moss-elevator/health"
+  ]
+}

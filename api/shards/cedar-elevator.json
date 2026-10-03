@@ -1,0 +1,12 @@
+{
+  "service": "cedar-elevator",
+  "fictional": true,
+  "summary": "Fictional tree-shaft floor labels",
+  "base": "/v1/cedar-elevator",
+  "paths": [
+    "/v1/cedar-elevator/search",
+    "/v1/cedar-elevator/lookup",
+    "/v1/cedar-elevator/list",
+    "/v1/cedar-elevator/health"
+  ]
+}

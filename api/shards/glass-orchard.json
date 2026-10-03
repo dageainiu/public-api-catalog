@@ -1,0 +1,12 @@
+{
+  "service": "glass-orchard",
+  "fictional": true,
+  "summary": "Fictional crystal-fruit plot numbers",
+  "base": "/v1/glass-orchard",
+  "paths": [
+    "/v1/glass-orchard/search",
+    "/v1/glass-orchard/lookup",
+    "/v1/glass-orchard/list",
+    "/v1/glass-orchard/health"
+  ]
+}

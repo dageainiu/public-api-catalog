@@ -1,0 +1,12 @@
+{
+  "service": "honey-switch",
+  "fictional": true,
+  "summary": "Fictional hive-line routing tags",
+  "base": "/v1/honey-switch",
+  "paths": [
+    "/v1/honey-switch/search",
+    "/v1/honey-switch/lookup",
+    "/v1/honey-switch/list",
+    "/v1/honey-switch/health"
+  ]
+}

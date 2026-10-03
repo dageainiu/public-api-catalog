@@ -1,0 +1,12 @@
+{
+  "service": "cinder-lighthouse",
+  "fictional": true,
+  "summary": "Fictional ash-beam watch shifts",
+  "base": "/v1/cinder-lighthouse",
+  "paths": [
+    "/v1/cinder-lighthouse/search",
+    "/v1/cinder-lighthouse/lookup",
+    "/v1/cinder-lighthouse/list",
+    "/v1/cinder-lighthouse/health"
+  ]
+}

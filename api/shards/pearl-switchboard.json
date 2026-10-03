@@ -1,0 +1,12 @@
+{
+  "service": "pearl-switchboard",
+  "fictional": true,
+  "summary": "Fictional oyster-line extension codes",
+  "base": "/v1/pearl-switchboard",
+  "paths": [
+    "/v1/pearl-switchboard/search",
+    "/v1/pearl-switchboard/lookup",
+    "/v1/pearl-switchboard/list",
+    "/v1/pearl-switchboard/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "bronze-orchard",
+  "fictional": true,
+  "summary": "Fictional metal-fruit harvest slips",
+  "base": "/v1/bronze-orchard",
+  "paths": [
+    "/v1/bronze-orchard/search",
+    "/v1/bronze-orchard/lookup",
+    "/v1/bronze-orchard/list",
+    "/v1/bronze-orchard/health"
+  ]
+}

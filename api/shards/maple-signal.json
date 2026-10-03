@@ -1,0 +1,12 @@
+{
+  "service": "maple-signal",
+  "fictional": true,
+  "summary": "Fictional leaf-flag semaphore cards",
+  "base": "/v1/maple-signal",
+  "paths": [
+    "/v1/maple-signal/search",
+    "/v1/maple-signal/lookup",
+    "/v1/maple-signal/list",
+    "/v1/maple-signal/health"
+  ]
+}

@@ -174,6 +174,51 @@ These endpoints are invented sample names. They are not real APIs.
 - [cinder-mice](docs/cinder-mice.md) — Fictional hearth census cards. Base path `/v1/cinder-mice`
 - [gale-carp](docs/gale-carp.md) — Fictional wind-pond stocking slips. Base path `/v1/gale-carp`
 
+## Crawl-friendly shards
+
+Small files only. The bundled OpenAPI files are over GitHub's per-file index limit and are not extended here.
+
+- Fictional ink-wyrm pen registry: docs/quill-wyrms.md and api/shards/quill-wyrms.json path /v1/quill-wyrms/search
+- Fictional dock kelpie mooring slips: docs/harbor-kelpies.md and api/shards/harbor-kelpies.json path /v1/harbor-kelpies/search
+- Fictional trunk-label prophecy cards: docs/attic-oracles.md and api/shards/attic-oracles.json path /v1/attic-oracles/search
+- Fictional ember-thread batch tags: docs/cinder-loom.md and api/shards/cinder-loom.json path /v1/cinder-loom/search
+- Fictional spore-line station names: docs/moss-telegraph.md and api/shards/moss-telegraph.json path /v1/moss-telegraph/search
+- Fictional crystal-fruit plot numbers: docs/glass-orchard.md and api/shards/glass-orchard.json path /v1/glass-orchard/search
+- Fictional salt-ledger page ids: docs/tide-scribes.md and api/shards/tide-scribes.json path /v1/tide-scribes/search
+- Fictional ash-mail pouch numbers: docs/ember-post.md and api/shards/ember-post.json path /v1/ember-post/search
+- Fictional ice-chapel bell schedules: docs/frost-bells.md and api/shards/frost-bells.json path /v1/frost-bells/search
+- Fictional dye-moth lot cards: docs/saffron-moths.md and api/shards/saffron-moths.json path /v1/saffron-moths/search
+- Fictional gutter-gauge readings: docs/copper-rain.md and api/shards/copper-rain.json path /v1/copper-rain/search
+- Fictional night-pier berth slips: docs/velvet-docks.md and api/shards/velvet-docks.json path /v1/velvet-docks/search
+- Fictional bone-white boat timetables: docs/ivory-ferries.md and api/shards/ivory-ferries.json path /v1/ivory-ferries/search
+- Fictional black-glass loaf batches: docs/obsidian-bakery.md and api/shards/obsidian-bakery.json path /v1/obsidian-bakery/search
+- Fictional lamp-card call numbers: docs/lantern-archive.md and api/shards/lantern-archive.json path /v1/lantern-archive/search
+- Fictional barrel-hoop wind logs: docs/wind-cooper.md and api/shards/wind-cooper.json path /v1/wind-cooper/search
+- Fictional oyster-line extension codes: docs/pearl-switchboard.md and api/shards/pearl-switchboard.json path /v1/pearl-switchboard/search
+- Fictional hedge-mail route cards: docs/bramble-post.md and api/shards/bramble-post.json path /v1/bramble-post/search
+- Fictional crystal-pantry shelf ids: docs/quartz-kitchen.md and api/shards/quartz-kitchen.json path /v1/quartz-kitchen/search
+- Fictional leaf-flag semaphore cards: docs/maple-signal.md and api/shards/maple-signal.json path /v1/maple-signal/search
+- Fictional blot-dock arrival slips: docs/inkwell-harbor.md and api/shards/inkwell-harbor.json path /v1/inkwell-harbor/search
+- Fictional tree-shaft floor labels: docs/cedar-elevator.md and api/shards/cedar-elevator.json path /v1/cedar-elevator/search
+- Fictional stitch-count job tickets: docs/silver-thimble.md and api/shards/silver-thimble.json path /v1/silver-thimble/search
+- Fictional stone-stack call slips: docs/basalt-library.md and api/shards/basalt-library.json path /v1/basalt-library/search
+- Fictional hive-line routing tags: docs/honey-switch.md and api/shards/honey-switch.json path /v1/honey-switch/search
+- Fictional red-page manuscript ids: docs/crimson-folio.md and api/shards/crimson-folio.json path /v1/crimson-folio/search
+- Fictional sky-clay firing tickets: docs/azure-kiln.md and api/shards/azure-kiln.json path /v1/azure-kiln/search
+- Fictional spark-stall vendor cards: docs/flint-market.md and api/shards/flint-market.json path /v1/flint-market/search
+- Fictional cloth-dome night logs: docs/linen-observatory.md and api/shards/linen-observatory.json path /v1/linen-observatory/search
+- Fictional stone-bird cage numbers: docs/marble-aviary.md and api/shards/marble-aviary.json path /v1/marble-aviary/search
+- Fictional riverside desk tickets: docs/willow-exchange.md and api/shards/willow-exchange.json path /v1/willow-exchange/search
+- Fictional metal-fruit harvest slips: docs/bronze-orchard.md and api/shards/bronze-orchard.json path /v1/bronze-orchard/search
+- Fictional shimmer-boat manifests: docs/opal-ferry.md and api/shards/opal-ferry.json path /v1/opal-ferry/search
+- Fictional wind-folder call numbers: docs/gale-archive.md and api/shards/gale-archive.json path /v1/gale-archive/search
+- Fictional ash-beam watch shifts: docs/cinder-lighthouse.md and api/shards/cinder-lighthouse.json path /v1/cinder-lighthouse/search
+- Fictional brine-key tuning cards: docs/salt-piano.md and api/shards/salt-piano.json path /v1/salt-piano/search
+- Fictional green-shaft floor names: docs/moss-elevator.md and api/shards/moss-elevator.json path /v1/moss-elevator/search
+- Fictional pane-mail sorting slips: docs/glass-postmaster.md and api/shards/glass-postmaster.json path /v1/glass-postmaster/search
+- Fictional wave-barrel lot tags: docs/tide-cooperage.md and api/shards/tide-cooperage.json path /v1/tide-cooperage/search
+- Fictional coal-bird roost cards: docs/ember-aviary.md and api/shards/ember-aviary.json path /v1/ember-aviary/search
+
 ## Common pattern
 
 ```

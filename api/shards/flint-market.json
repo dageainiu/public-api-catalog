@@ -1,0 +1,12 @@
+{
+  "service": "flint-market",
+  "fictional": true,
+  "summary": "Fictional spark-stall vendor cards",
+  "base": "/v1/flint-market",
+  "paths": [
+    "/v1/flint-market/search",
+    "/v1/flint-market/lookup",
+    "/v1/flint-market/list",
+    "/v1/flint-market/health"
+  ]
+}

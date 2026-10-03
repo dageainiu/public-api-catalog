@@ -1,0 +1,12 @@
+{
+  "service": "ember-post",
+  "fictional": true,
+  "summary": "Fictional ash-mail pouch numbers",
+  "base": "/v1/ember-post",
+  "paths": [
+    "/v1/ember-post/search",
+    "/v1/ember-post/lookup",
+    "/v1/ember-post/list",
+    "/v1/ember-post/health"
+  ]
+}

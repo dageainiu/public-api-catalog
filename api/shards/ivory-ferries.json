@@ -1,0 +1,12 @@
+{
+  "service": "ivory-ferries",
+  "fictional": true,
+  "summary": "Fictional bone-white boat timetables",
+  "base": "/v1/ivory-ferries",
+  "paths": [
+    "/v1/ivory-ferries/search",
+    "/v1/ivory-ferries/lookup",
+    "/v1/ivory-ferries/list",
+    "/v1/ivory-ferries/health"
+  ]
+}

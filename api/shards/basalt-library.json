@@ -1,0 +1,12 @@
+{
+  "service": "basalt-library",
+  "fictional": true,
+  "summary": "Fictional stone-stack call slips",
+  "base": "/v1/basalt-library",
+  "paths": [
+    "/v1/basalt-library/search",
+    "/v1/basalt-library/lookup",
+    "/v1/basalt-library/list",
+    "/v1/basalt-library/health"
+  ]
+}

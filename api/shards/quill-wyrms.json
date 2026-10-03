@@ -1,0 +1,12 @@
+{
+  "service": "quill-wyrms",
+  "fictional": true,
+  "summary": "Fictional ink-wyrm pen registry",
+  "base": "/v1/quill-wyrms",
+  "paths": [
+    "/v1/quill-wyrms/search",
+    "/v1/quill-wyrms/lookup",
+    "/v1/quill-wyrms/list",
+    "/v1/quill-wyrms/health"
+  ]
+}

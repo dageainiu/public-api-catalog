@@ -1,0 +1,12 @@
+{
+  "service": "wind-cooper",
+  "fictional": true,
+  "summary": "Fictional barrel-hoop wind logs",
+  "base": "/v1/wind-cooper",
+  "paths": [
+    "/v1/wind-cooper/search",
+    "/v1/wind-cooper/lookup",
+    "/v1/wind-cooper/list",
+    "/v1/wind-cooper/health"
+  ]
+}

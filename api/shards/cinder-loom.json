@@ -1,0 +1,12 @@
+{
+  "service": "cinder-loom",
+  "fictional": true,
+  "summary": "Fictional ember-thread batch tags",
+  "base": "/v1/cinder-loom",
+  "paths": [
+    "/v1/cinder-loom/search",
+    "/v1/cinder-loom/lookup",
+    "/v1/cinder-loom/list",
+    "/v1/cinder-loom/health"
+  ]
+}

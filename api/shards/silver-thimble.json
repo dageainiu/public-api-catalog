@@ -1,0 +1,12 @@
+{
+  "service": "silver-thimble",
+  "fictional": true,
+  "summary": "Fictional stitch-count job tickets",
+  "base": "/v1/silver-thimble",
+  "paths": [
+    "/v1/silver-thimble/search",
+    "/v1/silver-thimble/lookup",
+    "/v1/silver-thimble/list",
+    "/v1/silver-thimble/health"
+  ]
+}

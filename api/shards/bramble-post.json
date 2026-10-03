@@ -1,0 +1,12 @@
+{
+  "service": "bramble-post",
+  "fictional": true,
+  "summary": "Fictional hedge-mail route cards",
+  "base": "/v1/bramble-post",
+  "paths": [
+    "/v1/bramble-post/search",
+    "/v1/bramble-post/lookup",
+    "/v1/bramble-post/list",
+    "/v1/bramble-post/health"
+  ]
+}

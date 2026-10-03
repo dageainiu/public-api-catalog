@@ -1,0 +1,12 @@
+{
+  "service": "marble-aviary",
+  "fictional": true,
+  "summary": "Fictional stone-bird cage numbers",
+  "base": "/v1/marble-aviary",
+  "paths": [
+    "/v1/marble-aviary/search",
+    "/v1/marble-aviary/lookup",
+    "/v1/marble-aviary/list",
+    "/v1/marble-aviary/health"
+  ]
+}

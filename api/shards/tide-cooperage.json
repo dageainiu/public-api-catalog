@@ -1,0 +1,12 @@
+{
+  "service": "tide-cooperage",
+  "fictional": true,
+  "summary": "Fictional wave-barrel lot tags",
+  "base": "/v1/tide-cooperage",
+  "paths": [
+    "/v1/tide-cooperage/search",
+    "/v1/tide-cooperage/lookup",
+    "/v1/tide-cooperage/list",
+    "/v1/tide-cooperage/health"
+  ]
+}

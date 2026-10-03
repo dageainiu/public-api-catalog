@@ -1,0 +1,12 @@
+{
+  "service": "crimson-folio",
+  "fictional": true,
+  "summary": "Fictional red-page manuscript ids",
+  "base": "/v1/crimson-folio",
+  "paths": [
+    "/v1/crimson-folio/search",
+    "/v1/crimson-folio/lookup",
+    "/v1/crimson-folio/list",
+    "/v1/crimson-folio/health"
+  ]
+}

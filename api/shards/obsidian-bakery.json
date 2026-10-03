@@ -1,0 +1,12 @@
+{
+  "service": "obsidian-bakery",
+  "fictional": true,
+  "summary": "Fictional black-glass loaf batches",
+  "base": "/v1/obsidian-bakery",
+  "paths": [
+    "/v1/obsidian-bakery/search",
+    "/v1/obsidian-bakery/lookup",
+    "/v1/obsidian-bakery/list",
+    "/v1/obsidian-bakery/health"
+  ]
+}

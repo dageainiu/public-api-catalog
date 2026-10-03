@@ -1,0 +1,12 @@
+{
+  "service": "gale-archive",
+  "fictional": true,
+  "summary": "Fictional wind-folder call numbers",
+  "base": "/v1/gale-archive",
+  "paths": [
+    "/v1/gale-archive/search",
+    "/v1/gale-archive/lookup",
+    "/v1/gale-archive/list",
+    "/v1/gale-archive/health"
+  ]
+}

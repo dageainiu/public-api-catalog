@@ -1,0 +1,12 @@
+{
+  "service": "linen-observatory",
+  "fictional": true,
+  "summary": "Fictional cloth-dome night logs",
+  "base": "/v1/linen-observatory",
+  "paths": [
+    "/v1/linen-observatory/search",
+    "/v1/linen-observatory/lookup",
+    "/v1/linen-observatory/list",
+    "/v1/linen-observatory/health"
+  ]
+}
