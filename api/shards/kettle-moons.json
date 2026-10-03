@@ -1,0 +1,12 @@
+{
+  "service": "kettle-moons",
+  "fictional": true,
+  "summary": "Fictional steam-moon whistle logs",
+  "base": "/v1/kettle-moons",
+  "paths": [
+    "/v1/kettle-moons/search",
+    "/v1/kettle-moons/lookup",
+    "/v1/kettle-moons/list",
+    "/v1/kettle-moons/health"
+  ]
+}

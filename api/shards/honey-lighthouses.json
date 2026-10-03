@@ -1,0 +1,12 @@
+{
+  "service": "honey-lighthouses",
+  "fictional": true,
+  "summary": "Fictional hive-beam shift boards",
+  "base": "/v1/honey-lighthouses",
+  "paths": [
+    "/v1/honey-lighthouses/search",
+    "/v1/honey-lighthouses/lookup",
+    "/v1/honey-lighthouses/list",
+    "/v1/honey-lighthouses/health"
+  ]
+}

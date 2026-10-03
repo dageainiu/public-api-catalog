@@ -1,0 +1,12 @@
+{
+  "service": "obsidian-archives",
+  "fictional": true,
+  "summary": "Fictional black-glass folder ids",
+  "base": "/v1/obsidian-archives",
+  "paths": [
+    "/v1/obsidian-archives/search",
+    "/v1/obsidian-archives/lookup",
+    "/v1/obsidian-archives/list",
+    "/v1/obsidian-archives/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "cinder-folios",
+  "fictional": true,
+  "summary": "Fictional ash-page manuscript ids",
+  "base": "/v1/cinder-folios",
+  "paths": [
+    "/v1/cinder-folios/search",
+    "/v1/cinder-folios/lookup",
+    "/v1/cinder-folios/list",
+    "/v1/cinder-folios/health"
+  ]
+}

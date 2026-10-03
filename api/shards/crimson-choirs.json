@@ -1,0 +1,12 @@
+{
+  "service": "crimson-choirs",
+  "fictional": true,
+  "summary": "Fictional red-bell lineup cards",
+  "base": "/v1/crimson-choirs",
+  "paths": [
+    "/v1/crimson-choirs/search",
+    "/v1/crimson-choirs/lookup",
+    "/v1/crimson-choirs/list",
+    "/v1/crimson-choirs/health"
+  ]
+}

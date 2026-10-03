@@ -1,0 +1,12 @@
+{
+  "service": "maple-pianos",
+  "fictional": true,
+  "summary": "Fictional leaf-key tuning cards",
+  "base": "/v1/maple-pianos",
+  "paths": [
+    "/v1/maple-pianos/search",
+    "/v1/maple-pianos/lookup",
+    "/v1/maple-pianos/list",
+    "/v1/maple-pianos/health"
+  ]
+}

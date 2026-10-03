@@ -1,0 +1,12 @@
+{
+  "service": "copper-kilns",
+  "fictional": true,
+  "summary": "Fictional gutter-clay firing logs",
+  "base": "/v1/copper-kilns",
+  "paths": [
+    "/v1/copper-kilns/search",
+    "/v1/copper-kilns/lookup",
+    "/v1/copper-kilns/list",
+    "/v1/copper-kilns/health"
+  ]
+}

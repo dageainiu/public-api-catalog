@@ -1,0 +1,12 @@
+{
+  "service": "linen-comets",
+  "fictional": true,
+  "summary": "Fictional cloth-comet manifests",
+  "base": "/v1/linen-comets",
+  "paths": [
+    "/v1/linen-comets/search",
+    "/v1/linen-comets/lookup",
+    "/v1/linen-comets/list",
+    "/v1/linen-comets/health"
+  ]
+}

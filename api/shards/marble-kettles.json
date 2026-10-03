@@ -1,0 +1,12 @@
+{
+  "service": "marble-kettles",
+  "fictional": true,
+  "summary": "Fictional stone-steam lot tags",
+  "base": "/v1/marble-kettles",
+  "paths": [
+    "/v1/marble-kettles/search",
+    "/v1/marble-kettles/lookup",
+    "/v1/marble-kettles/list",
+    "/v1/marble-kettles/health"
+  ]
+}

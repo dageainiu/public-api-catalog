@@ -1,0 +1,12 @@
+{
+  "service": "cedar-pianos",
+  "fictional": true,
+  "summary": "Fictional timber-key tuning cards",
+  "base": "/v1/cedar-pianos",
+  "paths": [
+    "/v1/cedar-pianos/search",
+    "/v1/cedar-pianos/lookup",
+    "/v1/cedar-pianos/list",
+    "/v1/cedar-pianos/health"
+  ]
+}

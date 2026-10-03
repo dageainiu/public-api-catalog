@@ -1,0 +1,12 @@
+{
+  "service": "velvet-kilns",
+  "fictional": true,
+  "summary": "Fictional night-clay firing tickets",
+  "base": "/v1/velvet-kilns",
+  "paths": [
+    "/v1/velvet-kilns/search",
+    "/v1/velvet-kilns/lookup",
+    "/v1/velvet-kilns/list",
+    "/v1/velvet-kilns/health"
+  ]
+}

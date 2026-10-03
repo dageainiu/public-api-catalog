@@ -1,0 +1,12 @@
+{
+  "service": "ivory-switchboards",
+  "fictional": true,
+  "summary": "Fictional bone-line extension codes",
+  "base": "/v1/ivory-switchboards",
+  "paths": [
+    "/v1/ivory-switchboards/search",
+    "/v1/ivory-switchboards/lookup",
+    "/v1/ivory-switchboards/list",
+    "/v1/ivory-switchboards/health"
+  ]
+}

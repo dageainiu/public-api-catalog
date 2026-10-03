@@ -1,0 +1,12 @@
+{
+  "service": "glass-shepherds",
+  "fictional": true,
+  "summary": "Fictional pane-flock route cards",
+  "base": "/v1/glass-shepherds",
+  "paths": [
+    "/v1/glass-shepherds/search",
+    "/v1/glass-shepherds/lookup",
+    "/v1/glass-shepherds/list",
+    "/v1/glass-shepherds/health"
+  ]
+}

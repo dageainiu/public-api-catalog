@@ -1,0 +1,12 @@
+{
+  "service": "anvil-sparrows",
+  "fictional": true,
+  "summary": "Fictional forge-bird roost cards",
+  "base": "/v1/anvil-sparrows",
+  "paths": [
+    "/v1/anvil-sparrows/search",
+    "/v1/anvil-sparrows/lookup",
+    "/v1/anvil-sparrows/list",
+    "/v1/anvil-sparrows/health"
+  ]
+}

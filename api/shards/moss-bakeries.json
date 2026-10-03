@@ -1,0 +1,12 @@
+{
+  "service": "moss-bakeries",
+  "fictional": true,
+  "summary": "Fictional spore-loaf batch tags",
+  "base": "/v1/moss-bakeries",
+  "paths": [
+    "/v1/moss-bakeries/search",
+    "/v1/moss-bakeries/lookup",
+    "/v1/moss-bakeries/list",
+    "/v1/moss-bakeries/health"
+  ]
+}

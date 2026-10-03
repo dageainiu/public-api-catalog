@@ -1,0 +1,12 @@
+{
+  "service": "thimble-comets",
+  "fictional": true,
+  "summary": "Fictional stitch-comet delivery slips",
+  "base": "/v1/thimble-comets",
+  "paths": [
+    "/v1/thimble-comets/search",
+    "/v1/thimble-comets/lookup",
+    "/v1/thimble-comets/list",
+    "/v1/thimble-comets/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "bronze-candles",
+  "fictional": true,
+  "summary": "Fictional metal-wick batch cards",
+  "base": "/v1/bronze-candles",
+  "paths": [
+    "/v1/bronze-candles/search",
+    "/v1/bronze-candles/lookup",
+    "/v1/bronze-candles/list",
+    "/v1/bronze-candles/health"
+  ]
+}

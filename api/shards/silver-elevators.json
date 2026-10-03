@@ -1,0 +1,12 @@
+{
+  "service": "silver-elevators",
+  "fictional": true,
+  "summary": "Fictional moon-shaft floor names",
+  "base": "/v1/silver-elevators",
+  "paths": [
+    "/v1/silver-elevators/search",
+    "/v1/silver-elevators/lookup",
+    "/v1/silver-elevators/list",
+    "/v1/silver-elevators/health"
+  ]
+}

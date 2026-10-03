@@ -1,0 +1,12 @@
+{
+  "service": "flint-orchards",
+  "fictional": true,
+  "summary": "Fictional spark-fruit harvest slips",
+  "base": "/v1/flint-orchards",
+  "paths": [
+    "/v1/flint-orchards/search",
+    "/v1/flint-orchards/lookup",
+    "/v1/flint-orchards/list",
+    "/v1/flint-orchards/health"
+  ]
+}

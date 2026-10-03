@@ -1,0 +1,12 @@
+{
+  "service": "ink-lighthouses",
+  "fictional": true,
+  "summary": "Fictional blot-beam watch shifts",
+  "base": "/v1/ink-lighthouses",
+  "paths": [
+    "/v1/ink-lighthouses/search",
+    "/v1/ink-lighthouses/lookup",
+    "/v1/ink-lighthouses/list",
+    "/v1/ink-lighthouses/health"
+  ]
+}

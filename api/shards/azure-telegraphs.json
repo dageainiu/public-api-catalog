@@ -1,0 +1,12 @@
+{
+  "service": "azure-telegraphs",
+  "fictional": true,
+  "summary": "Fictional sky-wire station ids",
+  "base": "/v1/azure-telegraphs",
+  "paths": [
+    "/v1/azure-telegraphs/search",
+    "/v1/azure-telegraphs/lookup",
+    "/v1/azure-telegraphs/list",
+    "/v1/azure-telegraphs/health"
+  ]
+}

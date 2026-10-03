@@ -1,0 +1,12 @@
+{
+  "service": "gale-thimbles",
+  "fictional": true,
+  "summary": "Fictional wind-stitch job tickets",
+  "base": "/v1/gale-thimbles",
+  "paths": [
+    "/v1/gale-thimbles/search",
+    "/v1/gale-thimbles/lookup",
+    "/v1/gale-thimbles/list",
+    "/v1/gale-thimbles/health"
+  ]
+}

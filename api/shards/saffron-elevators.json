@@ -1,0 +1,12 @@
+{
+  "service": "saffron-elevators",
+  "fictional": true,
+  "summary": "Fictional spice-shaft floor labels",
+  "base": "/v1/saffron-elevators",
+  "paths": [
+    "/v1/saffron-elevators/search",
+    "/v1/saffron-elevators/lookup",
+    "/v1/saffron-elevators/list",
+    "/v1/saffron-elevators/health"
+  ]
+}

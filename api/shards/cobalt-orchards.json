@@ -1,0 +1,12 @@
+{
+  "service": "cobalt-orchards",
+  "fictional": true,
+  "summary": "Fictional blue-fruit plot numbers",
+  "base": "/v1/cobalt-orchards",
+  "paths": [
+    "/v1/cobalt-orchards/search",
+    "/v1/cobalt-orchards/lookup",
+    "/v1/cobalt-orchards/list",
+    "/v1/cobalt-orchards/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "bramble-folios",
+  "fictional": true,
+  "summary": "Fictional hedge-page manuscript slips",
+  "base": "/v1/bramble-folios",
+  "paths": [
+    "/v1/bramble-folios/search",
+    "/v1/bramble-folios/lookup",
+    "/v1/bramble-folios/list",
+    "/v1/bramble-folios/health"
+  ]
+}

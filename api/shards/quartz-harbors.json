@@ -1,0 +1,12 @@
+{
+  "service": "quartz-harbors",
+  "fictional": true,
+  "summary": "Fictional crystal-dock berth slips",
+  "base": "/v1/quartz-harbors",
+  "paths": [
+    "/v1/quartz-harbors/search",
+    "/v1/quartz-harbors/lookup",
+    "/v1/quartz-harbors/list",
+    "/v1/quartz-harbors/health"
+  ]
+}

@@ -219,6 +219,49 @@ Small files only. The bundled OpenAPI files are over GitHub's per-file index lim
 - Fictional wave-barrel lot tags: docs/tide-cooperage.md and api/shards/tide-cooperage.json path /v1/tide-cooperage/search
 - Fictional coal-bird roost cards: docs/ember-aviary.md and api/shards/ember-aviary.json path /v1/ember-aviary/search
 
+## More small shards
+
+- Fictional stitch-comet delivery slips: docs/thimble-comets.md path /v1/thimble-comets/search
+- Fictional steam-moon whistle logs: docs/kettle-moons.md path /v1/kettle-moons/search
+- Fictional forge-bird roost cards: docs/anvil-sparrows.md path /v1/anvil-sparrows/search
+- Fictional wax-boat timetables: docs/candle-ferries.md path /v1/candle-ferries/search
+- Fictional blot-beam watch shifts: docs/ink-lighthouses.md path /v1/ink-lighthouses/search
+- Fictional fruit-wire station names: docs/plum-telegraphs.md path /v1/plum-telegraphs/search
+- Fictional blue-fruit plot numbers: docs/cobalt-orchards.md path /v1/cobalt-orchards/search
+- Fictional oxide-bell rehearsal cards: docs/rust-choirs.md path /v1/rust-choirs/search
+- Fictional stone-mail pouch numbers: docs/pebble-post.md path /v1/pebble-post/search
+- Fictional spice-shaft floor labels: docs/saffron-elevators.md path /v1/saffron-elevators/search
+- Fictional night-clay firing tickets: docs/velvet-kilns.md path /v1/velvet-kilns/search
+- Fictional bone-line extension codes: docs/ivory-switchboards.md path /v1/ivory-switchboards/search
+- Fictional spore-loaf batch tags: docs/moss-bakeries.md path /v1/moss-bakeries/search
+- Fictional crystal-dock berth slips: docs/quartz-harbors.md path /v1/quartz-harbors/search
+- Fictional timber-key tuning cards: docs/cedar-pianos.md path /v1/cedar-pianos/search
+- Fictional shimmer-folder call numbers: docs/opal-archives.md path /v1/opal-archives/search
+- Fictional wind-stitch job tickets: docs/gale-thimbles.md path /v1/gale-thimbles/search
+- Fictional ash-page manuscript ids: docs/cinder-folios.md path /v1/cinder-folios/search
+- Fictional brine-bird cage numbers: docs/salt-aviaries.md path /v1/salt-aviaries/search
+- Fictional pane-flock route cards: docs/glass-shepherds.md path /v1/glass-shepherds/search
+- Fictional wave-stack call slips: docs/tide-libraries.md path /v1/tide-libraries/search
+- Fictional coal-stall vendor cards: docs/ember-markets.md path /v1/ember-markets/search
+- Fictional cloth-comet manifests: docs/linen-comets.md path /v1/linen-comets/search
+- Fictional stone-steam lot tags: docs/marble-kettles.md path /v1/marble-kettles/search
+- Fictional riverside forge slips: docs/willow-anvils.md path /v1/willow-anvils/search
+- Fictional metal-wick batch cards: docs/bronze-candles.md path /v1/bronze-candles/search
+- Fictional hive-beam shift boards: docs/honey-lighthouses.md path /v1/honey-lighthouses/search
+- Fictional sky-wire station ids: docs/azure-telegraphs.md path /v1/azure-telegraphs/search
+- Fictional spark-fruit harvest slips: docs/flint-orchards.md path /v1/flint-orchards/search
+- Fictional red-bell lineup cards: docs/crimson-choirs.md path /v1/crimson-choirs/search
+- Fictional rock-mail route tags: docs/basalt-post.md path /v1/basalt-post/search
+- Fictional moon-shaft floor names: docs/silver-elevators.md path /v1/silver-elevators/search
+- Fictional gutter-clay firing logs: docs/copper-kilns.md path /v1/copper-kilns/search
+- Fictional resin-line extension codes: docs/amber-switchboards.md path /v1/amber-switchboards/search
+- Fictional dye-loaf batch numbers: docs/indigo-bakeries.md path /v1/indigo-bakeries/search
+- Fictional ice-pier mooring slips: docs/frost-harbors.md path /v1/frost-harbors/search
+- Fictional leaf-key tuning cards: docs/maple-pianos.md path /v1/maple-pianos/search
+- Fictional black-glass folder ids: docs/obsidian-archives.md path /v1/obsidian-archives/search
+- Fictional oyster-stitch job tickets: docs/pearl-thimbles.md path /v1/pearl-thimbles/search
+- Fictional hedge-page manuscript slips: docs/bramble-folios.md path /v1/bramble-folios/search
+
 ## Common pattern
 
 ```

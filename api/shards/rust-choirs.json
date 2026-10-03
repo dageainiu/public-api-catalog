@@ -1,0 +1,12 @@
+{
+  "service": "rust-choirs",
+  "fictional": true,
+  "summary": "Fictional oxide-bell rehearsal cards",
+  "base": "/v1/rust-choirs",
+  "paths": [
+    "/v1/rust-choirs/search",
+    "/v1/rust-choirs/lookup",
+    "/v1/rust-choirs/list",
+    "/v1/rust-choirs/health"
+  ]
+}

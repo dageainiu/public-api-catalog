@@ -1,0 +1,12 @@
+{
+  "service": "amber-switchboards",
+  "fictional": true,
+  "summary": "Fictional resin-line extension codes",
+  "base": "/v1/amber-switchboards",
+  "paths": [
+    "/v1/amber-switchboards/search",
+    "/v1/amber-switchboards/lookup",
+    "/v1/amber-switchboards/list",
+    "/v1/amber-switchboards/health"
+  ]
+}

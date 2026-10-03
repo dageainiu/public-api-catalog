@@ -1,0 +1,12 @@
+{
+  "service": "pearl-thimbles",
+  "fictional": true,
+  "summary": "Fictional oyster-stitch job tickets",
+  "base": "/v1/pearl-thimbles",
+  "paths": [
+    "/v1/pearl-thimbles/search",
+    "/v1/pearl-thimbles/lookup",
+    "/v1/pearl-thimbles/list",
+    "/v1/pearl-thimbles/health"
+  ]
+}

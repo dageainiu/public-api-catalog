@@ -1,0 +1,12 @@
+{
+  "service": "willow-anvils",
+  "fictional": true,
+  "summary": "Fictional riverside forge slips",
+  "base": "/v1/willow-anvils",
+  "paths": [
+    "/v1/willow-anvils/search",
+    "/v1/willow-anvils/lookup",
+    "/v1/willow-anvils/list",
+    "/v1/willow-anvils/health"
+  ]
+}

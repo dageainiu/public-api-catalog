@@ -1,0 +1,12 @@
+{
+  "service": "candle-ferries",
+  "fictional": true,
+  "summary": "Fictional wax-boat timetables",
+  "base": "/v1/candle-ferries",
+  "paths": [
+    "/v1/candle-ferries/search",
+    "/v1/candle-ferries/lookup",
+    "/v1/candle-ferries/list",
+    "/v1/candle-ferries/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "frost-harbors",
+  "fictional": true,
+  "summary": "Fictional ice-pier mooring slips",
+  "base": "/v1/frost-harbors",
+  "paths": [
+    "/v1/frost-harbors/search",
+    "/v1/frost-harbors/lookup",
+    "/v1/frost-harbors/list",
+    "/v1/frost-harbors/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "basalt-post",
+  "fictional": true,
+  "summary": "Fictional rock-mail route tags",
+  "base": "/v1/basalt-post",
+  "paths": [
+    "/v1/basalt-post/search",
+    "/v1/basalt-post/lookup",
+    "/v1/basalt-post/list",
+    "/v1/basalt-post/health"
+  ]
+}

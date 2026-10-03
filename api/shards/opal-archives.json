@@ -1,0 +1,12 @@
+{
+  "service": "opal-archives",
+  "fictional": true,
+  "summary": "Fictional shimmer-folder call numbers",
+  "base": "/v1/opal-archives",
+  "paths": [
+    "/v1/opal-archives/search",
+    "/v1/opal-archives/lookup",
+    "/v1/opal-archives/list",
+    "/v1/opal-archives/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "indigo-bakeries",
+  "fictional": true,
+  "summary": "Fictional dye-loaf batch numbers",
+  "base": "/v1/indigo-bakeries",
+  "paths": [
+    "/v1/indigo-bakeries/search",
+    "/v1/indigo-bakeries/lookup",
+    "/v1/indigo-bakeries/list",
+    "/v1/indigo-bakeries/health"
+  ]
+}

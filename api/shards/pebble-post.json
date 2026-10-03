@@ -1,0 +1,12 @@
+{
+  "service": "pebble-post",
+  "fictional": true,
+  "summary": "Fictional stone-mail pouch numbers",
+  "base": "/v1/pebble-post",
+  "paths": [
+    "/v1/pebble-post/search",
+    "/v1/pebble-post/lookup",
+    "/v1/pebble-post/list",
+    "/v1/pebble-post/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "salt-aviaries",
+  "fictional": true,
+  "summary": "Fictional brine-bird cage numbers",
+  "base": "/v1/salt-aviaries",
+  "paths": [
+    "/v1/salt-aviaries/search",
+    "/v1/salt-aviaries/lookup",
+    "/v1/salt-aviaries/list",
+    "/v1/salt-aviaries/health"
+  ]
+}

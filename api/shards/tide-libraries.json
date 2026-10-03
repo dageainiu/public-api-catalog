@@ -1,0 +1,12 @@
+{
+  "service": "tide-libraries",
+  "fictional": true,
+  "summary": "Fictional wave-stack call slips",
+  "base": "/v1/tide-libraries",
+  "paths": [
+    "/v1/tide-libraries/search",
+    "/v1/tide-libraries/lookup",
+    "/v1/tide-libraries/list",
+    "/v1/tide-libraries/health"
+  ]
+}

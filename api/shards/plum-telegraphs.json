@@ -1,0 +1,12 @@
+{
+  "service": "plum-telegraphs",
+  "fictional": true,
+  "summary": "Fictional fruit-wire station names",
+  "base": "/v1/plum-telegraphs",
+  "paths": [
+    "/v1/plum-telegraphs/search",
+    "/v1/plum-telegraphs/lookup",
+    "/v1/plum-telegraphs/list",
+    "/v1/plum-telegraphs/health"
+  ]
+}

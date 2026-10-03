@@ -1,0 +1,12 @@
+{
+  "service": "ember-markets",
+  "fictional": true,
+  "summary": "Fictional coal-stall vendor cards",
+  "base": "/v1/ember-markets",
+  "paths": [
+    "/v1/ember-markets/search",
+    "/v1/ember-markets/lookup",
+    "/v1/ember-markets/list",
+    "/v1/ember-markets/health"
+  ]
+}
