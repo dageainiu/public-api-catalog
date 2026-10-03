@@ -1,0 +1,12 @@
+{
+  "service": "azure-oar",
+  "fictional": true,
+  "summary": "Fictional azure oar sample card",
+  "base": "/v1/azure-oar",
+  "paths": [
+    "/v1/azure-oar/search",
+    "/v1/azure-oar/lookup",
+    "/v1/azure-oar/list",
+    "/v1/azure-oar/health"
+  ]
+}

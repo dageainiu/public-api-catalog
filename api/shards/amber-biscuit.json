@@ -1,0 +1,12 @@
+{
+  "service": "amber-biscuit",
+  "fictional": true,
+  "summary": "Fictional amber biscuit sample card",
+  "base": "/v1/amber-biscuit",
+  "paths": [
+    "/v1/amber-biscuit/search",
+    "/v1/amber-biscuit/lookup",
+    "/v1/amber-biscuit/list",
+    "/v1/amber-biscuit/health"
+  ]
+}

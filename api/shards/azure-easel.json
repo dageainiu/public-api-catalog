@@ -1,0 +1,12 @@
+{
+  "service": "azure-easel",
+  "fictional": true,
+  "summary": "Fictional azure easel sample card",
+  "base": "/v1/azure-easel",
+  "paths": [
+    "/v1/azure-easel/search",
+    "/v1/azure-easel/lookup",
+    "/v1/azure-easel/list",
+    "/v1/azure-easel/health"
+  ]
+}

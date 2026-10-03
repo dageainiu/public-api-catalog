@@ -1,0 +1,12 @@
+{
+  "service": "basalt-apron",
+  "fictional": true,
+  "summary": "Fictional basalt apron sample card",
+  "base": "/v1/basalt-apron",
+  "paths": [
+    "/v1/basalt-apron/search",
+    "/v1/basalt-apron/lookup",
+    "/v1/basalt-apron/list",
+    "/v1/basalt-apron/health"
+  ]
+}

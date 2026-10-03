@@ -1,0 +1,12 @@
+{
+  "service": "azure-reliquary",
+  "fictional": true,
+  "summary": "Fictional azure reliquary sample card",
+  "base": "/v1/azure-reliquary",
+  "paths": [
+    "/v1/azure-reliquary/search",
+    "/v1/azure-reliquary/lookup",
+    "/v1/azure-reliquary/list",
+    "/v1/azure-reliquary/health"
+  ]
+}

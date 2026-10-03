@@ -1,0 +1,12 @@
+{
+  "service": "azure-bobbin",
+  "fictional": true,
+  "summary": "Fictional azure bobbin sample card",
+  "base": "/v1/azure-bobbin",
+  "paths": [
+    "/v1/azure-bobbin/search",
+    "/v1/azure-bobbin/lookup",
+    "/v1/azure-bobbin/list",
+    "/v1/azure-bobbin/health"
+  ]
+}

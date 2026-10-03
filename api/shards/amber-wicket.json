@@ -1,0 +1,12 @@
+{
+  "service": "amber-wicket",
+  "fictional": true,
+  "summary": "Fictional amber wicket sample card",
+  "base": "/v1/amber-wicket",
+  "paths": [
+    "/v1/amber-wicket/search",
+    "/v1/amber-wicket/lookup",
+    "/v1/amber-wicket/list",
+    "/v1/amber-wicket/health"
+  ]
+}

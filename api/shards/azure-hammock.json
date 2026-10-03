@@ -1,0 +1,12 @@
+{
+  "service": "azure-hammock",
+  "fictional": true,
+  "summary": "Fictional azure hammock sample card",
+  "base": "/v1/azure-hammock",
+  "paths": [
+    "/v1/azure-hammock/search",
+    "/v1/azure-hammock/lookup",
+    "/v1/azure-hammock/list",
+    "/v1/azure-hammock/health"
+  ]
+}

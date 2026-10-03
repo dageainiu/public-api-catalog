@@ -1,0 +1,12 @@
+{
+  "service": "amber-magnet",
+  "fictional": true,
+  "summary": "Fictional amber magnet sample card",
+  "base": "/v1/amber-magnet",
+  "paths": [
+    "/v1/amber-magnet/search",
+    "/v1/amber-magnet/lookup",
+    "/v1/amber-magnet/list",
+    "/v1/amber-magnet/health"
+  ]
+}

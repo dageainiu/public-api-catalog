@@ -1,0 +1,12 @@
+{
+  "service": "amber-spindle",
+  "fictional": true,
+  "summary": "Fictional amber spindle sample card",
+  "base": "/v1/amber-spindle",
+  "paths": [
+    "/v1/amber-spindle/search",
+    "/v1/amber-spindle/lookup",
+    "/v1/amber-spindle/list",
+    "/v1/amber-spindle/health"
+  ]
+}

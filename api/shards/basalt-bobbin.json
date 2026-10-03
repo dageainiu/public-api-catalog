@@ -1,0 +1,12 @@
+{
+  "service": "basalt-bobbin",
+  "fictional": true,
+  "summary": "Fictional basalt bobbin sample card",
+  "base": "/v1/basalt-bobbin",
+  "paths": [
+    "/v1/basalt-bobbin/search",
+    "/v1/basalt-bobbin/lookup",
+    "/v1/basalt-bobbin/list",
+    "/v1/basalt-bobbin/health"
+  ]
+}

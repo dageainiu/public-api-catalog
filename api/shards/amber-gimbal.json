@@ -1,0 +1,12 @@
+{
+  "service": "amber-gimbal",
+  "fictional": true,
+  "summary": "Fictional amber gimbal sample card",
+  "base": "/v1/amber-gimbal",
+  "paths": [
+    "/v1/amber-gimbal/search",
+    "/v1/amber-gimbal/lookup",
+    "/v1/amber-gimbal/list",
+    "/v1/amber-gimbal/health"
+  ]
+}

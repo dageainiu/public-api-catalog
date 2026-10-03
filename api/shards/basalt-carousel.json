@@ -1,0 +1,12 @@
+{
+  "service": "basalt-carousel",
+  "fictional": true,
+  "summary": "Fictional basalt carousel sample card",
+  "base": "/v1/basalt-carousel",
+  "paths": [
+    "/v1/basalt-carousel/search",
+    "/v1/basalt-carousel/lookup",
+    "/v1/basalt-carousel/list",
+    "/v1/basalt-carousel/health"
+  ]
+}

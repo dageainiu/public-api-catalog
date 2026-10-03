@@ -1,0 +1,12 @@
+{
+  "service": "azure-dial",
+  "fictional": true,
+  "summary": "Fictional azure dial sample card",
+  "base": "/v1/azure-dial",
+  "paths": [
+    "/v1/azure-dial/search",
+    "/v1/azure-dial/lookup",
+    "/v1/azure-dial/list",
+    "/v1/azure-dial/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "azure-biscuit",
+  "fictional": true,
+  "summary": "Fictional azure biscuit sample card",
+  "base": "/v1/azure-biscuit",
+  "paths": [
+    "/v1/azure-biscuit/search",
+    "/v1/azure-biscuit/lookup",
+    "/v1/azure-biscuit/list",
+    "/v1/azure-biscuit/health"
+  ]
+}

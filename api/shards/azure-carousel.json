@@ -1,0 +1,12 @@
+{
+  "service": "azure-carousel",
+  "fictional": true,
+  "summary": "Fictional azure carousel sample card",
+  "base": "/v1/azure-carousel",
+  "paths": [
+    "/v1/azure-carousel/search",
+    "/v1/azure-carousel/lookup",
+    "/v1/azure-carousel/list",
+    "/v1/azure-carousel/health"
+  ]
+}

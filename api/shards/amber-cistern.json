@@ -1,0 +1,12 @@
+{
+  "service": "amber-cistern",
+  "fictional": true,
+  "summary": "Fictional amber cistern sample card",
+  "base": "/v1/amber-cistern",
+  "paths": [
+    "/v1/amber-cistern/search",
+    "/v1/amber-cistern/lookup",
+    "/v1/amber-cistern/list",
+    "/v1/amber-cistern/health"
+  ]
+}

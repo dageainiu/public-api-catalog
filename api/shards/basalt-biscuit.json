@@ -1,0 +1,12 @@
+{
+  "service": "basalt-biscuit",
+  "fictional": true,
+  "summary": "Fictional basalt biscuit sample card",
+  "base": "/v1/basalt-biscuit",
+  "paths": [
+    "/v1/basalt-biscuit/search",
+    "/v1/basalt-biscuit/lookup",
+    "/v1/basalt-biscuit/list",
+    "/v1/basalt-biscuit/health"
+  ]
+}

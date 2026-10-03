@@ -1,0 +1,12 @@
+{
+  "service": "amber-canteen",
+  "fictional": true,
+  "summary": "Fictional amber canteen sample card",
+  "base": "/v1/amber-canteen",
+  "paths": [
+    "/v1/amber-canteen/search",
+    "/v1/amber-canteen/lookup",
+    "/v1/amber-canteen/list",
+    "/v1/amber-canteen/health"
+  ]
+}

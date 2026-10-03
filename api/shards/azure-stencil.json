@@ -1,0 +1,12 @@
+{
+  "service": "azure-stencil",
+  "fictional": true,
+  "summary": "Fictional azure stencil sample card",
+  "base": "/v1/azure-stencil",
+  "paths": [
+    "/v1/azure-stencil/search",
+    "/v1/azure-stencil/lookup",
+    "/v1/azure-stencil/list",
+    "/v1/azure-stencil/health"
+  ]
+}

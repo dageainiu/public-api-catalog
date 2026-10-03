@@ -1,0 +1,12 @@
+{
+  "service": "azure-crock",
+  "fictional": true,
+  "summary": "Fictional azure crock sample card",
+  "base": "/v1/azure-crock",
+  "paths": [
+    "/v1/azure-crock/search",
+    "/v1/azure-crock/lookup",
+    "/v1/azure-crock/list",
+    "/v1/azure-crock/health"
+  ]
+}

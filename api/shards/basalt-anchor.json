@@ -1,0 +1,12 @@
+{
+  "service": "basalt-anchor",
+  "fictional": true,
+  "summary": "Fictional basalt anchor sample card",
+  "base": "/v1/basalt-anchor",
+  "paths": [
+    "/v1/basalt-anchor/search",
+    "/v1/basalt-anchor/lookup",
+    "/v1/basalt-anchor/list",
+    "/v1/basalt-anchor/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "amber-pallet",
+  "fictional": true,
+  "summary": "Fictional amber pallet sample card",
+  "base": "/v1/amber-pallet",
+  "paths": [
+    "/v1/amber-pallet/search",
+    "/v1/amber-pallet/lookup",
+    "/v1/amber-pallet/list",
+    "/v1/amber-pallet/health"
+  ]
+}

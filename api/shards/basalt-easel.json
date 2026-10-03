@@ -1,0 +1,12 @@
+{
+  "service": "basalt-easel",
+  "fictional": true,
+  "summary": "Fictional basalt easel sample card",
+  "base": "/v1/basalt-easel",
+  "paths": [
+    "/v1/basalt-easel/search",
+    "/v1/basalt-easel/lookup",
+    "/v1/basalt-easel/list",
+    "/v1/basalt-easel/health"
+  ]
+}

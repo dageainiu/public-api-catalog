@@ -1,0 +1,12 @@
+{
+  "service": "azure-spindle",
+  "fictional": true,
+  "summary": "Fictional azure spindle sample card",
+  "base": "/v1/azure-spindle",
+  "paths": [
+    "/v1/azure-spindle/search",
+    "/v1/azure-spindle/lookup",
+    "/v1/azure-spindle/list",
+    "/v1/azure-spindle/health"
+  ]
+}

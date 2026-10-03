@@ -1,0 +1,12 @@
+{
+  "service": "azure-buoy",
+  "fictional": true,
+  "summary": "Fictional azure buoy sample card",
+  "base": "/v1/azure-buoy",
+  "paths": [
+    "/v1/azure-buoy/search",
+    "/v1/azure-buoy/lookup",
+    "/v1/azure-buoy/list",
+    "/v1/azure-buoy/health"
+  ]
+}

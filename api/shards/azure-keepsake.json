@@ -1,0 +1,12 @@
+{
+  "service": "azure-keepsake",
+  "fictional": true,
+  "summary": "Fictional azure keepsake sample card",
+  "base": "/v1/azure-keepsake",
+  "paths": [
+    "/v1/azure-keepsake/search",
+    "/v1/azure-keepsake/lookup",
+    "/v1/azure-keepsake/list",
+    "/v1/azure-keepsake/health"
+  ]
+}

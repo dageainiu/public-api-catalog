@@ -1,0 +1,12 @@
+{
+  "service": "basalt-buoy",
+  "fictional": true,
+  "summary": "Fictional basalt buoy sample card",
+  "base": "/v1/basalt-buoy",
+  "paths": [
+    "/v1/basalt-buoy/search",
+    "/v1/basalt-buoy/lookup",
+    "/v1/basalt-buoy/list",
+    "/v1/basalt-buoy/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "amber-anchor",
+  "fictional": true,
+  "summary": "Fictional amber anchor sample card",
+  "base": "/v1/amber-anchor",
+  "paths": [
+    "/v1/amber-anchor/search",
+    "/v1/amber-anchor/lookup",
+    "/v1/amber-anchor/list",
+    "/v1/amber-anchor/health"
+  ]
+}

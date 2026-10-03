@@ -1,0 +1,12 @@
+{
+  "service": "amber-oar",
+  "fictional": true,
+  "summary": "Fictional amber oar sample card",
+  "base": "/v1/amber-oar",
+  "paths": [
+    "/v1/amber-oar/search",
+    "/v1/amber-oar/lookup",
+    "/v1/amber-oar/list",
+    "/v1/amber-oar/health"
+  ]
+}

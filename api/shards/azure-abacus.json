@@ -1,0 +1,12 @@
+{
+  "service": "azure-abacus",
+  "fictional": true,
+  "summary": "Fictional azure abacus sample card",
+  "base": "/v1/azure-abacus",
+  "paths": [
+    "/v1/azure-abacus/search",
+    "/v1/azure-abacus/lookup",
+    "/v1/azure-abacus/list",
+    "/v1/azure-abacus/health"
+  ]
+}

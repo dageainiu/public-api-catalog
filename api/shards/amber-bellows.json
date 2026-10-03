@@ -1,0 +1,12 @@
+{
+  "service": "amber-bellows",
+  "fictional": true,
+  "summary": "Fictional amber bellows sample card",
+  "base": "/v1/amber-bellows",
+  "paths": [
+    "/v1/amber-bellows/search",
+    "/v1/amber-bellows/lookup",
+    "/v1/amber-bellows/list",
+    "/v1/amber-bellows/health"
+  ]
+}

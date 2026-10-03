@@ -1,0 +1,12 @@
+{
+  "service": "amber-stencil",
+  "fictional": true,
+  "summary": "Fictional amber stencil sample card",
+  "base": "/v1/amber-stencil",
+  "paths": [
+    "/v1/amber-stencil/search",
+    "/v1/amber-stencil/lookup",
+    "/v1/amber-stencil/list",
+    "/v1/amber-stencil/health"
+  ]
+}

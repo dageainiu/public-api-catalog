@@ -1,0 +1,12 @@
+{
+  "service": "amber-cradle",
+  "fictional": true,
+  "summary": "Fictional amber cradle sample card",
+  "base": "/v1/amber-cradle",
+  "paths": [
+    "/v1/amber-cradle/search",
+    "/v1/amber-cradle/lookup",
+    "/v1/amber-cradle/list",
+    "/v1/amber-cradle/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "basalt-abacus",
+  "fictional": true,
+  "summary": "Fictional basalt abacus sample card",
+  "base": "/v1/basalt-abacus",
+  "paths": [
+    "/v1/basalt-abacus/search",
+    "/v1/basalt-abacus/lookup",
+    "/v1/basalt-abacus/list",
+    "/v1/basalt-abacus/health"
+  ]
+}

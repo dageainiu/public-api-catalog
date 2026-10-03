@@ -1,0 +1,12 @@
+{
+  "service": "basalt-alcove",
+  "fictional": true,
+  "summary": "Fictional basalt alcove sample card",
+  "base": "/v1/basalt-alcove",
+  "paths": [
+    "/v1/basalt-alcove/search",
+    "/v1/basalt-alcove/lookup",
+    "/v1/basalt-alcove/list",
+    "/v1/basalt-alcove/health"
+  ]
+}

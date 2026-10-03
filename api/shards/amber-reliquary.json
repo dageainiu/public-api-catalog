@@ -1,0 +1,12 @@
+{
+  "service": "amber-reliquary",
+  "fictional": true,
+  "summary": "Fictional amber reliquary sample card",
+  "base": "/v1/amber-reliquary",
+  "paths": [
+    "/v1/amber-reliquary/search",
+    "/v1/amber-reliquary/lookup",
+    "/v1/amber-reliquary/list",
+    "/v1/amber-reliquary/health"
+  ]
+}

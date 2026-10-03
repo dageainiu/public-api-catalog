@@ -1,0 +1,12 @@
+{
+  "service": "azure-urn",
+  "fictional": true,
+  "summary": "Fictional azure urn sample card",
+  "base": "/v1/azure-urn",
+  "paths": [
+    "/v1/azure-urn/search",
+    "/v1/azure-urn/lookup",
+    "/v1/azure-urn/list",
+    "/v1/azure-urn/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "amber-carousel",
+  "fictional": true,
+  "summary": "Fictional amber carousel sample card",
+  "base": "/v1/amber-carousel",
+  "paths": [
+    "/v1/amber-carousel/search",
+    "/v1/amber-carousel/lookup",
+    "/v1/amber-carousel/list",
+    "/v1/amber-carousel/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "azure-alcove",
+  "fictional": true,
+  "summary": "Fictional azure alcove sample card",
+  "base": "/v1/azure-alcove",
+  "paths": [
+    "/v1/azure-alcove/search",
+    "/v1/azure-alcove/lookup",
+    "/v1/azure-alcove/list",
+    "/v1/azure-alcove/health"
+  ]
+}

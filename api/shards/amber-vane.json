@@ -1,0 +1,12 @@
+{
+  "service": "amber-vane",
+  "fictional": true,
+  "summary": "Fictional amber vane sample card",
+  "base": "/v1/amber-vane",
+  "paths": [
+    "/v1/amber-vane/search",
+    "/v1/amber-vane/lookup",
+    "/v1/amber-vane/list",
+    "/v1/amber-vane/health"
+  ]
+}

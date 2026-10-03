@@ -1,0 +1,12 @@
+{
+  "service": "azure-wicket",
+  "fictional": true,
+  "summary": "Fictional azure wicket sample card",
+  "base": "/v1/azure-wicket",
+  "paths": [
+    "/v1/azure-wicket/search",
+    "/v1/azure-wicket/lookup",
+    "/v1/azure-wicket/list",
+    "/v1/azure-wicket/health"
+  ]
+}

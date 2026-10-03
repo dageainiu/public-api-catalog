@@ -1,0 +1,12 @@
+{
+  "service": "amber-sundial",
+  "fictional": true,
+  "summary": "Fictional amber sundial sample card",
+  "base": "/v1/amber-sundial",
+  "paths": [
+    "/v1/amber-sundial/search",
+    "/v1/amber-sundial/lookup",
+    "/v1/amber-sundial/list",
+    "/v1/amber-sundial/health"
+  ]
+}

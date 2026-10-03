@@ -1,0 +1,12 @@
+{
+  "service": "azure-cistern",
+  "fictional": true,
+  "summary": "Fictional azure cistern sample card",
+  "base": "/v1/azure-cistern",
+  "paths": [
+    "/v1/azure-cistern/search",
+    "/v1/azure-cistern/lookup",
+    "/v1/azure-cistern/list",
+    "/v1/azure-cistern/health"
+  ]
+}

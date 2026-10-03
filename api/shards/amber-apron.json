@@ -1,0 +1,12 @@
+{
+  "service": "amber-apron",
+  "fictional": true,
+  "summary": "Fictional amber apron sample card",
+  "base": "/v1/amber-apron",
+  "paths": [
+    "/v1/amber-apron/search",
+    "/v1/amber-apron/lookup",
+    "/v1/amber-apron/list",
+    "/v1/amber-apron/health"
+  ]
+}

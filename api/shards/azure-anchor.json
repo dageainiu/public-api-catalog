@@ -1,0 +1,12 @@
+{
+  "service": "azure-anchor",
+  "fictional": true,
+  "summary": "Fictional azure anchor sample card",
+  "base": "/v1/azure-anchor",
+  "paths": [
+    "/v1/azure-anchor/search",
+    "/v1/azure-anchor/lookup",
+    "/v1/azure-anchor/list",
+    "/v1/azure-anchor/health"
+  ]
+}

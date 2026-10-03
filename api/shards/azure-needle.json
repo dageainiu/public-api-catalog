@@ -1,0 +1,12 @@
+{
+  "service": "azure-needle",
+  "fictional": true,
+  "summary": "Fictional azure needle sample card",
+  "base": "/v1/azure-needle",
+  "paths": [
+    "/v1/azure-needle/search",
+    "/v1/azure-needle/lookup",
+    "/v1/azure-needle/list",
+    "/v1/azure-needle/health"
+  ]
+}

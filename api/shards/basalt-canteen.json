@@ -1,0 +1,12 @@
+{
+  "service": "basalt-canteen",
+  "fictional": true,
+  "summary": "Fictional basalt canteen sample card",
+  "base": "/v1/basalt-canteen",
+  "paths": [
+    "/v1/basalt-canteen/search",
+    "/v1/basalt-canteen/lookup",
+    "/v1/basalt-canteen/list",
+    "/v1/basalt-canteen/health"
+  ]
+}

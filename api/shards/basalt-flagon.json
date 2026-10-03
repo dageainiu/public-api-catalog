@@ -1,0 +1,12 @@
+{
+  "service": "basalt-flagon",
+  "fictional": true,
+  "summary": "Fictional basalt flagon sample card",
+  "base": "/v1/basalt-flagon",
+  "paths": [
+    "/v1/basalt-flagon/search",
+    "/v1/basalt-flagon/lookup",
+    "/v1/basalt-flagon/list",
+    "/v1/basalt-flagon/health"
+  ]
+}

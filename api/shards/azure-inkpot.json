@@ -1,0 +1,12 @@
+{
+  "service": "azure-inkpot",
+  "fictional": true,
+  "summary": "Fictional azure inkpot sample card",
+  "base": "/v1/azure-inkpot",
+  "paths": [
+    "/v1/azure-inkpot/search",
+    "/v1/azure-inkpot/lookup",
+    "/v1/azure-inkpot/list",
+    "/v1/azure-inkpot/health"
+  ]
+}

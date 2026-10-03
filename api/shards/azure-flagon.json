@@ -1,0 +1,12 @@
+{
+  "service": "azure-flagon",
+  "fictional": true,
+  "summary": "Fictional azure flagon sample card",
+  "base": "/v1/azure-flagon",
+  "paths": [
+    "/v1/azure-flagon/search",
+    "/v1/azure-flagon/lookup",
+    "/v1/azure-flagon/list",
+    "/v1/azure-flagon/health"
+  ]
+}

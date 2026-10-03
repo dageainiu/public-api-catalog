@@ -1,0 +1,12 @@
+{
+  "service": "basalt-cradle",
+  "fictional": true,
+  "summary": "Fictional basalt cradle sample card",
+  "base": "/v1/basalt-cradle",
+  "paths": [
+    "/v1/basalt-cradle/search",
+    "/v1/basalt-cradle/lookup",
+    "/v1/basalt-cradle/list",
+    "/v1/basalt-cradle/health"
+  ]
+}

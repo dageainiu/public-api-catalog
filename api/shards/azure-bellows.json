@@ -1,0 +1,12 @@
+{
+  "service": "azure-bellows",
+  "fictional": true,
+  "summary": "Fictional azure bellows sample card",
+  "base": "/v1/azure-bellows",
+  "paths": [
+    "/v1/azure-bellows/search",
+    "/v1/azure-bellows/lookup",
+    "/v1/azure-bellows/list",
+    "/v1/azure-bellows/health"
+  ]
+}

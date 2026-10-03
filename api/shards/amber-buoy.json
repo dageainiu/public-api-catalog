@@ -1,0 +1,12 @@
+{
+  "service": "amber-buoy",
+  "fictional": true,
+  "summary": "Fictional amber buoy sample card",
+  "base": "/v1/amber-buoy",
+  "paths": [
+    "/v1/amber-buoy/search",
+    "/v1/amber-buoy/lookup",
+    "/v1/amber-buoy/list",
+    "/v1/amber-buoy/health"
+  ]
+}

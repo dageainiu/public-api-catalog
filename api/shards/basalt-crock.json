@@ -1,0 +1,12 @@
+{
+  "service": "basalt-crock",
+  "fictional": true,
+  "summary": "Fictional basalt crock sample card",
+  "base": "/v1/basalt-crock",
+  "paths": [
+    "/v1/basalt-crock/search",
+    "/v1/basalt-crock/lookup",
+    "/v1/basalt-crock/list",
+    "/v1/basalt-crock/health"
+  ]
+}

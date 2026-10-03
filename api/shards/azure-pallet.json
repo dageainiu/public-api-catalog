@@ -1,0 +1,12 @@
+{
+  "service": "azure-pallet",
+  "fictional": true,
+  "summary": "Fictional azure pallet sample card",
+  "base": "/v1/azure-pallet",
+  "paths": [
+    "/v1/azure-pallet/search",
+    "/v1/azure-pallet/lookup",
+    "/v1/azure-pallet/list",
+    "/v1/azure-pallet/health"
+  ]
+}

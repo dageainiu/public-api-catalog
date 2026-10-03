@@ -1,0 +1,12 @@
+{
+  "service": "amber-creel",
+  "fictional": true,
+  "summary": "Fictional amber creel sample card",
+  "base": "/v1/amber-creel",
+  "paths": [
+    "/v1/amber-creel/search",
+    "/v1/amber-creel/lookup",
+    "/v1/amber-creel/list",
+    "/v1/amber-creel/health"
+  ]
+}

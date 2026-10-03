@@ -1,0 +1,12 @@
+{
+  "service": "amber-needle",
+  "fictional": true,
+  "summary": "Fictional amber needle sample card",
+  "base": "/v1/amber-needle",
+  "paths": [
+    "/v1/amber-needle/search",
+    "/v1/amber-needle/lookup",
+    "/v1/amber-needle/list",
+    "/v1/amber-needle/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "azure-compass",
+  "fictional": true,
+  "summary": "Fictional azure compass sample card",
+  "base": "/v1/azure-compass",
+  "paths": [
+    "/v1/azure-compass/search",
+    "/v1/azure-compass/lookup",
+    "/v1/azure-compass/list",
+    "/v1/azure-compass/health"
+  ]
+}

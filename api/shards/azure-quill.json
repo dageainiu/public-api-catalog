@@ -1,0 +1,12 @@
+{
+  "service": "azure-quill",
+  "fictional": true,
+  "summary": "Fictional azure quill sample card",
+  "base": "/v1/azure-quill",
+  "paths": [
+    "/v1/azure-quill/search",
+    "/v1/azure-quill/lookup",
+    "/v1/azure-quill/list",
+    "/v1/azure-quill/health"
+  ]
+}

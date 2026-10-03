@@ -1,0 +1,12 @@
+{
+  "service": "azure-jasper",
+  "fictional": true,
+  "summary": "Fictional azure jasper sample card",
+  "base": "/v1/azure-jasper",
+  "paths": [
+    "/v1/azure-jasper/search",
+    "/v1/azure-jasper/lookup",
+    "/v1/azure-jasper/list",
+    "/v1/azure-jasper/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "azure-cradle",
+  "fictional": true,
+  "summary": "Fictional azure cradle sample card",
+  "base": "/v1/azure-cradle",
+  "paths": [
+    "/v1/azure-cradle/search",
+    "/v1/azure-cradle/lookup",
+    "/v1/azure-cradle/list",
+    "/v1/azure-cradle/health"
+  ]
+}

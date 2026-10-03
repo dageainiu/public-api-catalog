@@ -1,0 +1,12 @@
+{
+  "service": "amber-urn",
+  "fictional": true,
+  "summary": "Fictional amber urn sample card",
+  "base": "/v1/amber-urn",
+  "paths": [
+    "/v1/amber-urn/search",
+    "/v1/amber-urn/lookup",
+    "/v1/amber-urn/list",
+    "/v1/amber-urn/health"
+  ]
+}

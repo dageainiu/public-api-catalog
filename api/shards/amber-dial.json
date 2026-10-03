@@ -1,0 +1,12 @@
+{
+  "service": "amber-dial",
+  "fictional": true,
+  "summary": "Fictional amber dial sample card",
+  "base": "/v1/amber-dial",
+  "paths": [
+    "/v1/amber-dial/search",
+    "/v1/amber-dial/lookup",
+    "/v1/amber-dial/list",
+    "/v1/amber-dial/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "basalt-brazier",
+  "fictional": true,
+  "summary": "Fictional basalt brazier sample card",
+  "base": "/v1/basalt-brazier",
+  "paths": [
+    "/v1/basalt-brazier/search",
+    "/v1/basalt-brazier/lookup",
+    "/v1/basalt-brazier/list",
+    "/v1/basalt-brazier/health"
+  ]
+}

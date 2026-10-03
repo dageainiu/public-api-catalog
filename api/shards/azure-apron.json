@@ -1,0 +1,12 @@
+{
+  "service": "azure-apron",
+  "fictional": true,
+  "summary": "Fictional azure apron sample card",
+  "base": "/v1/azure-apron",
+  "paths": [
+    "/v1/azure-apron/search",
+    "/v1/azure-apron/lookup",
+    "/v1/azure-apron/list",
+    "/v1/azure-apron/health"
+  ]
+}

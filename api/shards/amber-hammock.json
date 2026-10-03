@@ -1,0 +1,12 @@
+{
+  "service": "amber-hammock",
+  "fictional": true,
+  "summary": "Fictional amber hammock sample card",
+  "base": "/v1/amber-hammock",
+  "paths": [
+    "/v1/amber-hammock/search",
+    "/v1/amber-hammock/lookup",
+    "/v1/amber-hammock/list",
+    "/v1/amber-hammock/health"
+  ]
+}

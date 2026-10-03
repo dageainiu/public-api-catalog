@@ -1,0 +1,12 @@
+{
+  "service": "amber-thimble",
+  "fictional": true,
+  "summary": "Fictional amber thimble sample card",
+  "base": "/v1/amber-thimble",
+  "paths": [
+    "/v1/amber-thimble/search",
+    "/v1/amber-thimble/lookup",
+    "/v1/amber-thimble/list",
+    "/v1/amber-thimble/health"
+  ]
+}

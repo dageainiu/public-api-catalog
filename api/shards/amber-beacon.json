@@ -1,0 +1,12 @@
+{
+  "service": "amber-beacon",
+  "fictional": true,
+  "summary": "Fictional amber beacon sample card",
+  "base": "/v1/amber-beacon",
+  "paths": [
+    "/v1/amber-beacon/search",
+    "/v1/amber-beacon/lookup",
+    "/v1/amber-beacon/list",
+    "/v1/amber-beacon/health"
+  ]
+}

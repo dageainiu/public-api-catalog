@@ -1,0 +1,12 @@
+{
+  "service": "amber-flagon",
+  "fictional": true,
+  "summary": "Fictional amber flagon sample card",
+  "base": "/v1/amber-flagon",
+  "paths": [
+    "/v1/amber-flagon/search",
+    "/v1/amber-flagon/lookup",
+    "/v1/amber-flagon/list",
+    "/v1/amber-flagon/health"
+  ]
+}

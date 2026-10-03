@@ -1,0 +1,12 @@
+{
+  "service": "basalt-dial",
+  "fictional": true,
+  "summary": "Fictional basalt dial sample card",
+  "base": "/v1/basalt-dial",
+  "paths": [
+    "/v1/basalt-dial/search",
+    "/v1/basalt-dial/lookup",
+    "/v1/basalt-dial/list",
+    "/v1/basalt-dial/health"
+  ]
+}

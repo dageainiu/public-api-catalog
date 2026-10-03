@@ -1,0 +1,12 @@
+{
+  "service": "azure-sundial",
+  "fictional": true,
+  "summary": "Fictional azure sundial sample card",
+  "base": "/v1/azure-sundial",
+  "paths": [
+    "/v1/azure-sundial/search",
+    "/v1/azure-sundial/lookup",
+    "/v1/azure-sundial/list",
+    "/v1/azure-sundial/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "azure-brazier",
+  "fictional": true,
+  "summary": "Fictional azure brazier sample card",
+  "base": "/v1/azure-brazier",
+  "paths": [
+    "/v1/azure-brazier/search",
+    "/v1/azure-brazier/lookup",
+    "/v1/azure-brazier/list",
+    "/v1/azure-brazier/health"
+  ]
+}

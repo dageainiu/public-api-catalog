@@ -1,0 +1,12 @@
+{
+  "service": "amber-crock",
+  "fictional": true,
+  "summary": "Fictional amber crock sample card",
+  "base": "/v1/amber-crock",
+  "paths": [
+    "/v1/amber-crock/search",
+    "/v1/amber-crock/lookup",
+    "/v1/amber-crock/list",
+    "/v1/amber-crock/health"
+  ]
+}

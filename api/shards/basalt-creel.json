@@ -1,0 +1,12 @@
+{
+  "service": "basalt-creel",
+  "fictional": true,
+  "summary": "Fictional basalt creel sample card",
+  "base": "/v1/basalt-creel",
+  "paths": [
+    "/v1/basalt-creel/search",
+    "/v1/basalt-creel/lookup",
+    "/v1/basalt-creel/list",
+    "/v1/basalt-creel/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "amber-brazier",
+  "fictional": true,
+  "summary": "Fictional amber brazier sample card",
+  "base": "/v1/amber-brazier",
+  "paths": [
+    "/v1/amber-brazier/search",
+    "/v1/amber-brazier/lookup",
+    "/v1/amber-brazier/list",
+    "/v1/amber-brazier/health"
+  ]
+}

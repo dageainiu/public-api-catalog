@@ -1,0 +1,12 @@
+{
+  "service": "basalt-beacon",
+  "fictional": true,
+  "summary": "Fictional basalt beacon sample card",
+  "base": "/v1/basalt-beacon",
+  "paths": [
+    "/v1/basalt-beacon/search",
+    "/v1/basalt-beacon/lookup",
+    "/v1/basalt-beacon/list",
+    "/v1/basalt-beacon/health"
+  ]
+}

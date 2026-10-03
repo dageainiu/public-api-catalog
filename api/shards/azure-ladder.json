@@ -1,0 +1,12 @@
+{
+  "service": "azure-ladder",
+  "fictional": true,
+  "summary": "Fictional azure ladder sample card",
+  "base": "/v1/azure-ladder",
+  "paths": [
+    "/v1/azure-ladder/search",
+    "/v1/azure-ladder/lookup",
+    "/v1/azure-ladder/list",
+    "/v1/azure-ladder/health"
+  ]
+}

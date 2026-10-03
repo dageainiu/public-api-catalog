@@ -1,0 +1,12 @@
+{
+  "service": "basalt-compass",
+  "fictional": true,
+  "summary": "Fictional basalt compass sample card",
+  "base": "/v1/basalt-compass",
+  "paths": [
+    "/v1/basalt-compass/search",
+    "/v1/basalt-compass/lookup",
+    "/v1/basalt-compass/list",
+    "/v1/basalt-compass/health"
+  ]
+}

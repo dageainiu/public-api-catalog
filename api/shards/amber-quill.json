@@ -1,0 +1,12 @@
+{
+  "service": "amber-quill",
+  "fictional": true,
+  "summary": "Fictional amber quill sample card",
+  "base": "/v1/amber-quill",
+  "paths": [
+    "/v1/amber-quill/search",
+    "/v1/amber-quill/lookup",
+    "/v1/amber-quill/list",
+    "/v1/amber-quill/health"
+  ]
+}

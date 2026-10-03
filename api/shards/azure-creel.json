@@ -1,0 +1,12 @@
+{
+  "service": "azure-creel",
+  "fictional": true,
+  "summary": "Fictional azure creel sample card",
+  "base": "/v1/azure-creel",
+  "paths": [
+    "/v1/azure-creel/search",
+    "/v1/azure-creel/lookup",
+    "/v1/azure-creel/list",
+    "/v1/azure-creel/health"
+  ]
+}

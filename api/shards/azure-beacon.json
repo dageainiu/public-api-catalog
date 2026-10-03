@@ -1,0 +1,12 @@
+{
+  "service": "azure-beacon",
+  "fictional": true,
+  "summary": "Fictional azure beacon sample card",
+  "base": "/v1/azure-beacon",
+  "paths": [
+    "/v1/azure-beacon/search",
+    "/v1/azure-beacon/lookup",
+    "/v1/azure-beacon/list",
+    "/v1/azure-beacon/health"
+  ]
+}

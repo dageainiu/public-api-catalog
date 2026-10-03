@@ -1,0 +1,12 @@
+{
+  "service": "azure-canteen",
+  "fictional": true,
+  "summary": "Fictional azure canteen sample card",
+  "base": "/v1/azure-canteen",
+  "paths": [
+    "/v1/azure-canteen/search",
+    "/v1/azure-canteen/lookup",
+    "/v1/azure-canteen/list",
+    "/v1/azure-canteen/health"
+  ]
+}

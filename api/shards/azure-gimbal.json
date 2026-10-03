@@ -1,0 +1,12 @@
+{
+  "service": "azure-gimbal",
+  "fictional": true,
+  "summary": "Fictional azure gimbal sample card",
+  "base": "/v1/azure-gimbal",
+  "paths": [
+    "/v1/azure-gimbal/search",
+    "/v1/azure-gimbal/lookup",
+    "/v1/azure-gimbal/list",
+    "/v1/azure-gimbal/health"
+  ]
+}

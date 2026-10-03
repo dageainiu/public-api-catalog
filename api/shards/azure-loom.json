@@ -1,0 +1,12 @@
+{
+  "service": "azure-loom",
+  "fictional": true,
+  "summary": "Fictional azure loom sample card",
+  "base": "/v1/azure-loom",
+  "paths": [
+    "/v1/azure-loom/search",
+    "/v1/azure-loom/lookup",
+    "/v1/azure-loom/list",
+    "/v1/azure-loom/health"
+  ]
+}

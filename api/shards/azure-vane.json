@@ -1,0 +1,12 @@
+{
+  "service": "azure-vane",
+  "fictional": true,
+  "summary": "Fictional azure vane sample card",
+  "base": "/v1/azure-vane",
+  "paths": [
+    "/v1/azure-vane/search",
+    "/v1/azure-vane/lookup",
+    "/v1/azure-vane/list",
+    "/v1/azure-vane/health"
+  ]
+}

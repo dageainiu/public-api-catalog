@@ -1,0 +1,12 @@
+{
+  "service": "azure-thimble",
+  "fictional": true,
+  "summary": "Fictional azure thimble sample card",
+  "base": "/v1/azure-thimble",
+  "paths": [
+    "/v1/azure-thimble/search",
+    "/v1/azure-thimble/lookup",
+    "/v1/azure-thimble/list",
+    "/v1/azure-thimble/health"
+  ]
+}

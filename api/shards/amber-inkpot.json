@@ -1,0 +1,12 @@
+{
+  "service": "amber-inkpot",
+  "fictional": true,
+  "summary": "Fictional amber inkpot sample card",
+  "base": "/v1/amber-inkpot",
+  "paths": [
+    "/v1/amber-inkpot/search",
+    "/v1/amber-inkpot/lookup",
+    "/v1/amber-inkpot/list",
+    "/v1/amber-inkpot/health"
+  ]
+}

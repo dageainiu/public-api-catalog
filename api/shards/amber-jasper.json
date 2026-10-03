@@ -1,0 +1,12 @@
+{
+  "service": "amber-jasper",
+  "fictional": true,
+  "summary": "Fictional amber jasper sample card",
+  "base": "/v1/amber-jasper",
+  "paths": [
+    "/v1/amber-jasper/search",
+    "/v1/amber-jasper/lookup",
+    "/v1/amber-jasper/list",
+    "/v1/amber-jasper/health"
+  ]
+}

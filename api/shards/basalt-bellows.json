@@ -1,0 +1,12 @@
+{
+  "service": "basalt-bellows",
+  "fictional": true,
+  "summary": "Fictional basalt bellows sample card",
+  "base": "/v1/basalt-bellows",
+  "paths": [
+    "/v1/basalt-bellows/search",
+    "/v1/basalt-bellows/lookup",
+    "/v1/basalt-bellows/list",
+    "/v1/basalt-bellows/health"
+  ]
+}

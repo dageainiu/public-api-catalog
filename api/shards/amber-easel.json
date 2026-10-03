@@ -1,0 +1,12 @@
+{
+  "service": "amber-easel",
+  "fictional": true,
+  "summary": "Fictional amber easel sample card",
+  "base": "/v1/amber-easel",
+  "paths": [
+    "/v1/amber-easel/search",
+    "/v1/amber-easel/lookup",
+    "/v1/amber-easel/list",
+    "/v1/amber-easel/health"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "basalt-cistern",
+  "fictional": true,
+  "summary": "Fictional basalt cistern sample card",
+  "base": "/v1/basalt-cistern",
+  "paths": [
+    "/v1/basalt-cistern/search",
+    "/v1/basalt-cistern/lookup",
+    "/v1/basalt-cistern/list",
+    "/v1/basalt-cistern/health"
+  ]
+}

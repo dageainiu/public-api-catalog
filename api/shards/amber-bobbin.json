@@ -1,0 +1,12 @@
+{
+  "service": "amber-bobbin",
+  "fictional": true,
+  "summary": "Fictional amber bobbin sample card",
+  "base": "/v1/amber-bobbin",
+  "paths": [
+    "/v1/amber-bobbin/search",
+    "/v1/amber-bobbin/lookup",
+    "/v1/amber-bobbin/list",
+    "/v1/amber-bobbin/health"
+  ]
+}

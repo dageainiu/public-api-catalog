@@ -1,0 +1,12 @@
+{
+  "service": "amber-ladder",
+  "fictional": true,
+  "summary": "Fictional amber ladder sample card",
+  "base": "/v1/amber-ladder",
+  "paths": [
+    "/v1/amber-ladder/search",
+    "/v1/amber-ladder/lookup",
+    "/v1/amber-ladder/list",
+    "/v1/amber-ladder/health"
+  ]
+}

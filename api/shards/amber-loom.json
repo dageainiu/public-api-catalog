@@ -1,0 +1,12 @@
+{
+  "service": "amber-loom",
+  "fictional": true,
+  "summary": "Fictional amber loom sample card",
+  "base": "/v1/amber-loom",
+  "paths": [
+    "/v1/amber-loom/search",
+    "/v1/amber-loom/lookup",
+    "/v1/amber-loom/list",
+    "/v1/amber-loom/health"
+  ]
+}

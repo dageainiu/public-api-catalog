@@ -1,0 +1,12 @@
+{
+  "service": "amber-keepsake",
+  "fictional": true,
+  "summary": "Fictional amber keepsake sample card",
+  "base": "/v1/amber-keepsake",
+  "paths": [
+    "/v1/amber-keepsake/search",
+    "/v1/amber-keepsake/lookup",
+    "/v1/amber-keepsake/list",
+    "/v1/amber-keepsake/health"
+  ]
+}

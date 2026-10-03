@@ -1,0 +1,12 @@
+{
+  "service": "amber-compass",
+  "fictional": true,
+  "summary": "Fictional amber compass sample card",
+  "base": "/v1/amber-compass",
+  "paths": [
+    "/v1/amber-compass/search",
+    "/v1/amber-compass/lookup",
+    "/v1/amber-compass/list",
+    "/v1/amber-compass/health"
+  ]
+}

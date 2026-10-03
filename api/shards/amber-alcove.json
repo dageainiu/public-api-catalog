@@ -1,0 +1,12 @@
+{
+  "service": "amber-alcove",
+  "fictional": true,
+  "summary": "Fictional amber alcove sample card",
+  "base": "/v1/amber-alcove",
+  "paths": [
+    "/v1/amber-alcove/search",
+    "/v1/amber-alcove/lookup",
+    "/v1/amber-alcove/list",
+    "/v1/amber-alcove/health"
+  ]
+}

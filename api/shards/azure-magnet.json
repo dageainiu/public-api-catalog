@@ -1,0 +1,12 @@
+{
+  "service": "azure-magnet",
+  "fictional": true,
+  "summary": "Fictional azure magnet sample card",
+  "base": "/v1/azure-magnet",
+  "paths": [
+    "/v1/azure-magnet/search",
+    "/v1/azure-magnet/lookup",
+    "/v1/azure-magnet/list",
+    "/v1/azure-magnet/health"
+  ]
+}
